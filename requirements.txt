@@ -1,0 +1,6 @@
+transformers
+seqeval
+pandas
+numpy
+tqdm
+tensorflow  
