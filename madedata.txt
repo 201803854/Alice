@@ -1,0 +1,1989 @@
+Sentence,Tag
+스타벅스 앞인데요 교통사고가 나서 빨리 와주셔야 할 것 같아요 .,LOC O O O O O O O O O
+도로에서 두 차가 충돌해서 큰 사고가 났고 여기는 수원 세류지하차도에요 .,O O O O O O O O LOC LOC O
+이문초 주변인데 술 취한 사람이 돌아다녀요 .,LOC O O O O O O
+청량초 앞인데 이상한 사람이 돌아다닙니다 .,LOC O O O O O
+이상한 사람이 청량초 앞에 돌아다녀요 .,O O LOC O O O
+종로금거래소인데 강도가 가게를 털어갔어요 .,LOC O O O O
+세화어린이공원인데 불법 텐트를 치고 길을 막고 있어요 .,LOC O O O O O O O
+연희삼거리인데 교통사고가 크게 나서 신고드려요 .,LOC O O O O O
+미아사거리에 포트홀이 있어서 정비가 필요합니다 .,LOC O O O O O
+해운대에 사람이 쓰러져 있어요 .,LOC O O O O
+경동주유소에서 가스 누출이 발생했습니다 .,LOC O O O O
+피씨방에서 살인 사건이 일어났습니다 .,LOC O O O O
+피씨방인데 화재가 발생한 것 같아요 .,LOC O O O O O
+화재가 발생해서 빨리 피씨방으로 와주셔야 할 것 같아요 .,O O O LOC O O O O O
+피방에 강도가 들었어요 .,LOC O O O
+화재가 발생해서 빨리 피방으로 와주셔야 할 것 같아요 .,O O O LOC O O O O O
+PC방에서 살인 사건이 일어났어요 .,LOC O O O O
+PC방인데 화재가 발생한 것 같아요 .,LOC O O O O O
+PC방에 강도가 들었어요 .,LOC O O O
+화재가 발생해서 빨리 PC방으로 와주셔야 할 것 같아요 .,O O O LOC O O O O O
+pc방에서 살인 사건이 일어났어요 .,LOC O O O O
+pc방인데 화재가 발생한 것 같아요 .,LOC O O O O O
+pc방에 강도가 들었어요 여기 외댄데요 사람들이 비명을 지르면서 도망쳐요 .,LOC O O O LOC O O O O O
+여기 외댄데요 도서관에서 화재가 발생했어요 .,O LOC LOC O O O
+여기 외대인데요 사람들이 많이 쓰러져 있어요 .,O LOC O O O O O
+여기는 외대 도서관이고 사람들이 칼에 찔렸어요 .,O LOC LOC O O O O
+여기는 외대 도서관인데요 가스 냄새가 나요 .,O LOC LOC O O O O
+외대인데 칼을 들고 휘두르는 사람이 있어요 .,LOC O O O O O O
+외대인데 앞 도로에 교통사고가 크게 났어요 .,LOC O O O O O O
+스벅인데 사람들끼리 싸움이 크게 났어요 .,LOC O O O O O
+외대 스벅인데 남자가 여자를 심하게 때리고 있어요 .,LOC LOC O O O O O O
+외대 스벅으로 빨리 와주세요 .,LOC LOC O O O
+스타벅스인데 사람들이 싸우고 있어요 .,LOC O O O O
+스타벅스인데 손님이 알바생을 때리고 있어요 .,LOC O O O O O
+이대 정문 앞에 있는 맘터인데요 흉기 난동이 벌어졌어요 .,LOC LOC O O LOC O O O O
+이대 정문 쪽에 교통사고가 크게 났어요 .,LOC LOC O O O O O
+이대로 빨리 와주세요 .,LOC O O O
+이대인데요 취객이 난동을 부려요 .,LOC O O O O
+이댄데요 앞에 사람이 쓰러져 있어요 .,LOC O O O O O
+역할맥 앞에 사람이 쓰러져 있어요 .,LOC O O O O O
+역할맥으로 빨리 와주세요 .,LOC O O O
+역할맥인데 큰 싸움이 벌어졌어요 .,LOC O O O O
+역할맥에서 살인사건이 일어났어요 .,LOC O O O
+숙대 정문 앞에 있는 맘터로 빨리 와주세요 .,LOC LOC O O LOC O O O
+숙댄데 사람이 쓰러져 있어요 .,LOC O O O O
+성댄데 사람들이 비명을 질러요 .,LOC O O O O
+맘터 건물에서 연기가 나고 있어요 .,LOC O O O O O
+역할맥 근처에서 불이 났어요 .,LOC O O O O
+신전 앞에서 피해자가 도움을 필요로 해요 .,LOC O O O O O O
+성폭행 피해자가 도움을 요청하는데 성대 정문 신전으로 빨리 와주세요 .,O O O O LOC LOC LOC O O O
+이대 올영 앞에서 피해자가 도움을 청하고 있습니다 .,LOC LOC O O O O O O
+살인 사건 발생으로 인해 경찰이 맥날 근처로 출동했습니다 .,O O O O O LOC O O O
+빠바 앞 도로에서 음주 운전 사고가 발생했어요 .,LOC O O O O O O O
+숙대 도서관 주변에서 소음이 심하고 폭력 사건이 발생했습니다 .,LOC LOC O O O O O O O
+이대인데 정문 근처에서 화물차와 승용차의 교통사고가 발생했어요 .,LOC LOC O O O O O O
+편의점 앞에서 난동을 부리는 사람이 있어서 경찰이 필요합니다 .,LOC O O O O O O O O
+편의점인데요 사람이 칼에 찔렸어요 .,LOC O O O O
+화재가 발생했는데 편의점으로 빨리 와주세요 .,O O LOC O O O
+수영장에서 의심스러운 사람들이 있어서 주의가 필요합니다 .,LOC O O O O O O
+수영장으로 와주셔야 할 것 같아요 .,LOC O O O O O
+수영장에 사람이 죽어있어요 .,LOC O O O
+숙대인데요 근처에서 화재가 발생했어요 .,LOC O O O O
+외대 앞 동노 건물에서 화학 물질 유출 사고가 발생했습니다 .,LOC O LOC O O O O O O O
+베라 건물에서 불이 번지고 있는 것 같아요 .,LOC O O O O O O O
+코노 주변에서 음주 상태로 과속을 하는 차량이 있습니다 .,LOC O O O O O O O O
+노래방 앞에서 소란을 피우는 사람들이 있어서 경찰이 필요합니다 .,LOC O O O O O O O O
+노래방인데요 소란을 피우는 사람이 있어요 .,LOC O O O O O
+싸움이 일어나서 노래방으로 빨리 와주세요 .,O O LOC O O O
+후문 근처에서 칼을 든 남성이 보여서 위험합니다 .,LOC O O O O O O O
+여기는 성대인데요 도서관 내부에서 불이 나서 화재 대피가 필요합니다 .,O LOC LOC O O O O O O O
+성대 주변에서 사람이 차에 치이는 사고가 발생했습니다 .,LOC O O O O O O O
+맥날 근처에서 폭력 사건이 발생했습니다 .,LOC O O O O O
+이대에서 성폭행 사건이 발생했어요 .,LOC O O O O
+스터디카페에서 화재 경보가 울려서 대피 중입니다 .,LOC O O O O O O
+외대 후문 스터디카펜데 사람이 쓰러졌어요 .,LOC LOC LOC O O O
+동노 건물에서 불이 번지고 있어요 .,LOC O O O O O
+코인노래방 앞에서 싸움이 일어났어요 .,LOC O O O O
+숙대 주변에서 음주 운전 사고가 발생했습니다 .,LOC O O O O O O
+편의점 앞에서 화물차와 승용차가 충돌했어요 .,LOC O O O O O
+수영장 근처에서 불이 났어요 .,LOC O O O O
+정문 앞에서 무기를 든 사람이 보입니다 .,LOC O O O O O O
+올영 주변에서 남성이 여성을 협박하고 있어요 .,LOC O O O O O O
+본죽으로 빨리 와주세요 .,LOC O O O
+본죽인데 사람이 쓰러졌어요 .,LOC O O O
+외대 본죽이에요 .,LOC LOC O
+이대 본죽입니다 .,LOC LOC O
+성대 본죽 앞에 사람이 죽어있어요 .,LOC LOC O O O O
+역할맥 근처 도로에서 도로 결빙으로 차량이 슬립해 사고가 발생했습니다 .,LOC O O O O O O O O O
+스터디카펜데 가스 냄새가 나요 .,LOC O O O O
+스터디카페인데 가스 냄새가 나요 .,LOC O O O O
+베라인데 싸움이 벌여졌어요 .,LOC O O O
+이대 배라인데 싸움이 벌어졌어요 .,LOC LOC O O O
+스벅인데 무기를 든 사람이 보입니다 .,LOC O O O O O
+스벅인데 화재 경보가 울려서 대피 중이에요 .,LOC O O O O O O
+스타벅스인데요 싸움이 일어났어요 .,LOC O O O
+스벅으로 빨리 와주세요 .,LOC O O O
+숙대 앞에 있는 스터디카펜데요 가스 폭발이 일어났어요 .,LOC O O LOC O O O O
+숙대 정문 앞에 신전인데 빨리 와주세요 .,LOC LOC O LOC O O O
+숙대로 와주셔야 해요 .,LOC O O O
+숙대로 와서 칼을 든 사람을 진압해 주세요 .,LOC O O O O O O O
+살인 사건이 발생했는데 여기는 숙대에요 .,O O O O LOC O
+이대 앞에 있는 맘터입니다 .,LOC O O LOC O
+이대 후문 앞에 베라인데 빨리 와주세요 이대로 빨리 와주세요 .,LOC LOC O LOC O O LOC O O O
+이대 쪽으로 와서 범인을 잡으셔야 해요 .,LOC O O O O O O
+강도 사건이 발생했는데 여기는 이대입니다 .,O O O O LOC O
+외대 역할맥으로 와주세요 .,LOC LOC O O
+외대 정문 쪽 배라입니다 .,LOC LOC O LOC O
+성대 올영 건물에 강도가 들었어요 .,LOC LOC O O O O
+성대 올영인데 싸움이 일어났어요 .,LOC LOC O O O
+성대 올영으로 빨리 와주세요 .,LOC LOC O O O
+성대 올영이구요 사람이 칼에 맞아 쓰러졌어요 .,LOC LOC O O O O O
+빠바에서 사람들이 싸우고 있어요 .,LOC O O O O
+외대 빠바 앞에 있는 신전인데 불이 났어요 .,LOC LOC O O LOC O O O
+숙대 도서관에서 사람이 쓰러져 있어요 .,LOC LOC O O O O
+숙대 도서관인데 사람들이 너무 시끄럽게 해요 .,LOC LOC O O O O O
+숙대 도서관으로 빨리 오세요 .,LOC LOC O O O
+외대 후문 카페 앞인데 차들이 미끌어졌어요 .,LOC LOC LOC O O O O
+성대 후문 스터디카페로 빨리 와주세요 .,LOC LOC LOC O O O
+성대 정문 스터디카펜데 깡패들이 사람을 패고 있어요 .,LOC LOC LOC O O O O O
+코노에서 사람들이 마약을 하고 있어요 .,LOC O O O O O
+이대 정문 코노인데요 사람들이 싸워요 .,LOC LOC LOC O O O
+이대 정문 코논데 깡패들이 사람들을 위협하고 있어요 .,LOC LOC LOC O O O O O
+외대 정문 동노인데요 사람들이 싸워요 .,LOC LOC LOC O O O
+외대 정문 동논데 깡패들이 위협해요 .,LOC LOC LOC O O O
+성대 정문 코인노래방인데 마약 의심 손님이 있어요 .,LOC LOC LOC O O O O O
+성대 정문 코인노래방에서 싸움이 일어났어요 .,LOC LOC LOC O O O
+성대 코인노래방에서 불이 났어요 .,LOC LOC O O O
+외대 주변 편의점에서 불이 난 것 같아요 .,LOC O LOC O O O O O
+외대 후문 편의점인데 강도가 들었어요 .,LOC LOC LOC O O O
+편의점으로 빨리 와주세요 .,LOC O O O
+이대 근처 수영장인데 사람이 물에 빠져서 의식을 잃었어요 .,LOC O LOC O O O O O O
+수영장에서 사람이 쓰러져 있어요 .,LOC O O O O
+성대 근처 체육관인데 사람이 다쳤어요 .,LOC O LOC O O O
+체육관에서 살인사건이 발생했어요 .,LOC O O O
+강남구 논현로 175길 주변에 이상한 소리가 들리는 것 같습니다 .,LOC AFW-B NUM-B O O O O O O O
+종로구 세검정로 12길 주택에서 불이 나서 대피가 필요할 것 같습니다 .,LOC AFW-B NUM-B O O O O O O O O
+마포구 동교로 187길 인근에서 이상한 일이 발생했어요 .,LOC AFW-B NUM-B O O O O O
+송파구 올림픽로 34길 주변에서 의심스러운 사람들이 보여요 .,LOC AFW-B NUM-B O O O O O
+양천구 신정로 123길 주변에 이상한 소리가 들리는 것 같습니다 .,LOC AFW-B NUM-B O O O O O O O
+강동구 양재대로 123길 주변에서 이상한 동작을 하는 사람이 보여요 .,LOC AFW-B NUM-B O O O O O O O
+서초구 반포대로 42길에서 의심스러운 인물들이 모여 있습니다 .,LOC AFW-B NUM-B O O O O O
+관악구 관악로 25길 주택에서 불이 나서 대피가 필요한 상황입니다 .,LOC AFW-B NUM-B O O O O O O O
+성동구 왕십리로 236길 주변에서 이상한 냄새가 납니다 .,LOC AFW-B NUM-B O O O O O
+마포구 백범로 35길 주택에서 화재 경보가 울려 퍼집니다 .,LOC AFW-B NUM-B O O O O O O
+노원구 노원로 15길 인근에서 시비가 벌어지고 있는 것 같습니다 .,LOC AFW-B NUM-B O O O O O O O
+중랑구 용마산로 123길에서 의심스러운 동작을 하는 사람이 나타났어요 .,LOC AFW-B NUM-B O O O O O O
+은평구 연서로 236길 주택에서 화재 경보가 울려 퍼집니다 .,LOC AFW-B NUM-B O O O O O O
+강서구 화곡로 302길 주변에서 이상한 냄새가 납니다 .,LOC AFW-B NUM-B O O O O O
+서대문구 신촌로 121길 인근에서 불법 주차로 인한 교통 혼잡이 발생한 것 같습니다 .,LOC AFW-B NUM-B O O AFW-B O O O O O O O
+동작구 상도로 131길 주택에서 화재 경보가 울려 퍼집니다 .,LOC AFW-B NUM-B O O O O O O
+구로구 구로중앙로 10길에서 의심스러운 상황이 발생하고 있습니다 .,LOC AFW-B NUM-B O O O O O
+양천구 신정로 123길 주변에서 시비가 벌어지고 있습니다 .,LOC AFW-B NUM-B O O O O O
+강동구 강동대로 123길 주택에서 이상한 소리가 들린다고 하네요 .,LOC AFW-B NUM-B O O O O O O
+송파구 가락로 56길 인근에서 의문의 물체가 보인다고 하셨습니다 .,LOC AFW-B NUM-B O O O O O O
+관악구 신림로 53길 주택에서 시비가 벌어지고 있다고 합니다 .,LOC AFW-B NUM-B O O O O O O
+중랑구 용마산로 171길 인근에서 긴급한 도움이 필요한 상황입니다 .,LOC AFW-B NUM-B O O O O O O
+은평구 갈현로 78길 주변에서 의심스러운 사람들이 많이 보입니다 .,LOC AFW-B NUM-B O O O O O O
+강남구 선릉로 234길 주변에서 의문의 물체가 나타났어요 .,LOC AFW-B NUM-B O O O O O
+강서구 양천로 456길 주택에서 시비가 벌어지고 있습니다 .,LOC AFW-B NUM-B O O O O O
+강북구 미아로 789길 주변에서 의문의 소리가 들린다고 하네요 .,LOC AFW-B NUM-B O O O O O O
+마포구 와우산로 890길 주변에 의심스러운 상황이 발생했습니다 .,LOC AFW-B NUM-B O O O O O
+서대문구 명물길 123길 인근에서 이상한 소리가 들리는 것 같습니다 .,LOC O NUM-B O O O O O O O
+중구 신당로 456길 주택에서 시비가 벌어지고 있습니다 .,LOC AFW-B NUM-B O O O O O
+성북구 돈암로 789길 주변에서 의심스러운 물체가 보입니다 .,LOC AFW-B NUM-B O O O O O
+종로구 경희궁2길 67길 인근에서 의문의 소리가 들린다고 하네요 .,LOC O NUM-B O O O O O O
+송파구 위례송파로 890길 주택에서 불이 나서 대피가 필요한 상황입니다 .,LOC AFW-B NUM-B O O O O O O O
+중랑구 망우로 123길 주변에서 의심스러운 사람들이 보입니다 .,LOC AFW-B NUM-B O O O O O
+양천구 신월로 456길 인근에서 의문의 냄새가 납니다 .,LOC AFW-B NUM-B O O O O O
+관악구 봉천로 789길 주택에서 시비가 벌어진 것 같습니다 .,LOC AFW-B NUM-B O O O O O O
+중랑구 용마산로 123길 주변에서 의심스러운 소리가 들리는 것 같습니다 .,LOC AFW-B NUM-B O O O O O O O
+은평구 수색로 456길 인근에서 의문의 물체가 보입니다 .,LOC AFW-B NUM-B O O O O O
+강서구 화곡로 789길 주택에서 시비가 벌어지는 것 같습니다 .,LOC AFW-B NUM-B O O O O O O
+서초구 서초중앙로 123길 주변에 의심스러운 사람들이 보입니다 .,LOC AFW-B NUM-B O O O O O
+종로구 종로 789길 인근에서 의문의 소리가 들리는 것 같습니다 .,LOC AFW-B NUM-B O O O O O O O
+강동구 천호대로 456길 주택에서 불이 나서 대피가 필요한 상황입니다 .,LOC AFW-B NUM-B O O O O O O O
+마포구 와우산로 123길 주변에 의심스러운 물체가 보입니다 .,LOC AFW-B NUM-B O O O O O
+양천구 목동로 456길 인근에서 의문의 사람들이 보입니다 .,LOC AFW-B NUM-B O O O O O
+강서구 공항대로 789길 주택에서 이상한 냄새가 납니다 .,LOC AFW-B NUM-B O O O O O
+관악구 낙성대로 123길 주변에 의심스러운 사람들이 많이 보입니다 .,LOC AFW-B NUM-B O O O O O O
+성동구 금호로 456길 인근에서 의문의 물체가 나타났습니다 .,LOC AFW-B NUM-B O O O O O
+동작구 사당로 789길 주택에서 의문의 소리가 들린다고 하네요 .,LOC AFW-B NUM-B O O O O O O
+강북구 솔샘로 123길 주변에서 이상한 소리가 들린다고 합니다 .,LOC AFW-B NUM-B O O O O O O
+은평구 응암로 456길 인근에서 의문의 냄새가 납니다 .,LOC AFW-B NUM-B O O O O O
+서초구 방배로 789길 주택에서 이상한 사람들이 많이 모여 있습니다 .,LOC AFW-B NUM-B O O O O O O O
+강동구 상일로 123길 주변에 의심스러운 물체가 보입니다 .,LOC AFW-B NUM-B O O O O O
+종로구 경복궁로 456길 인근에서 의문의 동작을 하는 사람이 보입니다 .,LOC AFW-B NUM-B O O O O O O O
+송파구 위례송파로 789길 주택에서 불이 나서 대피가 필요한 상황입니다 .,LOC AFW-B NUM-B O O O O O O O
+중랑구 망우로 123길 주변에 의심스러운 사람들이 많이 보입니다 .,LOC AFW-B NUM-B O O O O O O
+강서구 공항대로 456길 인근에서 이상한 소리가 들린다고 하네요 .,LOC AFW-B NUM-B O O O O O O
+양천구 목동중앙로 789길 주변에서 시비가 벌어진 것 같습니다 .,LOC AFW-B NUM-B O O O O O O
+강북구 솔샘로 123길 주변에 의문의 사람들이 많습니다 .,LOC AFW-B NUM-B O O O O O
+은평구 불광로 456길 인근에서 의문의 냄새가 나옵니다 .,LOC AFW-B NUM-B O O O O O
+관악구 낙성대로 789길 주택에서 이상한 소리가 들린다고 합니다 .,LOC AFW-B NUM-B O O O O O O
+강남구 논현로 175길 주변에서 의심스러운 차량들이 모여 있어요 .,LOC AFW-B NUM-B O O O O O O
+마포구 홍대로 23길 인근에서 소란스러운 시비가 벌어지고 있어요 .,LOC AFW-B NUM-B O O O O O O
+송파구 올림픽로 45길 주택에서 화재 경보가 울려 퍼지고 있어요 .,LOC AFW-B NUM-B O O O O O O O
+강서구 공항로 123길 주변에서 의심스러운 사람들이 이동하고 있어요 .,LOC AFW-B NUM-B O O O O O O
+양천구 목동서로 56길 인근에서 의문의 물체가 발견되었어요 .,LOC AFW-B NUM-B O O O O O
+관악구 관악로 89길 주택에서 이상한 소리가 들려옵니다 .,LOC AFW-B NUM-B O O O O O
+성동구 왕십리로 234길 주변에서 특이한 동작을 하는 사람이 보여요 .,LOC AFW-B NUM-B O O O O O O O
+중랑구 망우로 78길 주택에서 의심스러운 냄새가 풍겨옵니다 .,LOC AFW-B NUM-B O O O O O
+강북구 솔샘로 456길 주변에서 시비가 벌어지고 있어요 .,LOC AFW-B NUM-B O O O O O
+은평구 연서로 123길 주택에서 화재 경보가 울려옵니다 .,LOC AFW-B NUM-B O O O O
+마포구 서교로 789길 주변에서 시비가 벌어지는 소리가 들려와요 ., LOC AFW-B NUM-B O O O O O O
+강동구 양재대로 56길 주택에서 불이 나서 대피가 필요한 상황이에요 .,LOC AFW-B NUM-B O O O O O O O
+관악구 봉천로 123길 주변에서 의심스러운 사람들이 많아요 .,LOC AFW-B NUM-B O O O O O
+성동구 성수일로 456길 주변에서 의문의 소리가 들려옵니다 .,LOC AFW-B NUM-B O O O O O
+강서구 마곡로 789길 인근에서 이상한 동작을 하는 사람이 보여요 .,LOC AFW-B NUM-B O O O O O O O
+종로구 종로 123길 주택에서 화재 경보가 울려와요 .,LOC AFW-B NUM-B O O O O O
+강동구 천호대로 456길 주변에서 의심스러운 물체가 보여요 .,LOC AFW-B NUM-B O O O O O
+양천구 목동중앙로 789길 인근에서 이상한 소리가 들려옵니다 .,LOC AFW-B NUM-B O O O O O
+은평구 응암로 123길 주택에서 의문의 냄새가 나와요 .,LOC AFW-B NUM-B O O O O O
+중랑구 망우로 456길 주변에서 의심스러운 사람들이 모여 있어요 .,LOC AFW-B NUM-B O O O O O O
+종로구 이화장길 36-7 주변에서 의심스러운 사람들이 모여 있습니다 .,LOC AFW-B NUM-B O O O O O O
+강남구 역삼로 123길 8-12 인근에서 소란이 있어요 .,LOC AFW-B NUM-B NUM-B O O O O
+마포구 서교동 456-78 주택에서 화재 경보가 울려요 .,LOC LOC NUM-B O O O O O
+강서구 양천로 789길 23-45 주변에서 의문의 물체가 발견되었습니다 .,LOC AFW-B NUM-B NUM-B O O O O O
+영등포구 여의대방로 56길 11-22 주택에서 이상한 소리가 들려옵니다 .,LOC AFW-B NUM-B NUM-B O O O O O
+관악구 신림로 234길 9-10 주변에서 의심스러운 차량들이 모여 있어요 .,LOC AFW-B NUM-B NUM-B O O O O O O
+성동구 성수동1가 345-67 주변에서 의문의 사람들이 이동하고 있어요 .,LOC O NUM-B O O O O O O
+강북구 솔샘로 123길 5-6 주택에서 특이한 동작을 하는 사람이 보여요 .,LOC AFW-B NUM-B NUM-B O O O O O O O
+은평구 응암동 789-10 주변에서 의심스러운 냄새가 나와요 .,LOC LOC NUM-B O O O O O
+중랑구 망우로 456길 1-2 주변에서 의심스러운 인물들이 모여 있네요 .,LOC AFW-B NUM-B NUM-B O O O O O O
+마포구 합정동 123-4 주변에서 시비가 벌어지는 소리가 들려와요 .,LOC LOC NUM-B O O O O O O
+강동구 천호동 56-7 주택에서 불이 나서 대피가 필요한 상황이에요 .,LOC LOC NUM-B O O O O O O O
+관악구 봉천동 89-10 주변에서 의심스러운 사람들이 많아요 .,LOC LOC NUM-B O O O O O
+성동구 성수동2가 345-6 주변에서 의문의 소리가 들려옵니다 .,LOC AFW-B NUM-B O O O O O
+강서구 마곡동 789-10 주변에서 이상한 동작을 하는 사람이 보여요 .,LOC LOC NUM-B O O O O O O O
+종로구 종로1가 234-5 주택에서 화재 경보가 울려와요 .,LOC O NUM-B O O O O O
+강동구 천호동 456-7 주변에서 의심스러운 물체가 보여요 .,LOC LOC NUM-B O O O O O
+양천구 목동 89-10 주변에서 이상한 소리가 들려옵니다 .,LOC LOC NUM-B O O O O O
+은평구 불광동 123-4 주택에서 의문의 냄새가 나와요 .,LOC LOC NUM-B O O O O O
+중랑구 망우동 56-7 주변에서 의심스러운 사람들이 모여 있어요 .,LOC LOC NUM-B O O O O O O
+마포구 와우산로 45길 주택인데 이상한 소리가 들려와 주민들이 불안해하고 있어요 .,LOC AFW-B NUM-B O O O O O O O O
+서대문구 연세로 678길인데 의심스러운 인물들이 주변을 서성이고 있어요 .,LOC AFW-B NUM-B O O O O O O
+강서구 마곡로 910길 주변인데 큰 화재가 발생했어요 .,LOC AFW-B NUM-B O O O O O
+성동구 왕십리로 11길 주택인데 불이 나서 주민들이 대피하고 있어요 .,LOC AFW-B NUM-B O O O O O O O
+강북구 솔샘로 234길인데 소란스러운 시비가 벌어지고 있어요 .,LOC AFW-B NUM-B O O O O O
+영등포구 여의대방로 567길 주택인데 이상한 물체가 보여 주민들이 경비를 부르고 있어요 .,LOC AFW-B NUM-B O O O O O O O O O
+동작구 상도로 89길 주변인데 소방차 소리가 들려오고 있어요 .,LOC AFW-B NUM-B O O O O O O
+중랑구 망우로 345길인데 의심스러운 사람들이 많이 모여 있어요 .,LOC AFW-B NUM-B O O O O O O
+구로구 구로동로 678길 주택인데 불이 나서 화재 경보가 울려 퍼지고 있어요 .,LOC AFW-B NUM-B O O O O O O O O O
+강남구 역삼동 올리브영인데 이상한 소리가 들려와 주민들이 불안해해요 .,LOC LOC LOC O O O O O O
+관악구 신림동 678번지 앞 투썸플레이스인데 이상한 사람들이 시끄럽게 모여있어요 .,LOC LOC NUM-B O LOC O O O O O
+강남구 청담동 567번지로 가는 길에 있는 CU 편의점인데 의심스러운 물건이 떨어져있어요 .,LOC LOC AFW-B O O O LOC LOC O O O O
+한강공원에서 이마트트레이더스인데 사람이 특이한 동작을 하고 있어요 .,LOC LOC O O O O O O
+용산구 이태원동 789-10번지로 가는 길에 있는 불꽃치킨인데 불길이 피어나서 주민들이 대피하고 있어요 .,LOC LOC AFW-B O O O LOC O O O O O O
+성동구 성수동 234번지 주변을 지나가는데 스타벅스인데 소란스러운 시비가 벌어지고 있어요 .,LOC LOC NUM-B O O LOC O O O O O
+중구 명동 11번지에서 GS25 편의점인데 의심스러운 물체가 보여 경비가 주시하고 있어요 .,LOC LOC NUM-B LOC LOC O O O O O O O
+마포구 홍대입구역 근처에서 파리바게뜨인데 소방차 소리가 들려와 주변 사람들이 주목하고 있어요 .,LOC LOC O LOC O O O O O O O O
+강서구 마곡동 345번지에 있는 주택에서 CU 편의점인데 의심스러운 사람들이 많이 모여 있어요 .,LOC LOC NUM-B O O LOC LOC O O O O O O
+서초구 서초동 678번지로 가는 길에 있는 뚜레주르인데 냄새가 좀 이상해요 .,LOC LOC AFW-B O O O LOC O O O O
+강남구 역삼동 노브랜드버거인데 큰 소리가 들려와 주민들이 놀라고 있어요 .,LOC LOC LOC O O O O O O O 
+종로구 경복궁동 맥도날드 앞에서 이상한 사람들이 모여있어요 .,LOC LOC LOC O O O O O
+영등포구 여의도동 스타벅스인데 불이 났어요 .,LOC LOC LOC O O O
+송파구 잠실동 올림픽공원에서 의심스러운 물건이 보입니다 .,LOC LOC LOC O O O O
+강북구 수유동 주택인데 의문의 동작을 하는 사람이 보입니다 .,LOC LOC O O O O O O O
+강동구 천호동 CU 편의점에서 시비가 벌어지고 있는 상황입니다 .,LOC LOC LOC LOC O O O O O
+강서구 등촌동 GS25 편의점에서 불이 나서 주민들이 대피하고 있습니다 .,LOC LOC LOC LOC O O O O O O
+중구 을지로 뚜레주르인데 냄새가 좀 이상해요 .,LOC AFW-B LOC O O O O
+성북구 동소문동 마트앞에서 큰 소리가 들려와 주민들이 주목하고 있습니다 .,LOC LOC LOC O O O O O O O
+강남구 신사동 카페인데 이상한 사람들이 모여 있어요 .,LOC LOC LOC O O O O O
+마포구 합정동 주변을 지나가는데 소란스러운 소리가 들려와 주민들이 불안해해요 .,LOC LOC O O O O O O O O
+종로구 경복궁동 국민은행인데 의심스러운 사람들이 많이 모여 있어요 .,LOC LOC LOC O O O O O O
+강동구 천호동에서 불길이 피어나서 대피가 필요한 상황입니다 .,LOC O O O O O O O
+관악구 봉천동 주택인데 이상한 소리가 들려와 주민들이 불안해하고 있어요 .,LOC LOC O O O O O O O O
+성동구 성수동 의원인데 의심스러운 물건이 떨어져있어요 .,LOC LOC LOC O O O O
+용산구 이태원동 상점인데 시비가 벌어지고 있는 상황입니다 .,LOC LOC LOC O O O O O
+중구 명동 주변을 지나가는데 의문의 동작을 하는 사람이 보입니다 .,LOC LOC O O O O O O O O
+강남구 역삼동 CU 편의점에서 의심스러운 물체가 보여 경비가 주시하고 있습니다 .,LOC LOC LOC LOC O O O O O O O
+송파구 잠실동 공원에서 불이 나서 주민들이 대피하고 있어요 .,LOC LOC LOC O O O O O O
+성북구 동소문동 상점인데 불길이 피어나서 주민들이 불안해하고 있어요 .,LOC LOC LOC O O O O O O
+강동구 천호동 주택에서 의문의 사람들이 많이 모여 있어요 .,LOC LOC LOC O O O O O O
+강서구 등촌동 주변을 지나가는데 의심스러운 물건이 보입니다 .,LOC LOC O O O O O O
+중랑구 면목동 주변에서 소란스러운 소리가 들려와 주민들이 놀라고 있어요 .,LOC LOC O O O O O O O O
+마포구 망원동 주택인데 의심스러운 사람들이 모여 있어요 .,LOC LOC LOC O O O O O
+강남구 청담동 주변을 지나가는데 의심스러운 물체가 보입니다 .,LOC LOC O O O O O O
+강서구 마곡동 주택에서 냄새가 좀 이상해요 .,LOC LOC LOC O O O O
+종로구 경복궁동 주택인데 이상한 소리가 들려와 주민들이 주목하고 있어요 .,LOC LOC LOC O O O O O O O
+강북구 수유동 상점인데 의문의 동작을 하는 사람이 보입니다 .,LOC LOC LOC O O O O O O
+강동구 천호동 CU 편의점에서 시비가 벌어지고 있는 상황입니다 .,LOC LOC LOC LOC O O O O O
+중구 을지로 스타벅스인데 불이 났어요 .,LOC AFW-B LOC O O O
+관악구 봉천동 주변을 지나가는데 의심스러운 사람들이 모여 있어요 .,LOC LOC O O O O O O O
+성동구 성수동 주택에서 의문의 냄새가 나옵니다 .,LOC LOC O O O O O
+용산구 이태원동 상점인데 이상한 사람들이 시끄럽게 모여있어요 .,LOC LOC O O O O O O
+중구 명동 주변을 지나가는데 의심스러운 물건이 떨어져있어요 .,LOC LOC O O O O O O
+강동구 천호동 CU 편의점에서 주변에서 시비가 벌어지고 있는 것 같습니다 .,LOC LOC LOC LOC O O O O O O O
+송파구 잠실동 주택에서 불이 나서 주민들이 대피하고 있습니다 .,LOC LOC O O O O O O O
+성북구 동소문동 상점인데 이상한 소리가 들려와 주민들이 불안해하고 있어요 .,LOC LOC LOC O O O O O O O
+강남구 역삼동 노브랜드버거인데 의문의 사람들이 많이 모여 있어요 .,LOC LOC LOC O O O O O O 
+종로구 경복궁동 국민은행인데 의심스러운 동작을 하는 사람이 보입니다 .,LOC LOC LOC O O O O O O
+중구 을지로 주변을 지나가는데 의심스러운 물체가 보입니다 .,LOC AFW-B O O O O O O
+강동구 천호동 CU 편의점에서 불길이 피어나서 대피가 필요한 상황입니다 .,LOC LOC LOC LOC O O O O O O
+관악구 봉천동 주택에서 의문의 냄새가 나옵니다 .,LOC LOC O O O O O
+성동구 성수동 주변을 지나가는데 이상한 사람들이 모여 있어요 .,LOC LOC O O O O O O O
+용산구 이태원동 주변에서 큰 소리가 들려와 주민들이 불안해하고 있어요 .,LOC LOC O O O O O O O O
+중구 명동 상점인데 의문의 동작을 하는 사람이 보입니다 .,LOC LOC LOC O O O O O O
+마포구 합정동 의원 앞에서 의심스러운 물건이 떨어져있어요 .,LOC LOC LOC O O O O O
+강남구 역삼동 CU 편의점에서 시비가 벌어지고 있는 상황입니다 .,LOC LOC LOC LOC O O O O O
+송파구 잠실동 주변을 지나가는데 의심스러운 사람들이 많이 모여 있어요 .,LOC LOC O O O O O O O O
+성북구 동소문동 주택에서 이상한 소리가 들려와 주민들이 주목하고 있어요 .,LOC LOC O O O O O O O O
+강북구 수유동 주변을 지나가는데 불길이 피어나서 주민들이 불안해하고 있어요 .,LOC LOC O O O O O O O O
+강동구 천호동 CU 편의점에서 냄새가 좀 이상해요 .,LOC LOC LOC LOC O O O O
+관악구 신림동 주변을 지나가는데 소란스러운 소리가 들려와 주민들이 놀라고 있어요 .,LOC LOC O O O O O O O O O
+성동구 성수동 주택에서 의심스러운 물체가 보여 경비가 주시하고 있어요 .,LOC LOC O O O O O O O O
+용산구 이태원동 주변을 지나가는데 시비가 벌어지고 있는 상황입니다 .,LOC LOC O O O O O O O
+중구 명동 GS25 편의점에서 의문의 물건이 보입니다 .,LOC LOC LOC LOC O O O O
+강서구 등촌동 주택에서 의문의 사람들이 모여 있어요 .,LOC LOC LOC O O O O O
+중랑구 면목동 주변을 지나가는데 큰 소리가 들려와 주민들이 불안해하고 있어요 .,LOC LOC O O O O O O O O O
+마포구 망원동 주택에서 의심스러운 사람들이 시비를 벌이고 있어요 .,LOC LOC O O O O O O O
+강남구 신사동 주변을 지나가는데 의문의 동작을 하는 사람이 보입니다 .,LOC LOC O O O O O O O O
+강동구 천호동 CU 편의점에서 주변에서 시비가 벌어지고 있는 것 같습니다 .,LOC LOC LOC LOC O O O O O O O
+송파구 잠실동 주택에서 불이 나서 주민들이 대피하고 있습니다 .,LOC LOC LOC O O O O O O
+성북구 동소문동 상점인데 이상한 소리가 들려와 주민들이 놀라고 있어요 .,LOC LOC LOC O O O O O O O
+강남구 역삼동 노브랜드버거인데 의심스러운 물체가 보여 경비가 주시하고 있습니다 .,LOC LOC LOC O O O O O O O
+종로구 경복궁동 주택에서 냄새가 좀 이상해요 .,LOC LOC LOC O O O O
+중구 을지로 주변을 지나가는데 이상한 사람들이 모여 있어요 .,LOC AFW-B O O O O O O O
+관악구 신림동 주택에서 시비가 벌어지고 있는 상황입니다 .,LOC LOC LOC O O O O O
+성동구 성수동 주변을 지나가는데 의심스러운 물체가 보입니다 .,LOC LOC O O O O O O
+용산구 이태원동 주변에서 의문의 동작을 하는 사람이 보입니다 .,LOC LOC O O O O O O O
+중구 명동 상점인데 소란스러운 소리가 들려와 주민들이 불안해하고 있어요 .,LOC LOC LOC O O O O O O O
+강동구 천호동 주변을 지나가는데 스타벅스인데 의문의 사람들이 많이 모여 있어요 .,LOC LOC O O LOC O O O O O O
+관악구 신림동 주택에서 불길이 피어나서 대피가 필요한 상황입니다 .,LOC LOC LOC O O O O O O
+성동구 성수동 주변을 지나가는데 의문의 냄새가 나옵니다 .,LOC LOC O O O O O O
+용산구 이태원동 주택에서 이상한 사람들이 모여 있어요 .,LOC LOC LOC O O O O O
+중구 명동 주변을 지나가는데 의심스러운 사람들이 시비를 벌이고 있어요 .,LOC LOC O O O O O O O O
+슈퍼마켓에서 신선한 과일과 야채를 구입했어요 .,ORG-B O O O O O
+전주식당에서 맛있는 비빔국수를 주문했어요 .,ORG-B O O O O
+크린토피아에서 옷을 청소하고 수선해주었어요 .,ORG-B O O O O
+파리바게뜨에서 달콤한 디저트를 샀어요 .,ORG-B O O O O
+투다리에서 특제 쌀국수와 또띠아를 주문했어요 .,ORG-B O O O O O
+태후사랑에서 따뜻한 보리차를 마셨어요 .,ORG-B O O O O
+이디야에서 향긋한 커피를 시켰어요 .,ORG-B O O O O
+남원추어탕에서 감칠맛 나는 추어탕을 맛보았어요 .,ORG-B O O O O O
+준오헤어에서 멋진 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽에서 건강한 죽과 사리곰탕을 주문했어요 .,ORG-B O O O O O
+슈퍼마켓에서 신선한 수산물과 육류를 구입했어요 .,ORG-B O O O O O
+피자스쿨에서 매콤한 불고기 피자를 주문했어요 .,ORG-B O O O O O
+김가네에서 맛있는 해물 된장찌개를 먹었어요 .,ORG-B O O O O O
+네네치킨에서 바삭한 양념치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+세븐일레븐에서 간편하게 간식과 음료수를 샀어요 .,ORG-B O O O O O
+교촌치킨에서 담백한 양념치킨을 주문했어요 .,ORG-B O O O O
+신의주찹쌀순대에서 쫄깃한 순대와 백반을 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨에서 매콤한 양념치킨과 맥주를 시켰어요 .,ORG-B O O O O O
+신전떡볶이에서 매운 떡볶이와 부드러운 오뎅을 주문했어요 .,ORG-B O O O O O O
+굽네치킨에서 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+삼성공인중개사사무소에서 쾌적한 주택을 계약했어요 .,ORG-B O O O O
+전주식당에서 특별한 전주 비빔밥을 먹었어요 .,ORG-B O O O O O
+크린토피아에서 청결하게 옷을 세탁해주었어요 .,ORG-B O O O O
+파리바게뜨에서 달콤한 케이크를 사왔어요 .,ORG-B O O O O
+투다리에서 건강한 보리밥과 된장찌개를 주문했어요 .,ORG-B O O O O O
+태후사랑에서 맛있는 간장게장과 갈치조림을 주문했어요 .,ORG-B O O O O O
+이디야에서 부드러운 카페라떼를 시켰어요 .,ORG-B O O O O
+남원추어탕에서 뜨끈한 추어탕을 맛보았어요 .,ORG-B O O O O
+준오헤어에서 세련된 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽에서 고소한 콩나물죽을 주문했어요 .,ORG-B O O O O
+슈퍼마켓에서 신선한 야채와 과일을 구입했어요 .,ORG-B O O O O O
+피자스쿨에서 맛있는 포테이토 피자를 주문했어요 .,ORG-B O O O O O
+김가네에서 푸짐한 된장찌개와 김치찌개를 먹었어요 .,ORG-B O O O O O
+네네치킨에서 바삭한 후라이드치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+세븐일레븐에서 편리하게 간식과 음료수를 사왔어요 .,ORG-B O O O O O
+교촌치킨에서 담백한 후라이드치킨과 양배추샐러드를 주문했어요 .,ORG-B O O O O O
+신의주찹쌀순대에서 고소한 순대와 백반을 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨에서 매콤한 양념치킨과 아이스크림을 시켰어요 .,ORG-B O O O O O
+신전떡볶이에서 맛있는 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O O
+굽네치킨에서 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+삼성공인중개사사무소에서 쾌적한 아파트를 계약했어요 .,ORG-B O O O O
+전주식당에서 특별한 전주 비빔밥을 먹었어요 .,ORG-B O O O O O
+크린토피아에서 청결하게 옷을 세탁해주었어요 .,ORG-B O O O O
+파리바게뜨에서 달콤한 크루아상을 사왔어요 .,ORG-B O O O O
+투다리에서 건강한 보리밥과 된장찌개를 주문했어요 .,ORG-B O O O O O
+태후사랑에서 맛있는 간장게장과 물회를 주문했어요 .,ORG-B O O O O O
+이디야에서 부드러운 카페모카를 시켰어요 .,ORG-B O O O O
+남원추어탕에서 뜨끈한 추어탕을 맛보았어요 .,ORG-B O O O O
+준오헤어에서 세련된 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽에서 건강한 콩나물죽을 주문했어요 .,ORG-B O O O O
+슈퍼마켓에서 신선한 야채와 과일을 구입했어요 .,ORG-B O O O O O
+피자스쿨에서 맛있는 불고기 피자를 주문했어요 .,ORG-B O O O O O
+김가네에서 맛있는 갈비찜과 김치찌개를 먹었어요 .,ORG-B O O O O O
+네네치킨에서 바삭한 양념치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+세븐일레븐에서 편리하게 간식과 음료수를 사왔어요 .,ORG-B O O O O O
+교촌치킨에서 담백한 양념치킨과 양배추샐러드를 주문했어요 .,ORG-B O O O O O
+신의주찹쌀순대에서 고소한 순대와 김치찌개를 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨에서 매콤한 양념치킨과 치즈스틱을 시켰어요 .,ORG-B O O O O O
+신전떡볶이에서 맛있는 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O O
+굽네치킨에서 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+삼성공인중개사사무소에서 쾌적한 아파트를 계약했어요 .,ORG-B O O O O
+전주식당에서 특별한 전주 비빔밥을 먹었어요 .,ORG-B O O O O O
+크린토피아에서 청결하게 옷을 세탁해주었어요 .,ORG-B O O O O
+파리바게뜨에서 달콤한 크림빵을 사왔어요 .,ORG-B O O O O
+투다리에서 건강한 보리밥과 도토리묵무침을 주문했어요 .,ORG-B O O O O O
+태후사랑에서 맛있는 간장게장과 고등어조림을 주문했어요 .,ORG-B O O O O O
+이디야에서 부드러운 카페라떼를 시켰어요 .,ORG-B O O O O
+남원추어탕에서 뜨끈한 추어탕을 맛보았어요 .,ORG-B O O O O
+준오헤어에서 세련된 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽에서 건강한 버섯죽을 주문했어요 .,ORG-B O O O O
+슈퍼마켓에서 신선한 야채와 과일을 구입했어요 .,ORG-B O O O O O
+피자스쿨에서 맛있는 포테이토 피자를 주문했어요 .,ORG-B O O O O O
+김가네에서 맛있는 김치찌개와 삼겹살을 먹었어요 .,ORG-B O O O O O
+네네치킨에서 바삭한 양념치킨과 치즈스틱을 시켰어요 .,ORG-B O O O O O
+세븐일레븐에서 간편하게 간식과 음료수를 사왔어요 .,ORG-B O O O O O
+교촌치킨에서 담백한 후라이드치킨과 양배추샐러드를 주문했어요 .,ORG-B O O O O O
+신의주찹쌀순대에서 고소한 순대와 백반을 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨에서 매콤한 양념치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+신전떡볶이에서 맛있는 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O O
+굽네치킨에서 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+삼성공인중개사사무소에서 쾌적한 주택을 계약했어요 .,ORG-B O O O O
+전주식당에서 특별한 전주 비빔밥을 먹었어요 .,ORG-B O O O O O
+크린토피아에서 청결하게 옷을 세탁해주었어요 .,ORG-B O O O O
+파리바게뜨에서 달콤한 크루아상을 사왔어요 .,ORG-B O O O O
+투다리에서 건강한 보리밥과 된장찌개를 주문했어요 .,ORG-B O O O O O
+태후사랑에서 맛있는 간장게장과 갈치조림을 주문했어요 .,ORG-B O O O O O
+이디야에서 부드러운 카페모카를 시켰어요 .,ORG-B O O O O
+남원추어탕에서 뜨끈한 추어탕을 맛보았어요 .,ORG-B O O O O
+준오헤어에서 세련된 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽에서 건강한 콩나물죽을 주문했어요 .,ORG-B O O O O
+슈퍼마켓에서 신선한 야채와 과일을 구입했어요 .,ORG-B O O O O O
+피자스쿨에서 맛있는 불고기 피자를 주문했어요 .,ORG-B O O O O O
+김가네에서 맛있는 해물 된장찌개를 먹었어요 .,ORG-B O O O O O
+네네치킨에서 바삭한 양념치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+세븐일레븐에서 편리하게 간식과 음료수를 사왔어요 .,ORG-B O O O O O
+교촌치킨에서 담백한 양념치킨과 양배추샐러드를 주문했어요 .,ORG-B O O O O O
+신의주찹쌀순대에서 고소한 순대와 백반을 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨에서 매콤한 양념치킨과 맥주를 시켰어요 .,ORG-B O O O O O
+신전떡볶이에서 맛있는 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O O
+굽네치킨에서 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+나는 올리브영에서 화장품을 사러 가기 전에 먼저 투썸플레이스에서 카페라떼를 마셨어요 .,O ORG-B O O O O O ORG-B O O O
+GS25에서 물과 간식을 살 때 이디야커피에서 아메리카노를 마시기로 계획했어요 .,ORG-B O O O O ORG-B O O O O
+롯데리아에서 햄버거를 주문하기 전에 세븐일레븐에서 간식을 사러 갈까 고민 중이에요 .,ORG-B O O O ORG-B O O O O O O
+메가커피에서 커피를 사러 갔다가 빽다방에서 라떼를 마시게 되었어요 .,ORG-B O O O ORG-B O O O O
+맘스터치에서 치킨을 먹는 도중에 버거킹에서 간식을 시킬까 고민 중이에요 .,ORG-B O O O ORG-B O O O O O
+지방시에서 패션 감상하다가 유니클로에서 옷을 사야할지 말아야할지 고민 중이에요 .,ORG-B O O ORG-B O O O O O O
+나이키에서 운동화를 사러 가는 길에 뉴발란스에서도 운동화를 둘러볼까 생각 중이에요 .,ORG-B O O O O ORG-B O O O O O
+던킨도너츠에서 도너츠를 시켰는데 미니스톱에서 아이스크림까지 장을 보게 되었어요 .,ORG-B O O ORG-B O O O O O
+버거킹에서 간식을 먹다가 뚜레쥬르에서 디저트를 사러 갈까 말까 고민 중이에요 .,ORG-B O O ORG-B O O O O O O O
+에이치앤엠에서 옷을 구매했는데 나이키에서 운동화도 함께 사야할까 고민 중이에요 .,ORG-B O O ORG-B O O O O O O
+저는 GS25에서 물을 사러 갈 때 맘스터치에서 치킨을 시켰어요 .,O ORG-B O O O O ORG-B O O O
+그녀는 롯데백화점에서 쇼핑을 하다가 이마트에서 식재료도 구입했어요 .,O ORG-B O O ORG-B O O O
+저희는 메가커피에서 커피를 주문하고 뚜레쥬르에서 달콤한 디저트도 먹었어요 .,O ORG-B O O ORG-B O O O O
+여자친구와 저는 씨유에서 생필품을 사러 갈 때 투썸플레이스에서 아메리카노를 마셨어요 .,O O ORG-B O O O O ORG-B O O O
+저희는 홈플러스에서 다양한 식재료를 구입하고 지방시에서 패션 감상도 했어요 .,O ORG-B O O O ORG-B O O O O
+친구들과 저는 버거킹에서 간식을 먹고 이디야에서 커피도 마셨어요 .,O O ORG-B O O ORG-B O O O
+가족들과 함께 롯데리아에서 햄버거를 시키고 맘스터치에서 치킨도 주문했어요 .,O O ORG-B O O ORG-B O O O
+친구들과 저는 지방시에서 패션을 쇼핑하고 유니클로에서 편안한 옷을 구입했어요 .,O O ORG-B O O ORG-B O O O O
+저희는 뚜레쥬르에서 달콤한 디저트를 먹은 후 메가커피에서 커피도 시켰어요 .,O ORG-B O O O O ORG-B O O O
+가족들과 저는 이마트에서 신선한 식재료를 사러 갔는데 홈플러스에서도 둘러보게 되었어요 .,O O ORG-B O O O O ORG-B O O O
+저는 스타벅스에서 커피를 마시고 이디야에서 빵을 샀어요 .,O ORG-B O O ORG-B O O O
+친구들과 저는 투썸플레이스에서 카페라떼를 시켰는데 빽다방에서 아메리카노도 주문했어요 .,O O ORG-B O O ORG-B O O O
+가족들과 저는 GS25에서 즉석 라면과 음료를 구입하고 파리바게뜨에서 빵도 사왔어요 .,O O ORG-B O O O O ORG-B O O O
+저는 버거킹에서 간식을 먹고 세븐일레븐에서 아이스크림도 샀어요 .,O ORG-B O O ORG-B O O O
+친구들과 저는 지방시에서 패션 감상하다가 유니클로에서 편안한 옷을 구입했어요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 롯데리아에서 간식을 먹고 맘스터치에서 치킨도 시켰어요 .,O O ORG-B O O ORG-B O O O
+저는 메가커피에서 커피를 마시고 뚜레쥬르에서 디저트도 먹을 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 이디야에서 커피를 마시고 씨유에서 생필품도 구입할 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 저는 홈플러스에서 다양한 식재료를 살 거에요 .,O O ORG-B O O O O O
+저는 맘스터치에서 치킨을 시키고 버거킹에서 간식도 먹을 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 이마트에서 장을 보고 미니스톱에서 간식도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 롯데백화점에서 쇼핑하고 현대백화점에서도 둘러볼 거에요 .,O O ORG-B O ORG-B O O O
+저는 뚜레쥬르에서 달콤한 디저트를 먹고 파리바게뜨에서 빵도 사왔어요 .,O ORG-B O O O ORG-B O O O
+친구들과 저는 지방시에서 패션 감상하다가 유니클로에서 옷도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 저는 버거킹에서 간식을 먹고 씨유에서 생필품도 살 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 메가커피에서 커피를 마시고 뚜레쥬르에서 빵도 사올 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 이디야에서 커피를 마시고 맘스터치에서 치킨도 시킬 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 롯데리아에서 간식을 먹고 GS25에서 즉석 라면도 살 거에요 .,O O ORG-B O O ORG-B O O O O O
+저는 버거킹에서 간식을 먹고 세븐일레븐에서 아이스크림도 사올 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 지방시에서 패션 감상하다가 유니클로에서 옷도 구매할 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 이마트에서 신선한 식재료를 구입하고 홈플러스에서도 둘러볼 거에요 .,O O ORG-B O O O ORG-B O O O
+저는 롯데백화점에서 쇼핑하고 현대백화점에서도 둘러볼 거에요 .,O ORG-B O ORG-B O O O
+친구들과 저는 뚜레쥬르에서 달콤한 디저트를 먹고 파리바게뜨에서 빵도 사올 거에요 .,O O ORG-B O O O ORG-B O O O O
+가족들과 저는 지방시에서 패션 감상하다가 유니클로에서 옷도 구매할 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 버거킹에서 간식을 먹고 씨유에서 생필품도 살 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 메가커피에서 커피를 마시고 뚜레쥬르에서 빵도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 이디야에서 커피를 마시고 맘스터치에서 치킨도 시킬 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 롯데리아에서 간식을 먹고 GS25에서 즉석 라면도 살 거에요 .,O ORG-B O O ORG-B O O O O O
+친구들과 저는 버거킹에서 간식을 먹고 세븐일레븐에서 아이스크림도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 저는 지방시에서 패션 감상하다가 유니클로에서 옷도 구매할 거에요 .,O O ORG-B O O ORG-B O O O O
+올리브영에서 구매한 화장품이 너무 좋아서 또 가고 싶어요 .,ORG-B O O O O O O O O
+투썸플레이스에서 만난 친구와 맛있는 커피를 마시며 이야기를 나눴어요 .,ORG-B O O O O O O O O
+롯데백화점에서 구입한 옷이 정말 멋져서 자랑스러워요 .,ORG-B O O O O O O
+GS25에서 산 간식들로 가족들과 식사를 즐겼어요 .,ORG-B O O O O O O
+이디야커피에서 마신 커피가 너무 맛있어서 다시 갈 계획이에요 .,ORG-B O O O O O O O O
+스타벅스에서 친구에게 커피를 선물로 사주었어요 .,ORG-B O O O O O
+미니스톱에서 산 아이스크림이 상큼하고 맛있어서 두 개나 사왔어요 .,ORG-B O O O O O O O O
+베스킨라빈스에서 딸기 아이스크림을 주문했어요 .,ORG-B O O O O
+도미노피자에서 피자를 주문했는데 배달이 빨라서 놀랐어요 .,ORG-B O O O O O O
+아이디가 이마트트레이더스에서 만든 맛있는 떡볶이를 먹었어요 .,O ORG-B O O O O O
+공차에서 시원한 버블티를 마시며 여름을 즐기고 있어요 .,ORG-B O O O O O O O
+나이키 스토어에서 운동화를 신고 휠라에서 운동을 시작했어요 .,ORG-B O O O ORG-B O O O
+홍콩반점에서 먹은 짜장면이 정말 맛있었어요 .,ORG-B O O O O O
+노랑통닭에서 주문한 치킨이 매우 바삭하고 맛있었어요 .,ORG-B O O O O O O
+서브웨이에서 샌드위치를 시켰는데 맛이 좋아서 놀랐어요 .,ORG-B O O O O O O
+굽네치킨에서 치킨세트를 시켜서 가족들과 행복한 식사를 했어요 .,ORG-B O O O O O O O
+아웃백에서 먹은 스테이크가 부드럽고 맛있어서 기억에 남아요 .,ORG-B O O O O O O O
+맘스터치에서 먹은 치킨이 정말 맛있어서 다음에 또 가고 싶어요 .,ORG-B O O O O O O O O O
+교보문고에서 책을 사러 갔는데 시간 가는 줄 모르고 둘러봤어요 .,ORG-B O O O O O O O O O
+써브웨이에서 먹은 샌드위치가 건강하고 맛있어서 좋았어요 .,ORG-B O O O O O O
+할리스커피에서 카페라떼를 주문했는데 맛이 일품이었어요 .,ORG-B O O O O O
+메머드에서 마신 커피가 향이 좋고 맛있어서 좋았어요 .,ORG-B O O O O O O O
+쥬씨에서 주문한 주스가 상큼하고 건강적이라서 좋아요 .,ORG-B O O O O O O
+이마트에서 구입한 신선한 식재료로 맛있는 요리를 만들었어요 .,ORG-B O O O O O O O
+투썸플레이스에서 커피를 마시던 중에 빽다방에서 카페라떼를 발견했어요 .,ORG-B O O O ORG-B O O O
+공차에서 버블티를 시키고 도미노피자에서 피자도 주문했어요 .,ORG-B O O ORG-B O O O
+이디야에서 커피를 마시던 중에 맘스터치에서 치킨 냄새가 나서 배가 고파졌어요 .,ORG-B O O O ORG-B O O O O O O
+롯데리아에서 햄버거를 시키고 버거킹에서 감자튀김도 사왔어요 .,ORG-B O O ORG-B O O O
+GS25에서 즉석 라면을 사고 미니스톱에서 아이스크림도 구입했어요 .,ORG-B O O O ORG-B O O O
+스타벅스에서 커피를 마시고 뚜레쥬르에서 달콤한 디저트를 먹었어요 .,ORG-B O O ORG-B O O O O
+던킨도너츠에서 도넛을 사서 공차에서 버블티도 주문했어요 .,ORG-B O O ORG-B O O O
+투썸플레이스에서 아메리카노를 마시고 이디야에서 커피라떼도 주문했어요 .,ORG-B O O ORG-B O O O
+메가커피에서 커피를 마시던 중에 미니스톱에서 산 간식들을 발견했어요 .,ORG-B O O O ORG-B O O O O
+맘스터치에서 치킨을 시키고 롯데리아에서 햄버거도 먹을 거에요 .,ORG-B O O ORG-B O O O O
+공차에서 버블티를 마시던 중에 세븐일레븐에서 아이스크림도 살 거에요 .,ORG-B O O O ORG-B O O O O
+버거킹에서 햄버거를 먹고 뚜레쥬르에서 디저트도 먹을 거에요 .,ORG-B O O ORG-B O O O O
+미니스톱에서 간식을 사고 GS25에서 음료도 사왔어요 .,ORG-B O O ORG-B O O O
+이디야에서 커피를 마시던 중에 맘스터치에서 치킨을 발견했어요 .,ORG-B O O O ORG-B O O O
+롯데시네마에서 영화를 보고 투썸플레이스에서 커피도 마셨어요 .,ORG-B O O ORG-B O O O
+휴대폰 가게에 들렀는데 거기서도 던킨도너츠를 팔기 시작했어요 .,O O O O ORG-B O O O
+버거킹에서 햄버거를 시키고 스타벅스에서 커피도 주문했어요 .,ORG-B O O ORG-B O O O
+이디야에서 커피를 마시던 중에 뚜레쥬르에서 달콤한 디저트를 발견했어요 .,ORG-B O O O ORG-B O O O O
+공차에서 버블티를 마시고 GS25에서 즉석 라면도 사왔어요 .,ORG-B O O ORG-B O O O O
+세븐일레븐에서 아이스크림을 사고 롯데리아에서 햄버거도 시켰어요 .,ORG-B O O ORG-B O O O
+맘스터치에서 치킨을 주문하고 버거킹에서 감자튀김도 먹었어요 .,ORG-B O O ORG-B O O O
+투썸플레이스에서 커피를 마시던 중에 빽다방에서 카페라떼를 주문했어요 .,ORG-B O O O ORG-B O O O
+공차에서 버블티를 시키고 도미노피자에서 피자도 주문했어요 .,ORG-B O O ORG-B O O O
+이디야에서 커피를 마시던 중에 맘스터치에서 치킨 냄새가 났어요 .,ORG-B O O O ORG-B O O O O
+롯데리아에서 햄버거를 시키고 버거킹에서 감자튀김도 사왔어요 .,ORG-B O O ORG-B O O O
+GS25에서 즉석 라면을 사고 미니스톱에서 아이스크림도 살 거에요 .,ORG-B O O O ORG-B O O O O
+스타벅스에서 커피를 마시고 뚜레쥬르에서 달콤한 디저트를 먹을 거에요 .,ORG-B O O ORG-B O O O O O
+투썸플레이스에서 아메리카노를 마시고 이디야에서 커피라떼도 주문할 거에요 .,ORG-B O O ORG-B O O O O
+메가커피에서 커피를 마시던 중에 미니스톱에서 산 간식들을 발견했어요 .,ORG-B O O O ORG-B O O O O
+맘스터치에서 치킨을 시키고 롯데리아에서 햄버거도 먹을 거예요 .,ORG-B O O ORG-B O O O O
+공차에서 버블티를 마시던 중에 세븐일레븐에서 아이스크림도 살 거예요 .,ORG-B O O O ORG-B O O O O
+버거킹에서 햄버거를 먹고 뚜레쥬르에서 디저트도 먹을 거예요 .,ORG-B O O ORG-B O O O O
+미니스톱에서 간식을 사고 GS25에서 음료도 사왔어요 .,ORG-B O O ORG-B O O O
+이디야에서 커피를 마시던 중에 맘스터치에서 치킨을 발견했어요 .,ORG-B O O O ORG-B O O O
+롯데시네마에서 영화를 보고 투썸플레이스에서 커피도 마셨어요 .,ORG-B O O ORG-B O O O
+휴대폰 가게에 들렀는데 거기서도 던킨도너츠를 팔기 시작했어요 .,O O O O ORG-B O O O
+버거킹에서 햄버거를 시키고 스타벅스에서 커피도 주문했어요 .,ORG-B O O ORG-B O O O
+현대백화점에서 구매한 옷이 멋져서 친구들에게 자랑했어요 .,ORG-B O O O O O O
+에이치앤엠에서 옷을 구매했는데 나이키에서 운동화도 함께 사야할지 고민 중이에요 .,ORG-B O O ORG-B O O O O O O
+이마트에서 구입한 신선한 식재료로 맛있는 요리를 만들었어요 .,ORG-B O O O O O O O
+교보문고에서 책을 사러 갔는데 시간 가는 줄 모르고 둘러봤어요 .,ORG-B O O O O O O O O O
+써브웨이에서 먹은 샌드위치가 건강하고 맛있어서 좋았어요 .,ORG-B O O O O O O
+할리스커피에서 카페라떼를 주문했는데 맛이 일품이었어요 .,ORG-B O O O O O
+김밥천국에서 주문한 김밥이 신선하고 맛있어서 좋았어요 .,ORG-B O O O O O O
+뚜레쥬르에서 디저트를 먹은 후 메가커피에서 커피도 마셨어요 .,ORG-B O O O ORG-B O O O
+롯데시네마에서 먹은 햄버거가 맛있어서 배가 부르네요 .,ORG-B O O O O O O
+지방시에서 구입한 의류들이 디자인이 독특해서 매일 입어요 .,ORG-B O O O O O O O
+아디다스 스토어에서 구입한 운동화가 편해서 운동하기 좋아요 .,ORG-B O O O O O O O
+버거킹에서 간식을 먹고 씨유에서 생필품도 살 거에요 .,ORG-B O O ORG-B O O O O
+친구들과 저는 메가커피에서 커피를 마시고 뚜레쥬르에서 빵도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 이디야에서 커피를 마시고 맘스터치에서 치킨도 시킬 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 롯데리아에서 간식을 먹고 GS25에서 즉석 라면도 살 거에요 .,O ORG-B O O ORG-B O O O O O
+친구들과 저는 버거킹에서 간식을 먹고 세븐일레븐에서 아이스크림도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 지방시에서 패션 감상하다가 유니클로에서 옷도 구매할 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 뚜레쥬르에서 달콤한 디저트를 먹고 파리바게뜨에서 빵도 사왔어요 .,O ORG-B O O O ORG-B O O O
+공차에서 주문한 버블티가 달콤하고 상큼해서 맛있었어요 .,ORG-B O O O O O O
+신세계백화점에서 브랜드 화장품을 구입해서 기분이 좋아요 .,ORG-B O O O O O O
+도미노피자에서 치즈피자를 주문했어요 .,ORG-B O O O
+맘스터치에서 핫크리스피버거를 먹었어요 .,ORG-B O O O
+명동칼국수에서 칼국수와 만두를 주문했어요 .,ORG-B O O O O
+푸라닭에서 간장치킨을 시켰어요 .,ORG-B O O O
+리안헤어에서 머리를 자르고 왔어요 .,ORG-B O O O O
+써브웨이에서 샌드위치를 맛있게 먹었어요 .,ORG-B O O O O
+역전할머니맥주에서 시원한 맥주 한 잔 마셨어요 .,ORG-B O O O O O O
+옛날통닭에서 양념치킨과 후라이드치킨을 시켰어요 .,ORG-B O O O O
+낙원떡집에서 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O
+자연별곡에서 건강한 채식식사를 했어요 .,ORG-B O O O O
+뚜레쥬르에서 빵과 커피를 구입했어요 .,ORG-B O O O O
+시골밥상에서 한식 뷔페를 즐겼어요 .,ORG-B O O O O
+메가커피에서 아이스라떼를 시켰어요 .,ORG-B O O O
+본도시락에서 도시락을 포장해 왔어요 .,ORG-B O O O O
+배스킨라빈스에서 아이스크림을 맛보았어요 .,ORG-B O O O
+호남식당에서 전주 비빔밥을 주문했어요 .,ORG-B O O O O
+페리카나에서 양념치킨과 파닭을 시켰어요 .,ORG-B O O O O
+기숙사에서 친구들과 함께 밥을 먹었어요 .,ORG-B O O O O O
+고시원에서 공부하고 왔어요 .,ORG-B O O O
+현대세탁에서 옷을 세탁해 왔어요 .,O O O O O
+도미노피자에서 피자와 음료를 시켰어요 .,ORG-B O O O O
+맘스터치에서 치킨과 감자튀김을 맛있게 먹었어요 .,ORG-B O O O O O
+명동칼국수에서 국수와 만두를 맛보았어요 .,ORG-B O O O O
+푸라닭에서 후라이드치킨과 양념치킨을 주문했어요 .,ORG-B O O O O
+리안헤어에서 머리 스타일링을 해줬어요 .,ORG-B O O O O
+써브웨이에서 샌드위치를 맛있게 먹었어요 .,ORG-B O O O O
+역전할머니맥주에서 생맥주 한 잔 마셨어요 .,ORG-B O O O O O
+옛날통닭에서 후라이드치킨과 감자튀김을 시켰어요 .,ORG-B O O O O
+낙원떡집에서 떡볶이와 김말이를 주문했어요 .,ORG-B O O O O
+자연별곡에서 채식 샐러드와 스무디를 주문했어요 .,ORG-B O O O O O
+슈퍼마켓에서 신선한 과일과 야채를 구입했어요 .,O O O O O O
+전주식당에서 맛있는 비빔국수를 주문했어요 .,O O O O O
+롯데리아에서 치즈버거와 감자튀김을 시켰어요 .,ORG-B O O O O
+컴포즈에서 음악을 감상하며 아메리카노를 마셨어요 .,ORG-B O O O O O
+컴포즈커피에서 카페라떼를 시켰어요 .,ORG-B ORG-B O O
+샐러디에서 건강한 샐러드를 주문했어요 .,ORG-B O O O O
+커피에반하다에서 카페모카를 마셨어요 .,ORG-B ORG-B O O
+맛닭꼬에서 닭강정과 튀김을 주문했어요 .,ORG-B O O O O
+노랑통닭에서 후라이드치킨과 감자튀김을 구입했어요 .,ORG-B O O O O
+명륜진사갈비에서 불고기를 주문했어요 .,ORG-B O O O
+고향식당에서 전통 한식을 맛보았어요 .,ORG-B O O O O
+롯데공인중개사사무소에서 주택 거래를 도와줬어요 .,ORG-B O O O O
+그린에서 식물을 구입했어요 .,ORG-B O O O
+미소에서 웃으면서 그림을 그렸어요 .,ORG-B O O O O
+김가네에서 김밥과 떡볶이를 주문했어요 .,ORG-B O O O O
+파리바게트에서 빵과 케이크를 구입했어요 .,ORG-B O O O O
+공차에서 맛있는 차를 시켰어요 .,ORG-B O O O O
+큰집닭강정에서 닭강정을 주문했어요 .,ORG-B O O O
+부산어묵에서 어묵과 오뎅을 주문했어요 .,ORG-B O O O O
+생활맥주에서 맥주 한 잔을 마셨어요 .,O O O O O O
+등촌샤브칼국수에서 칼국수와 샤브샤브를 맛보았어요 .,O O O O O
+제이헤어에서 머리 스타일링을 해줬어요 .,ORG-B O O O O
+롯데리아에서 더블치즈버거와 감자튀김을 시켰어요 .,ORG-B O O O O
+컴포즈에서 피아노 연주를 들으며 아메리카노를 마셨어요 .,ORG-B O O O O O O
+컴포즈커피에서 바닐라라떼를 시켰어요 .,ORG-B O O O
+샐러디에서 건강한 샐러드와 스무디를 주문했어요 .,ORG-B O O O O O
+커피에반하다에서 카라멜마끼아또를 마셨어요 .,ORG-B O O O
+맛닭꼬에서 닭강정과 치즈스틱을 주문했어요 .,ORG-B O O O O
+노랑통닭에서 핫후라이드치킨과 콜라를 구입했어요 .,ORG-B O O O O
+명륜진사갈비에서 생삼겹살과 간장새우를 주문했어요 .,ORG-B O O O O
+시골집에서 삼계탕을 맛보았어요 .,O O O O
+화이트365에서 빵과 커피를 주문했어요 .,ORG-B O O O O
+수헤어에서 헤어스타일링을 해주셨어요 .,ORG-B O O O
+종로떡집에서 떡국을 구입했어요 .,ORG-B O O O
+씨유에서 간식을 사왔어요 .,ORG-B O O O
+CU에서 편의점 물품을 구입했어요 .,ORG-B O O O O
+자담치킨에서 양념치킨과 감자튀김을 주문했어요 .,ORG-B O O O O
+서울식당에서 된장찌개와 비빔밥을 주문했어요 .,ORG-B O O O O
+청진동해장국에서 해장국을 맛보았어요 .,ORG-B O O O
+김밥나라에서 김밥과 국물떡볶이를 주문했어요 .,ORG-B O O O O
+백양세탁소에서 옷을 세탁했어요 .,ORG-B O O O
+더벤티에서 디저트와 커피를 주문했어요 .,ORG-B O O O O
+종로빈대떡에서 빈대떡을 맛보았어요 .,ORG-B O O O
+메머드에서 요가 수업을 들었어요 .,ORG-B O O O O
+깐부치킨에서 간장치킨과 감자튀김을 주문했어요 .,ORG-B O O O O
+스마일에서 화이트라떼와 케이크를 주문했어요 .,ORG-B ORG-B O O O
+수노래연습장에서 노래 연습을 했어요 .,ORG-B O O O O
+피자나라치킨공주에서 피자와 양념치킨을 주문했어요 .,ORG-B O O O O
+청년다방에서 아메리카노와 빵을 주문했어요 .,ORG-B O O O O
+이마트24에서 식료품을 구입했어요 .,O O O O
+롯데리아에서 핫도그와 감자튀김을 먹었어요 .,ORG-B O O O O
+미소에서 스테이크와 파스타를 주문했어요 .,ORG-B O O O O
+김밥천국에서 김밥과 라면을 주문했어요 .,O O O O O
+파리바게뜨에서 케이크와 빵을 사왔어요 .,O O O O O
+공차에서 버블티와 스무디를 주문했어요 .,ORG-B O O O O
+큰집닭강정에서 강정과 치킨을 주문했어요 .,ORG-B O O O O
+부산어묵에서 어묵과 떡볶이를 구입했어요 .,ORG-B O O O O
+생활맥주에서 맥주와 간식을 주문했어요 .,O O O O O
+롯데공인중개사사무소에서 집을 임대했어요 .,ORG-B O O O
+더벤티에서 디저트와 커피를 사왔어요 .,ORG-B O O O O
+애니카랜드에서 아이들과 함께 즐거운 시간을 보냈어요 .,O O O O O O O
+할매순대국에서 정말 맛있는 순대국을 맛봤어요 .,ORG-B O O O O O
+맥도날드에서 맥날버거와 감자튀김을 주문했어요 .,ORG-B ORG-B O O O
+후참잘에서 후라이드치킨과 참잘비빔밥을 주문했어요 .,ORG-B O O O O
+을지로골뱅이에서 뱅이새우와 뚝배기골뱅이를 주문했어요 .,ORG-B O O O O
+썬더치킨에서 양념치킨과 간식을 구입했어요 .,ORG-B O O O O
+피자마루에서 피자와 파스타를 주문했어요 .,ORG-B O O O O
+고향집에서 전통 한식을 맛보았어요 .,ORG-B O O O O
+다모아에서 다양한 음식을 즐겨 먹었어요 .,ORG-B O O O O O
+가장맛있는족발에서 맛있는 족발과 국밥을 주문했어요 .,ORG-B O O O O O
+봉구비어에서 맥주와 간식을 즐겼어요 .,ORG-B O O O O
+이모네에서 집밥을 먹었는데 정말 맛있더라고요 .,ORG-B O O O O O
+으뜸50안경에서 스타일리시한 안경을 구입했어요 .,ORG-B O O O O
+봉구스밥버거에서 밥버거와 감자튀김을 주문했어요 .,ORG-B O O O O
+프랭크버거에서 프랭크스테이크버거와 음료를 주문했어요 .,ORG-B O O O O
+대박집에서 대박메뉴를 맛보았어요 .,ORG-B O O O
+중국식품에서 중국요리 재료를 구입했어요 .,ORG-B O O O O
+지에스에서 편리한 배달 서비스를 이용했어요 .,ORG-B O O O O O
+애니카랜드에서 원하는 캐릭터들을 만날 수 있었어요 .,O O O O O O O
+할매순대국에서 정성가득한 순대국을 맛봤어요 .,ORG-B O O O O
+맥도날드에서 햄버거와 감자튀김을 주문했어요 .,ORG-B O O O O
+후참잘하는집에서 맛있는 후라이드치킨을 먹었어요 .,ORG-B O O O O
+을지로골뱅이에서 매콤한 골뱅이를 즐겼어요 .,ORG-B O O O O
+썬더치킨에서 양념치킨과 맥주를 주문했어요 .,ORG-B O O O O
+피자마루에서 다양한 피자를 주문했어요 .,ORG-B O O O O
+고향집에서 고향의 맛을 다시 느꼈어요 .,ORG-B O O O O O
+다모아에서 맛있는 음식들을 한 자리에 먹을 수 있었어요 .,ORG-B O O O O O O O O
+가장맛있는족발에서 족발과 국물까지 모두 맛있었어요 .,ORG-B O O O O O
+봉구비어에서 맥주와 안주를 함께 즐겼어요 .,ORG-B O O O O O
+이모네에서 집밥이 향긋하고 맛있었어요 .,ORG-B O O O O
+또래오래에서 젊고 활기찬 분위기를 느꼈어요 .,ORG-B O O O O O
+전주집에서 전통 한식을 맛보았는데 정말 맛있었어요 .,ORG-B O O O O O O
+호식이두마리치킨에서 치킨과 맥주를 함께 즐겼어요 .,ORG-B O O O O O
+오렌즈에서 멋진 안경을 구입했어요 .,ORG-B O O O O
+명동찌개마을에서 매콤한 찌개를 맛봤는데,ORG-B O O O
+정말 맛있더라고요 .,O O O
+배떡에서 고소한 떡볶이를 맛보았어요 .,ORG-B O O O O
+정관장에서 건강에 좋은 건강식품을 구입했어요 .,ORG-B O O O O O
+대성에서 시원한 음료를 즐겼어요 .,ORG-B O O O O
+보드람치킨에서 바삭한 치킨을 주문했어요 .,ORG-B O O O O
+알파문구에서 다양한 문구용품을 구입했어요 .,ORG-B O O O O
+래미안에서 편안한 주거공간을 느꼈어요 .,ORG-B O O O O
+카페에서 아로마 커피를 즐겼어요 .,ORG-B O O O O
+우리마트에서 신선한 식재료를 구입했어요 .,ORG-B O O O O
+골목집에서 정통 한식을 맛보았는데,ORG-B O O O
+정말 맛있었어요 .,O O O
+명가에서 가족과 함께 식사를 즐겼어요 .,ORG-B O O O O O
+설빙에서 시원한 빙수를 맛보았는데,ORG-B O O O
+정말 시원했어요 .,O O O
+모닝글로리에서 아침을 맛있게 시작했어요 .,ORG-B O O O O
+애플에서 최신 기술을 만날 수 있었어요 .,ORG-B O O O O O O
+세븐에서 편리하고 다양한 상품을 구입했어요 .,ORG-B O O O O O
+조이에서 즐거운 시간을 보냈어요 .,ORG-B O O O O
+우리할매떡볶이에서 매콤한 떡볶이를 맛보았는데,ORG-B O O O
+정말 맛있었어요 .,O O O
+지에스25에서 빠른 배달 서비스를 이용했어요 .,ORG-B O O O O O
+화이트에서 깔끔하고 심플한 의류를 구입했어요 .,ORG-B O O O O O
+육쌈냉면에서 시원하고 맛있는 냉면을 맛보았어요 .,ORG-B O O O O O
+홍콩반점에서 정통 중국요리를 즐겼어요 .,ORG-B O O O O
+지코바에서 정통 이탈리아 피자를 맛보았는데,ORG-B O O O O
+정말 맛있었어요 .,O O O
+죠스떡볶이에서 쫄깃한 떡볶이를 맛보았는데,ORG-B O O O
+정말 맛있었어요 .,O O O
+북촌손만두에서 손맛이 느껴지는 만두를 맛보았어요 .,ORG-B O O O O O
+레인보우에서 다채롭고 아름다운 의류를 구입했어요 .,ORG-B O O O O O
+하모니마트로에서 신나고 즐거운 쇼핑을 즐겼어요 .,O O O O O O
+빽다방과 크로커다일에서 아침 식사를 했어요 .,O ORG-B O O O O
+파파존스에서 맛있는 피자를 주문했어요 .,ORG-B O O O O
+경성꽈배기와 큰맘할매순대국에서 매콤한 음식을 맛보았어요 .,ORG-B ORG-B O O O O
+코코호도에서 상큼한 오렌지 주스를 즐겼어요 .,ORG-B O ORG-B O O O
+양평해장국과 봉추찜닭에서 맛있는 식사를 했어요 .,ORG-B ORG-B O O O O
+치킨플러스와 코웨이렌탈에서 새로운 상품들을 구입했어요 .,ORG-B ORG-B O O O O
+나무와 올포유에서 건강한 식재료를 구입했어요 .,ORG-B ORG-B O O O O
+싸다김밥에서 싸고 맛있는 김밥을 주문했어요 .,ORG-B O O O O O
+정원과 헤어갤러리에서 휴식과 헤어 스타일링을 즐겼어요 .,ORG-B ORG-B ORG-B O O O O
+피자알볼로에서 정통 이탈리아 피자를 맛보았어요 .,ORG-B O O O O O
+중국성과 북경에서 중국 요리를 맛보았는데,ORG-B ORG-B O O O
+정말 맛있었어요 .,O O O
+오한수우육면가와 모모에서 아시아 음식을 즐겼어요 .,ORG-B ORG-B O O O O
+더풋샵에서 편안한 신발을 구입했어요 .,ORG-B O O O O
+삼천리자전거와 땅스부대찌개에서 운동 후 맛있는 식사를 했어요 .,ORG-B ORG-B O O O O O O
+휴와 한솥도시락에서 각각 다른 식사를 했는데,ORG-B ORG-B O O O O
+둘 다 맛있었어요 .,O O O O
+국수나무에서 상큼한 국수를 맛보았는데,ORG-B O O O
+정말 맛있었어요 .,O O O
+장수식당과 가위소리에서 전통 한식을 맛보았어요 .,ORG-B ORG-B O O O O
+가마로강정에서 바삭한 강정을 주문했어요 .,ORG-B O O O O
+빽다방과 오한수우육면가에서 커피와 우육면을 주문했어요 .,O ORG-B O O O O
+헤어갤러리와 정원에서 머리를 자르고 휴식을 즐겼어요 .,ORG-B ORG-B O O ORG-B O O
+모모와 봉추찜닭에서 각각 다른 식사를 즐겼어요 .,ORG-B ORG-B O O O O O
+올포유와 가위소리에서 건강한 상품과 문구를 구입했어요 .,ORG-B ORG-B O O O O O
+파파존스와 중국성에서 피자와 중국 요리를 주문했어요 .,ORG-B ORG-B O O O O O
+씨유와 북경에서 다양한 상품을 구입했어요 .,ORG-B ORG-B O O O O
+피자알볼로와 한솥도시락에서 피자와 도시락을 주문했어요 .,ORG-B ORG-B O O O O
+더풋샵과 삼천리자전거에서 운동화와 자전거를 구입했어요 .,ORG-B ORG-B O O O O
+코웨이렌탈과 장수식당에서 청소기와 전통 한식을 주문했어요 .,ORG-B ORG-B O O O O O
+경성꽈배기와 치킨플러스에서 꽈배기와 치킨을 주문했어요 .,ORG-B ORG-B O O O O
+한솥도시락과 피자알볼로에서 도시락과 피자를 주문했어요 .,ORG-B ORG-B O O O O
+크로커다일과 삼천리자전거에서 샌드위치와 자전거를 주문했어요 .,ORG-B ORG-B O O O O
+코웨이렌탈과 국수나무에서 청소기와 국수를 주문했어요 .,ORG-B ORG-B O O O O
+큰맘할매순대국과 더풋샵에서 순대국과 운동화를 주문했어요 .,ORG-B ORG-B O O O O
+올포유와 모모에서 건강 상품과 아시아 음식을 주문했어요 .,ORG-B ORG-B O O O O O O
+치킨플러스와 장수식당에서 치킨과 전통 한식을 주문했어요 .,ORG-B ORG-B O O O O O
+파파존스와 가마로강정에서 피자와 강정을 주문했어요 .,ORG-B ORG-B O O O O
+빽다방과 한솥도시락에서 커피와 도시락을 주문했어요 .,O ORG-B O O O O
+모모와 삼천리자전거에서 아시아 음식과 자전거를 주문했어요 .,ORG-B ORG-B O O O O O
+헤어갤러리와 씨유에서 머리를 자르고 상품을 구입했어요 .,ORG-B ORG-B O O O O O
+코코호도와 중국성에서 오렌지 주스와 중국 요리를 주문했어요 .,ORG-B ORG-B ORG-B O O O O O
+양평해장국과 북경에서 해장국과 중국 요리를 주문했어요 .,ORG-B ORG-B O O O O O
+봉추찜닭과 모모에서 찜닭과 아시아 음식을 주문했어요 .,ORG-B ORG-B O O O O O
+크로커다일과 한솥도시락에서 샌드위치와 도시락을 주문했어요 .,ORG-B ORG-B O O O O
+중국성과 치킨플러스에서 중국 요리와 치킨을 주문했어요 .,ORG-B ORG-B O O O O O
+올포유와 큰맘할매순대국에서 상품과 순대국을 주문했어요 .,ORG-B ORG-B O O O O
+헤어갤러리와 빽다방에서 머리를 자르고 커피를 주문했어요 .,ORG-B O O O O O O
+국수나무와 코웨이렌탈에서 국수와 청소기를 주문했어요 .,ORG-B ORG-B O O O O
+씨유와 파파존스에서 상품과 피자를 주문했어요 .,ORG-B ORG-B O O O O
+장수식당과 더풋샵에서 전통 한식과 운동화를 주문했어요 .,ORG-B ORG-B O O O O O
+봉추찜닭과 경성꽈배기에서 찜닭과 꽈배기를 주문했어요 .,ORG-B ORG-B O O O O
+휴와 올포유에서 휴식과 상품을 구입했어요 .,ORG-B ORG-B ORG-B O O O
+디저트39 매장에서 디저트를 먹고 그 뒤로 서오릉피자에서 피자를 주문했어요 .,ORG-B O O O O O ORG-B O O O
+죽이야기 매장에서 죽을 먹고 정미용실에서 헤어스타일을 바꾸었어요 .,ORG-B O O O ORG-B O O O
+은행골에서 한식을 맛보고 진미식당에서 또 다른 한식을 주문했어요 .,ORG-B O O ORG-B O O O O O
+아띠 매장에서 악세서리를 살펴보고 그렇게 해피데이 매장에서 특별한 선물을 샀어요 .,ORG-B O O O O ORG-B O O O O O
+여성크로커다일 매장에서 여성복을 구입하고 얌샘김밥에서 김밥을 먹었어요 .,ORG-B O O O ORG-B O O O
+치킨뱅이에서 치킨을 주문하고 현대마트에서 재료를 사왔어요 .,ORG-B O O ORG-B O O O
+코코헤어 매장에서 헤어스타일을 바꾸고 서오릉피자에서 피자를 주문했어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장에서 와인을 마시고 엉터리생고기에서 생고기를 주문했어요 .,ORG-B O O O ORG-B O O O
+이브자리 매장에서 의상을 살펴보고 아띠 매장에서 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+진헤어 매장에서 헤어스타일을 바꾸고 춘천닭갈비 매장에서 닭갈비를 주문했어요 .,ORG-B O O O ORG-B O O O O
+스파게티스토리 매장에서 스파게티를 먹고 피자마루에서 피자를 주문했어요 .,ORG-B O O O O O O O
+치킨마루에서 치킨을 주문하고 서오릉피자에서 피자를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장에서 치킨을 주문하고 엉터리생고기에서 고기를 먹었어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장에서 헤어스타일을 바꾸고 해피데이 매장에서 선물을 샀어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자에서 피자를 주문하고 정미용실에서 헤어스타일을 바꾸었어요 .,ORG-B O O ORG-B O O O
+비비큐치킨 매장에서 바비큐치킨을 먹고 치킨뱅이에서 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+죽이야기 매장에서 죽을 먹고 은행골에서 한식을 주문했어요 .,ORG-B O O O ORG-B O O O
+치킨매니아 매장에서 치킨을 주문하고 아띠 매장에서 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자 매장에서 피자를 먹고 코코헤어에서 헤어스타일을 바꾸었어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장에서 와인을 마시고 치킨뱅이에서 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+치킨마루에서 치킨을 주문하고 디저트39에서 디저트를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장에서 치킨을 주문하고 현대마트에서 재료를 사왔어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장에서 헤어스타일을 바꾸고 서오릉피자에서 피자를 주문했어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장에서 와인을 마시고 엉터리생고기에서 생고기를 주문했어요 .,ORG-B O O O ORG-B O O O
+이브자리 매장에서 의상을 살펴보고 아띠 매장에서 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+진헤어 매장에서 헤어스타일을 바꾸고 춘천닭갈비 매장에서 닭갈비를 주문했어요 .,ORG-B O O O ORG-B O O O O
+스파게티스토리 매장에서 스파게티를 먹고 피자마루에서 피자를 주문했어요 .,ORG-B O O O O O O O
+치킨마루에서 치킨을 주문하고 서오릉피자에서 피자를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장에서 치킨을 주문하고 엉터리생고기에서 고기를 먹었어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장에서 헤어스타일을 바꾸고 해피데이 매장에서 선물을 샀어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자에서 피자를 주문하고 정미용실에서 헤어스타일을 바꾸었어요 .,ORG-B O O ORG-B O O O
+비비큐치킨 매장에서 바비큐치킨을 먹고 치킨뱅이에서 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+죽이야기 매장에서 죽을 먹고 은행골에서 한식을 주문했어요 .,ORG-B O O O ORG-B O O O
+치킨매니아 매장에서 치킨을 주문하고 아띠 매장에서 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자 매장에서 피자를 먹고 코코헤어에서 헤어스타일을 바꾸었어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장에서 와인을 마시고 치킨뱅이에서 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+치킨마루에서 치킨을 주문하고 디저트39에서 디저트를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장에서 치킨을 주문하고 현대마트에서 재료를 사왔어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장에서 헤어스타일을 바꾸고 서오릉피자에서 피자를 주문했어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장에서 와인을 마시고 엉터리생고기에서 생고기를 주문했어요 .,ORG-B O O O ORG-B O O O
+이브자리 매장에서 의상을 살펴보고 아띠 매장에서 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+진헤어 매장에서 헤어스타일을 바꾸고 춘천닭갈비 매장에서 닭갈비를 주문했어요 .,ORG-B O O O ORG-B O O O O
+스파게티스토리 매장에서 스파게티를 먹고 피자마루에서 피자를 주문했어요 .,ORG-B O O O O O O O
+치킨마루에서 치킨을 주문하고 서오릉피자에서 피자를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장에서 치킨을 주문하고 엉터리생고기에서 고기를 먹었어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장에서 헤어스타일을 바꾸고 해피데이 매장에서 선물을 샀어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자에서 피자를 주문하고 정미용실에서 헤어스타일을 바꾸었어요 .,ORG-B O O ORG-B O O O
+비비큐치킨 매장에서 바비큐치킨을 먹고 치킨뱅이에서 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+잭슨피자에서 피자를 주문하고 에이원에서 차를 마셨어요 .,ORG-B O O ORG-B O O O
+시크릿 매장에서 시크릿 상품을 구입했어요 .,ORG-B O ORG-B O O O
+포토이즘 매장에서 사진을 촬영하고 아이비 매장에서 옷을 샀어요 .,ORG-B O O O ORG-B O O O O
+스카에서 공부하고 미니스톱에서 아이스크림을 샀어요 .,ORG-B O ORG-B O O O
+전주콩나물국밥에서 국밥을 먹고 남도식당에서 전통음식을 주문했어요 .,ORG-B O O ORG-B O O O
+이삭 매장에서 감자튀김을 주문하고 명금당에서 디저트를 먹었어요 .,ORG-B O O O ORG-B O O O
+한솥에서 도시락을 시켰어요 .,ORG-B O O O
+이화 매장에서 책을 구입하고 커피베이에서 커피를 마셨어요 .,ORG-B O O O ORG-B O O O
+스터디카페에서 공부하고 지니24스터디카페에서 카페라떼를 주문했어요 .,ORG-B O ORG-B O O O
+구두수선 매장에서 신발을 수선하고 왕십리곱창에서 곱창을 먹었어요 .,ORG-B O O O ORG-B O O O
+써니 매장에서 옷을 사고 포메인 매장에서 메인상품을 구입했어요 .,ORG-B O O O ORG-B O O O O
+족발야시장에서 족발을 먹고 골목식당에서 미식을 즐겼어요 .,ORG-B O O ORG-B O O O
+모텔에서 숙박하고 여관에서 숙소를 잡았어요 .,ORG-B O ORG-B O O O
+비비안 매장에서 액세서리를 구입하고 탑텐키즈에서 어린이상품을 샀어요 .,ORG-B O O O ORG-B O O O
+크린에이드 매장에서 청소용품을 구입하고 남도식당에서 음식을 주문했어요 .,ORG-B O O O ORG-B O O O
+세탁소에서 옷을 세탁하고 포토이즘에서 사진을 촬영했어요 .,ORG-B O O ORG-B O O O
+오드리 매장에서 옷을 사고 써니에서 액세서리를 구입했어요 .,ORG-B O O O ORG-B O O O
+포메인 매장에서 새로운 상품을 발견했어요 .,ORG-B O O O O O
+구두수선 매장에서 구두를 수선하고 모텔에서 편안한 휴식을 즐겼어요 .,ORG-B O O O ORG-B O O O O
+한솥 매장에서 도시락을 주문하고 포토이즘에서 사진을 촬영했어요 .,ORG-B O O O ORG-B O O O
+에이원 매장에서 상품을 구입하고 비비안 매장에서 악세서리를 샀어요 .,ORG-B O O O ORG-B O O O O
+스터디카페에서 공부하고 지니24스터디카페에서 커피를 마셨어요 .,ORG-B O ORG-B O O O
+명금당 매장에서 디저트를 주문하고 이삭에서 감자튀김을 샀어요 .,ORG-B O O O ORG-B O O O
+나주곰탕 매장에서 곰탕을 먹고 골목식당에서 미식을 즐겼어요 .,ORG-B O O O ORG-B O O O
+연희김밥에서 김밥을 먹고 전주콩나물국밥에서 국밥을 주문했어요 .,ORG-B O O ORG-B O O O
+커피베이 매장에서 커피를 마시고 포토이즘에서 사진을 촬영했어요 .,ORG-B O O O ORG-B O O O
+족발야시장에서 족발을 먹고 놀이터에서 놀이를 즐겼어요 .,ORG-B O O ORG-B O O O
+세탁소에서 옷을 세탁하고 스터디카페에서 공부했어요 .,ORG-B O O ORG-B O O
+은행골 매장에서 음식을 주문하고 놀이터에서 놀았어요 .,ORG-B O O O ORG-B O O
+아모레 매장에서 화장품을 샀어요 .,ORG-B O O O O
+이삭 매장에서 감자튀김을 주문하고 은행골에서 음식을 즐겼어요 .,ORG-B O O O ORG-B O O O
+죽이야기에서 죽을 먹고 포토이즘에서 사진을 찍었어요 .,ORG-B O O ORG-B O O O
+스카 매장에서 액세서리를 구입하고 써니에서 옷을 사왔어요 .,ORG-B O O O ORG-B O O O
+세탁소에서 옷을 세탁하고 놀이터에서 놀았어요 .,ORG-B O O ORG-B O O
+포메인 매장에서 새로운 상품을 발견했어요 .,ORG-B O O O O O
+구두수선 매장에서 구두를 수선하고 모텔에서 숙박했어요 .,ORG-B O O O ORG-B O O
+한솥 매장에서 도시락을 주문하고 포토이즘에서 사진을 촬영했어요 .,ORG-B O O O ORG-B O O O
+에이원 매장에서 상품을 구입하고 비비안 매장에서 악세서리를 샀어요 .,ORG-B O O O ORG-B O O O O
+스터디카페에서 공부하고 지니24스터디카페에서 커피를 마셨어요 .,ORG-B O ORG-B O O O
+명금당 매장에서 디저트를 주문하고 이삭에서 감자튀김을 샀어요 .,ORG-B O O O ORG-B O O O
+탐앤탐스 매장에서 커피를 주문하고 티아라 매장에서 케이크를 먹었어요 .,ORG-B O O O ORG-B O O O O
+의정부부대찌개에서 부대찌개를 주문하고 제이에스에서 쇼핑을 했어요 .,ORG-B O O ORG-B O O O
+앨리스 매장에서 도넛을 사고 셀프빨래방에서 빨래를 했어요 .,ORG-B O O O ORG-B O O O
+은하수 매장에서 별을 감상하고 마포갈비에서 고기를 먹었어요 .,ORG-B O O O ORG-B O O O
+더카페에서 커피를 마시고 마왕족발에서 족발을 먹었어요 .,ORG-B O O ORG-B O O O
+던킨도너츠 매장에서 도너츠를 주문하고 금별맥주에서 맥주를 마셨어요 .,ORG-B O O O ORG-B O O O
+토마토김밥 매장에서 김밥을 주문하고 탕화쿵푸에서 중국요리를 즐겼어요 .,ORG-B O O O ORG-B O O O
+쥬씨에서 쥬스를 마시고 진미용실에서 미용을 했어요 .,ORG-B O O ORG-B O O O
+밀라노 매장에서 의류를 구입하고 곱분이곱창에서 곱창을 먹었어요 .,ORG-B O O O ORG-B O O O
+맥주창고에서 맥주를 주문하고 민들레 매장에서 꽃을 사왔어요 .,ORG-B O O ORG-B O O O O
+소림마라에서 마라탕을 먹고 이브 매장에서 화장품을 샀어요 .,ORG-B O O ORG-B O O O O
+우정식당에서 음식을 주문하고 하루필름에서 필름을 구매했어요 .,ORG-B O O ORG-B O O O
+가마치통닭에서 치킨을 주문하고 스마일꽈배기에서 꽈배기를 먹었어요 .,ORG-B O O ORG-B O O O
+탑 매장에서 상품을 구입하고 미분당에서 떡볶이를 주문했어요 .,ORG-B O O O ORG-B O O O
+네이처리퍼블릭 매장에서 화장품을 구입하고 에덴에서 식물을 구매했어요 .,ORG-B O O O ORG-B O O O
+해오름 매장에서 바다를 감상하고 짝태앤노가리에서 스시를 먹었어요 .,ORG-B O O O ORG-B O O O
+플랜에이치에서 계획을 세우고 오봉집에서 닭갈비를 주문했어요 .,ORG-B O O ORG-B O O O
+궁 매장에서 전통요리를 즐기고 버거킹에서 햄버거를 주문했어요 .,ORG-B O O O ORG-B O O O
+종로김밥에서 김밥을 주문하고 동궁찜닭에서 찜닭을 먹었어요 .,ORG-B O O ORG-B O O O
+또봉이통닭에서 치킨을 주문하고 크린업24에서 청소를 했어요 .,ORG-B O O ORG-B O O O
+탐앤탐스 매장에서 아침 커피를 마시고 셀프빨래방에서 빨래를 했어요 .,ORG-B O O O O ORG-B O O O
+의정부부대찌개에서 부대찌개를 주문하고 던킨도너츠 매장에서 도너츠를 사왔어요 .,ORG-B O O ORG-B O O O O
+티아라 매장에서 악세사리를 구매하고 미니스톱에서 아이스크림을 샀어요 .,ORG-B O O O ORG-B O O O
+엉터리생고기에서 고기를 주문하고 피자알볼로에서 피자를 먹었어요 .,ORG-B O O O O O O
+진미용실에서 미용을 하고 밀라노 매장에서 쇼핑을 했어요 .,ORG-B O O ORG-B O O O O
+정미용실에서 헤어스타일링을 했고,ORG-B O O
+은행골에서 특별한 저녁식사를 즐겼어요 .,ORG-B O O O O
+더카페에서 커피를 주문하고,ORG-B O O
+우정식당에서 소바를 먹었어요 .,ORG-B O O O
+비비안 매장에서 액세서리를 구입하고,ORG-B O O O
+은하수에서 은하수 감상했어요 .,ORG-B ORG-B O O
+놀이터에서 놀고,ORG-B O
+의정부부대찌개에서 부대찌개를 먹었어요 .,ORG-B O O O
+탐앤탐스에서 아메리카노를 주문하고,ORG-B O O
+던킨도너츠에서 도너츠를 사왔어요 .,ORG-B O O O
+비비안 매장에서 액세서리를 구입하고,ORG-B O O O
+은하수에서 은하수 감상했어요 .,ORG-B ORG-B O O
+놀이터에서 놀고,ORG-B O
+의정부부대찌개에서 부대찌개를 먹었어요 .,ORG-B O O O
+탐앤탐스에서 아메리카노를 주문하고,ORG-B O O
+던킨도너츠에서 도너츠를 사왔어요 .,ORG-B O O O
+셀프빨래방에서 빨래를 하고,ORG-B O O
+소림마라에서 마라탕을 주문했어요 .,ORG-B O O O
+마포갈비에서 갈비를 주문하고,ORG-B O O
+던킨도너츠에서 커피를 마셨어요 .,ORG-B O O O
+셀프빨래방에서 빨래를 하고,ORG-B O O
+소림마라에서 마라탕을 주문했어요 .,ORG-B O O O
+마포갈비에서 갈비를 주문하고,ORG-B O O
+던킨도너츠에서 커피를 마셨어요 .,ORG-B O O O
+은하수에서 별을 감상하고,ORG-B O O
+해오름에서 해를 보며 휴식을 즐겼어요 .,ORG-B O O O O O
+티아라 매장에서 액세서리를 구입하고,ORG-B O O O
+엉터리생고기에서 고기를 주문했어요 .,ORG-B O O O
+아머리 매장에서 쇼핑하고,O O O
+은행골에서 특별한 저녁식사를 즐겼어요 .,ORG-B O O O O
+엄마손식당에서 된장찌개를 주문하고 로엠에서 쇼핑을 즐겼어요 .,ORG-B O O ORG-B O O O
+대성식당에서 제육볶음을 맛보고,ORG-B O O
+육대장 매장에서 육개장을 먹었어요 .,ORG-B O O O O
+올리브영에서 화장품을 구매하고,ORG-B O O
+썸에서 커피를 마셨어요 .,ORG-B O O O
+삼첩분식에서 떡볶이를 주문하고,ORG-B O O
+본죽 매장에서 죽을 맛보았어요 .,ORG-B O O O O
+마산아구찜 매장에서 아구찜을 주문하고,ORG-B O O O
+비너스에서 옷을 구매했어요 .,ORG-B O O O
+써니헤어에서 머리를 자르고,ORG-B O O
+행복식당에서 떡국을 먹었어요 .,ORG-B O O O
+미미 매장에서 액세서리를 샀고,ORG-B O O O
+미스터피자에서 피자를 주문했어요 .,ORG-B O O O
+노블레스에서 디저트를 즐기고,ORG-B O O
+형제상회 매장에서 짜장면을 주문했어요 .,ORG-B O O O O
+봄약국에서 약을 구매했고,ORG-B O O
+남원골추어탕에서 추어탕을 맛보았어요 .,ORG-B O O O
+서울풍물시장에서 민속공연을 감상하고,ORG-B O O
+새봄약국에서 건강한 음료를 샀어요 .,ORG-B O O O O
+원당감자탕에서 감자탕을 주문하고,ORG-B O O
+지센에서 시원한 아이스크림을 먹었어요 .,ORG-B O O O O
+도도헤어에서 헤어스타일링을 했고,ORG-B O O
+엽기떡볶이에서 매운 떡볶이를 즐겼어요 .,ORG-B O O O O
+엽떡 매장에서 떡볶이를 주문하고,ORG-B O O O
+랭스터디카페에서 공부를 했어요 .,ORG-B O O O
+60계치킨에서 치킨을 시켰고,ORG-B O O
+파파존스피자에서 피자를 주문했어요 .,ORG-B O O O
+으뜸플러스안경에서 안경을 샀고,ORG-B O O
+지오지아에서 신발을 구매했어요 .,ORG-B O O O
+장호덕손만두 매장에서 손만두를 주문하고,ORG-B O O O
+시작스터디카페에서 책을 읽었어요 .,ORG-B O O O
+청년피자에서 피자를 주문하고,ORG-B O O
+광주식당에서 광주식을 맛보았어요 .,ORG-B O O O
+명랑핫도그에서 핫도그를 주문하고,ORG-B O O
+하늘약국에서 약을 샀어요 .,ORG-B O O O
+새마을식당에서 한정식을 주문하고,ORG-B O O
+포토시그니처에서 사진을 찍었어요 .,ORG-B O O O
+인생닭강정 매장에서 닭강정을 시켰고,ORG-B O O O
+올리브영에서 화장품을 구매했어요 .,ORG-B O O O
+엄마손식당에서 맛있는 떡볶이를 주문하고,ORG-B O O O
+썸 매장에서 선물을 샀어요 .,ORG-B O O O O
+로엠에서 스타일리시한 옷을 구매했고,ORG-B O O O
+행복식당에서 집밥을 즐겼어요 .,ORG-B O O O
+대성식당에서 냉면을 시켰고,ORG-B O O
+미미 매장에서 의류를 살 수 있었어요 .,ORG-B O O O O O O
+육대장에서 매운 갈비찜을 시켰고,ORG-B O O O
+랭스터디카페에서 공부를 했어요 .,ORG-B O O O
+올리브영 매장에서 화장품을 구매했고,ORG-B O O O
+청년피자에서 피자를 주문했어요 .,ORG-B O O O
+써니헤어에서 헤어스타일링을 했고,ORG-B O O
+명랑핫도그에서 핫도그를 주문했어요 .,ORG-B O O O
+삼첩분식 매장에서 분식을 시켰고,ORG-B O O O
+하늘약국에서 약을 샀어요 .,ORG-B O O O
+본죽에서 죽을 주문하고,ORG-B O O
+새마을식당에서 농촌음식을 즐겼어요 .,ORG-B O O O
+마산아구찜 매장에서 아구찜을 시켰고,ORG-B O O O
+포토시그니처에서 사진을 찍었어요 .,ORG-B O O O
+비너스에서 옷을 구매했고,ORG-B O O
+포토시그니처에서 사진을 찍었어요 .,ORG-B O O O
+미스터피자에서 피자를 주문하고,ORG-B O O
+하늘약국에서 약을 샀어요 .,ORG-B O O O
+노블레스 매장에서 디저트를 주문하고,ORG-B O O O
+지오지아에서 음악을 감상했어요 .,ORG-B O O O
+형제상회에서 횟집을 주문하고,ORG-B O O
+장호덕손만두에서 만두를 즐겼어요 .,ORG-B O O O
+봄약국에서 약을 사고,ORG-B O O
+엽기떡볶이에서 떡볶이를 주문했어요 .,ORG-B O O O
+남원골추어탕 매장에서 추어탕을 주문하고,ORG-B O O O
+시작스터디카페에서 공부를 했어요 .,ORG-B O O O
+서울풍물시장에서 전통음식을 즐겼고,ORG-B O O
+광주식당에서 횟집을 주문했어요 .,ORG-B O O O
+새봄약국에서 약을 사고,ORG-B O O
+청년피자에서 피자를 주문했어요 .,ORG-B O O O
+원당감자탕 매장에서 감자탕을 시켰고,ORG-B O O O
+하늘약국에서 약을 샀어요 .,ORG-B O O O
+지센에서 예쁜 의류를 구매했고,ORG-B O O O
+인생닭강정에서 닭강정을 주문했어요 .,ORG-B O O O
+도도헤어에서 머리를 자르고,ORG-B O O
+행복식당에서 맛있는 음식을 즐겼어요 .,ORG-B O O O O
+올영 매장에서 화장품을 샀어요 .,ORG-B O O O O
+왕돈까스왕냉면에서 맛있는 냉면을 먹었어요 .,ORG-B O O O O
+신참떡볶이에서 매콤한 떡볶이를 주문했어요 .,ORG-B O O O O
+풍천장어 매장에서 싱싱한 장어를 시켰어요 .,ORG-B O O O O O
+필노래연습장에서 노래연습을 했어요 .,ORG-B O O O
+구두수선대에서 구두를 수선했어요 .,ORG-B O O O
+위너스 매장에서 옷을 구매했어요 .,ORG-B O O O O
+아이스크림스토리에서 아이스크림을 즐겼어요 .,ORG-B O O O
+놀숲에서 즐거운 시간을 보냈어요 .,ORG-B O O O O
+싸움의고수 매장에서 매운 음식을 주문했어요 .,ORG-B O O O O O
+홍두깨손칼국수에서 칼국수를 시켰어요 .,ORG-B O O O
+소담촌에서 정갈한 한식을 즐겼어요 .,ORG-B O O O O
+제니스 매장에서 의류를 구매했어요 .,ORG-B O O O O
+우성에서 다양한 상품을 찾았어요 .,ORG-B O O O O
+경성양꼬치 매장에서 양꼬치를 시켰어요 .,ORG-B O O O O
+낙원떡방앗간에서 떡을 사왔어요 .,ORG-B O O O
+알레르망 매장에서 디저트를 즐겼어요 .,ORG-B O O O O
+우리약국에서 약을 사왔어요 .,ORG-B O O O
+크로플각에서 맛있는 크로플을 먹었어요 .,ORG-B O O O O
+미가 매장에서 다양한 상품을 구매했어요 .,ORG-B O O O O O
+포차천국에서 술안주를 시켰어요 .,ORG-B O O O
+라화쿵부에서 중국요리를 주문했어요 .,ORG-B O O O
+신발나라에서 구두를 사왔어요 .,ORG-B O O O
+한강에서 봄을 즐겼어요 .,ORG-B O O O
+포시즌 매장에서 시골음식을 즐겼어요 .,ORG-B O O O O
+원조부안집에서 맛있는 음식을 먹었어요 .,ORG-B O O O O
+맛나식당에서 다양한 메뉴를 주문했어요 .,ORG-B O O O O
+라밥에서 라면과 밥을 주문했어요 .,ORG-B O O O O
+바르다김선생에서 김밥을 주문했어요 .,ORG-B O O O
+미스사이공에서 디저트를 즐겼어요 .,ORG-B O O O
+명태어장 매장에서 회를 주문했어요 .,ORG-B O O O O
+황소곱창에서 곱창을 즐겼어요 .,ORG-B O O O
+고기싸롱에서 고기를 주문했어요 .,ORG-B O O O
+육회바른연어에서 육회를 주문했어요 .,ORG-B O O O
+박승철헤어스투디오에서 머리를 자르고 왔어요 .,ORG-B O O O O
+샤넬에서 시계를 구매했어요 .,ORG-B O O O
+응급실국물떡볶이에서 국물떡볶이를 주문했어요 .,ORG-B O O O
+청년치킨에서 치킨을 시켰어요 .,ORG-B O O O
+명성왕족발에서 족발을 주문했어요 .,ORG-B O O O
+프린트카페에서 사진을 출력했어요 .,ORG-B O O O
+경복궁에서 아름다운 전통 건축물을 구경하면서 역사에 대해 배웠어요 .,ORG-B O O O O O O O O
+창덕궁에 가서 한복을 입고 아름다운 사진을 찍었어요 .,ORG-B O O O O O O O
+덕수궁 주변에는 조용하고 아늑한 카페들이 많아서 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O O
+종묘를 방문해서 조선 시대의 왕과 왕비들을 모신 곳을 구경했어요 .,ORG-B O O O O O O O O O
+서울시청 근처에는 다양한 레스토랑과 카페들이 있어서 편리하게 식사를 할 수 있었어요 .,ORG-B O O O O O O O O O O O
+남산타워에서 서울의 야경을 감상하면서 특별한 순간을 보냈어요 .,ORG-B O O O O O O O
+명동에서 쇼핑을 즐기면서 맛있는 음식도 많이 먹었어요 .,ORG-B O O O O O O O
+동대문디자인플라자에서 다양한 디자인 제품들을 구경하고 구입했어요 .,ORG-B O O O O O O
+동대문시장에서 저렴한 옷들을 구입해서 기분이 좋았어요 .,ORG-B O O O O O O
+남대문시장에서 한국 전통 공예품들을 구경하면서 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O
+인사동에서 예술적인 분위기를 느끼면서 골목길을 거닐었어요 .,ORG-B O O O O O O
+홍대에서 다양한 문화공연과 거리음악을 즐기면서 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O
+이태원에서 다양한 나라의 음식을 맛보면서 다양한 문화를 경험했어요 .,ORG-B O O O O O O O O
+가로수길에서 멋진 브랜드 상점들을 구경하고 쇼핑을 즐겼어요 .,ORG-B O O O O O O O
+압구정로데오거리에서 하이패션 브랜드들을 구경하면서 쇼핑을 즐겼어요 .,ORG-B O O O O O O
+삼청동의 전통 한옥 건물들을 구경하면서 한국의 역사를 느꼈어요 .,ORG-B O O O O O O O O
+서촌에서 한국의 전통문화와 민속예술을 배우고 즐겼어요 .,ORG-B O O O O O O
+광장시장에서 다양한 먹거리들을 맛보고 저렴한 가격에 쇼핑을 했어요 .,ORG-B O O O O O O O O
+청계천을 따라 산책하면서 시원한 바람을 느꼈어요 .,ORG-B O O O O O O
+올림픽공원에서 여유롭게 산책하면서 휴식을 즐겼어요 .,ORG-B O O O O O
+경복궁에서 오랜 역사를 엿볼 수 있었어요 .,ORG-B O O O O O O
+창덕궁에서 조선 왕실의 멋진 정원을 구경했어요 .,ORG-B O O O O O O
+덕수궁에서 평화로운 분위기를 느낄 수 있었어요 .,ORG-B O O O O O O
+종묘를 방문해서 조선 시대의 역사를 배웠어요 .,ORG-B O O O O O O
+서울시청에서 시민들의 활기찬 생활을 볼 수 있었어요 .,ORG-B O O O O O O O
+남산타워에서 서울의 멋진 야경을 감상했어요 .,ORG-B O O O O O
+명동에서 다양한 쇼핑과 먹거리를 즐겼어요 .,ORG-B O O O O O
+동대문디자인플라자에서 창의적인 디자인을 감상했어요 .,ORG-B O O O O
+동대문시장에서 저렴한 가격으로 쇼핑을 즐겼어요 .,ORG-B O O O O O
+남대문시장에서 전통적인 한국 물건들을 구경했어요 .,ORG-B O O O O O
+인사동에서 예술적인 분위기를 즐겼어요 .,ORG-B O O O O
+홍대에서 젊은 에너지와 예술을 느꼈어요 .,ORG-B O O O O O
+이태원에서 다양한 문화를 만끽했어요 .,ORG-B O O O O
+가로수길에서 고급스러운 쇼핑을 즐겼어요 .,ORG-B O O O O
+압구정로데오거리에서 유행을 쫓아갈 수 있었어요 .,ORG-B O O O O O
+삼청동에서 조용하고 아늑한 분위기를 느꼈어요 .,ORG-B O O O O O
+서촌에서 전통적인 한국 문화를 즐겼어요 .,ORG-B O O O O O
+광장시장에서 먹거리와 재미를 함께 즐겼어요 .,ORG-B O O O O O
+청계천을 따라 산책하면서 시원한 바람을 느꼈어요 .,ORG-B O O O O O O
+올림픽공원에서 체육시설과 푸른 자연을 즐겼어요 .,ORG-B O O O O O
+석촌호수에서 조용한 호수를 둘러보면서 여유를 느꼈어요 .,ORG-B O O O O O O
+경복궁에서 조용하고 운치있는 분위기를 느꼈어요 .,ORG-B O O O O O
+창덕궁에서 아름다운 정원을 구경했어요 .,ORG-B O O O O
+덕수궁에서 한국 전통 건축물을 감상했어요 .,ORG-B O O O O O
+종묘를 방문해서 역사적인 분위기를 느꼈어요 .,ORG-B O O O O O
+서울시청에서 현대적인 건물들을 구경했어요 .,ORG-B O O O O
+남산타워에서 서울의 야경을 감상하면서 특별한 순간을 보냈어요 .,ORG-B O O O O O O O
+명동에서 다양한 쇼핑과 먹거리를 즐기며 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O
+동대문디자인플라자에서 다양한 디자인과 예술을 즐겼어요 .,ORG-B O O O O O
+동대문시장에서 저렴하고 다양한 상품들을 구경했어요 .,ORG-B O O O O O
+오늘은 날씨가 좋아서 묵은지닭갈비를 먹으러 가고 싶어요 .,O O O ORG-B O O O O
+명동교자의 만두는 정말 맛있어서 자주 가요 .,ORG-B O O O O O O
+동국제과에서 구워진 빵 냄새가 정말 좋아요 .,ORG-B O O O O O O
+아오리라멘 맛집이라고 들어서 한 번 가보고 싶어요 .,ORG-B O O O O O O O
+국화원에서 아름다운 꽃을 구경하면서 시간을 보내고 싶어요 .,ORG-B O O O O O O O
+감천문화마을에서 예쁜 그림들을 감상할 수 있었어요 .,ORG-B O O O O O O
+서울올림픽기념관은 역사적인 분위기가 훌륭했어요 .,ORG-B O O O O
+선유도공원에서 산책하면서 바람을 쐬는 것이 좋아요 .,ORG-B O O O O O O
+명동성당에 예배를 드리러 가야겠어요 .,ORG-B O O O O
+서대문형무소역사관은 역사적인 감동을 줬어요 .,ORG-B O O O O
+덕수궁에서 한복을 입고 사진을 찍으면 재미있겠죠? 창덕궁의 정원은 정말 아름답게 꾸며져 있어요 .,ORG-B O O O O O ORG-B O O O O O O
+남산타워에서 서울 야경을 감상하고 싶어요 .,ORG-B O O O O O
+동대문디자인플라자에서 쇼핑을 하면서 먹거리도 즐기고 싶어요 .,ORG-B O O O O O O
+남대문시장에서 다양한 물건들을 구경하면서 재미있게 쇼핑했어요 .,ORG-B O O O O O O
+인사동의 골목길을 걸으면서 예술과 전통을 느껴보고 싶어요 .,ORG-B O O O O O O O
+홍대에서 느긋한 분위기를 즐기면서 카페에 앉아 커피를 마셔요 .,ORG-B O O O O O O O O
+이태원의 다양한 레스토랑에서 맛있는 음식을 먹고 싶어요 .,ORG-B O O O O O O O
+가로수길에서 유니크한 상점들을 구경하면서 쇼핑을 해요 .,ORG-B O O O O O O
+압구정로데오거리에서 패션 아이템을 구입하고 싶어요 .,ORG-B O O O O O
+삼청동의 작은 골목길을 돌아다니면서 색다른 경험을 해보고 싶어요 .,ORG-B O O O O O O O O
+서촌의 한옥들을 구경하면서 한국의 전통을 느낄 수 있어요 .,ORG-B O O O O O O O O
+광장시장에서 분위기 있는 거리음식을 맛보고 싶어요 .,ORG-B O O O O O O
+청계천을 따라 산책하면서 여유로운 시간을 보내고 싶어요 .,ORG-B O O O O O O O
+올림픽공원에서 피크닉을 즐기면서 힐링하고 싶어요 .,ORG-B O O O O O
+석촌호수에서 물가를 따라 자전거를 타면서 즐거운 시간을 보내요 .,ORG-B O O O O O O O O
+경복궁에서 궁궐의 아름다움을 감상하고 싶어요 .,O O O O O O
+명동에서 쇼핑을 하면서 다양한 브랜드 제품을 구경했어요 .,ORG-B O O O O O O O
+동대문시장에서 저렴한 옷을 구입하면서 재미있게 놀았어요 .,ORG-B O O O O O O
+남산타워에서 밤 뷰를 감상하며 특별한 순간을 만들고 싶어요 .,ORG-B O O O O O O O O
+서울시청 광장에서 다양한 행사들을 즐기고 싶어요 .,ORG-B O O O O O O
+국화원에서 사계절의 꽃들을 구경하며 나들이하기 좋아요 .,ORG-B O O O O O O
+동국제과에서 구워지는 빵 냄새가 먹음직스러워요 .,ORG-B O O O O O
+아오리라멘 맛집의 매운 라멘이 입맛에 맞아요 .,ORG-B O O O O O O
+감천문화마을에서 예술가들의 작품을 감상하면서 문화를 느낄 수 있었어요 .,ORG-B O O O O O O O O
+서울올림픽기념관은 역사적인 사건들을 생생하게 보여줘서 감동적이었어요 .,ORG-B O O O O O O
+선유도공원에서 바람을 쐬면서 힐링하기 좋아요 .,ORG-B O O O O O
+명동성당에서 소중한 사람과 함께 기도를 드리고 싶어요 .,ORG-B O O O O O O O
+덕수궁에서 한복을 입고 사진을 찍으면서 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O
+경복궁의 아름다운 정원을 구경하면서 자연 속에서 힐링하고 싶어요 .,O O O O O O O O O
+창덕궁에서 조선시대의 멋과 우아함을 느껴보고 싶어요 .,ORG-B O O O O O O
+명동에서 다양한 브랜드의 제품들을 구경하고 쇼핑하고 싶어요 .,ORG-B O O O O O O O
+홍대에서 거리 예술가들의 공연을 감상하면서 놀고 싶어요 .,ORG-B O O O O O O O
+이태원의 다양한 레스토랑에서 세계 음식을 맛보고 싶어요 .,ORG-B O O O O O O O
+가로수길의 유니크한 상점들을 구경하면서 쇼핑하고 싶어요 .,ORG-B O O O O O O
+압구정로데오거리에서 패션 아이템들을 구입하고 싶어요 .,ORG-B O O O O O
+삼청동의 작은 골목길을 따라 걷으면서 예술적인 분위기를 느껴보고 싶어요 .,ORG-B O O O O O O O O O
+서촌의 전통한옥들을 구경하면서 한국의 아름다움을 느끼고 싶어요 .,ORG-B O O O O O O O
+광장시장에서 다양한 먹거리를 먹으며 먹방을 즐기고 싶어요 .,ORG-B O O O O O O O
+청계천을 따라 산책하면서 여유롭고 평화로운 시간을 보내고 싶어요 .,ORG-B O O O O O O O O
+서울타워에서 멋진 야경을 볼 수 있어요 .,ORG-B O O O O O O
+국립중앙박물관에는 다양한 역사적 유물들이 전시되어 있어요 .,ORG-B O O O O O O
+세빛섬에서 힐링하며 시간을 보내고 싶어요 .,ORG-B O O O O O
+서울숲에서 피크닉을 하면서 여유를 즐겨요 .,ORG-B O O O O O
+선릉에서는 유명한 레스토랑들이 많아요 .,ORG-B O O O O
+서울로7017을 따라 산책하는 것도 좋아요 .,ORG-B O O O O O
+봉은사에서 조용한 시간을 보내고 싶어요 .,ORG-B O O O O O
+덕수궁돌담길을 걷는 것은 정말로 특별한 경험이에요 .,ORG-B O O O O O O
+한강시민공원에서 자전거를 타고 놀면서 즐거운 시간을 보내요 .,ORG-B O O O O O O O
+명동성당에서 소중한 이벤트를 기념하고 싶어요 .,ORG-B O O O O O
+미술관 63에서 현대 미술을 감상하면서 예술에 대해 이야기해요 .,O O O O O O O O O
+한강대교에서 노을을 구경하며 낭만적인 분위기를 느껴요 .,ORG-B O O O O O O
+서울어린이대공원에서 아이들과 함께 놀이를 즐겨요 .,ORG-B O O O O O
+롯데월드타워에서 서울의 멋진 경치를 감상하고 싶어요 .,ORG-B O O O O O O
+용산전자상가에서 최신 기기들을 구경하며 흥미로운 대화를 나누어요 .,ORG-B O O O O O O O
+영등포여객터미널에서 멀리 떠나는 여행에 대해 꿈을 나누어요 .,ORG-B O O O O O O O
+허브청에서 향긋한 허브차를 마시면서 여유를 느껴요 .,ORG-B O O O O O O
+세븐럭에서 음악을 들으며 즐거운 시간을 보내요 .,ORG-B O O O O O O
+여의도한강공원에서 야경을 감상하며 휴식을 취해요 .,ORG-B O O O O O
+코엑스에서 다양한 전시회를 관람하고 싶어요 .,ORG-B O O O O O
+세빛섬호수공원에서 아름다운 호수를 배경으로 사진을 찍어요 .,ORG-B O O O O O O
+강서습지생태공원에서 자연을 느끼며 건강을 챙겨요 .,ORG-B O O O O O
+뚝섬유원지에서 수상스키를 타면서 스릴을 느껴요 .,ORG-B O O O O O
+북서울꿈의숲에서 신나는 야외 공연을 관람하며 즐겨요 .,ORG-B O O O O O O
+명동중앙회관에서 다양한 문화 행사를 즐겨요 .,ORG-B O O O O O
+어린이대공원에서 동물들과 가까이 소통해요 .,ORG-B O O O O
+국립민속박물관에서 전통 문화를 배우고 체험해요 .,ORG-B O O O O O
+반포한강공원에서 낭만적인 데이트를 즐겨요 .,ORG-B O O O O
+삼청각에서 한국의 전통 문화를 느껴요 .,O O O O O O
+아시아문화전당에서 다양한 아시아 문화를 체험해요 .,ORG-B O O O O O
+슈퍼마켓 신선한 과일과 야채를 구입했어요 .,ORG-B O O O O O
+전주식당 맛있는 비빔국수를 주문했어요 .,ORG-B O O O O
+크린토피아 옷을 청소하고 수선해주었어요 .,ORG-B O O O O
+파리바게뜨 달콤한 디저트를 샀어요 .,ORG-B O O O O
+투다리 특제 쌀국수와 또띠아를 주문했어요 .,ORG-B O O O O O
+태후사랑 따뜻한 보리차를 마셨어요 .,ORG-B O O O O
+이디야 향긋한 커피를 시켰어요 .,ORG-B O O O O
+남원추어탕 감칠맛 나는 추어탕을 맛보았어요 .,ORG-B O O O O O
+준오헤어 멋진 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽 건강한 죽과 사리곰탕을 주문했어요 .,ORG-B O O O O O
+슈퍼마켓 신선한 수산물과 육류를 구입했어요 .,ORG-B O O O O O
+피자스쿨 매콤한 불고기 피자를 주문했어요 .,ORG-B O O O O O
+김가네 맛있는 해물 된장찌개를 먹었어요 .,ORG-B O O O O O
+네네치킨 바삭한 양념치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+세븐일레븐 간편하게 간식과 음료수를 샀어요 .,ORG-B O O O O O
+교촌치킨 담백한 양념치킨을 주문했어요 .,ORG-B O O O O
+신의주찹쌀순대 쫄깃한 순대와 백반을 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨 매콤한 양념치킨과 맥주를 시켰어요 .,ORG-B O O O O O
+신전떡볶이 매운 떡볶이와 부드러운 오뎅을 주문했어요 .,ORG-B O O O O O O
+굽네치킨 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+삼성공인중개사사무소 쾌적한 주택을 계약했어요 .,ORG-B O O O O
+전주식당 특별한 전주 비빔밥을 먹었어요 .,ORG-B O O O O O
+크린토피아 청결하게 옷을 세탁해주었어요 .,ORG-B O O O O
+파리바게뜨 달콤한 케이크를 사왔어요 .,ORG-B O O O O
+투다리 건강한 보리밥과 된장찌개를 주문했어요 .,ORG-B O O O O O
+태후사랑 맛있는 간장게장과 갈치조림을 주문했어요 .,ORG-B O O O O O
+이디야 부드러운 카페라떼를 시켰어요 .,ORG-B O O O O
+남원추어탕 뜨끈한 추어탕을 맛보았어요 .,ORG-B O O O O
+준오헤어 세련된 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽 고소한 콩나물죽을 주문했어요 .,ORG-B O O O O
+슈퍼마켓 신선한 야채와 과일을 구입했어요 .,ORG-B O O O O O
+피자스쿨 맛있는 포테이토 피자를 주문했어요 .,ORG-B O O O O O
+김가네 푸짐한 된장찌개와 김치찌개를 먹었어요 .,ORG-B O O O O O
+네네치킨 바삭한 후라이드치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+세븐일레븐 편리하게 간식과 음료수를 사왔어요 .,ORG-B O O O O O
+교촌치킨 담백한 후라이드치킨과 양배추샐러드를 주문했어요 .,ORG-B O O O O O
+신의주찹쌀순대 고소한 순대와 백반을 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨 매콤한 양념치킨과 아이스크림을 시켰어요 .,ORG-B O O O O O
+신전떡볶이 맛있는 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O O
+굽네치킨 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+삼성공인중개사사무소 쾌적한 아파트를 계약했어요 .,ORG-B O O O O
+전주식당 특별한 전주 비빔밥을 먹었어요 .,ORG-B O O O O O
+크린토피아 청결하게 옷을 세탁해주었어요 .,ORG-B O O O O
+파리바게뜨 달콤한 크루아상을 사왔어요 .,ORG-B O O O O
+투다리 건강한 보리밥과 된장찌개를 주문했어요 .,ORG-B O O O O O
+태후사랑 맛있는 간장게장과 물회를 주문했어요 .,ORG-B O O O O O
+이디야 부드러운 카페모카를 시켰어요 .,ORG-B O O O O
+남원추어탕 뜨끈한 추어탕을 맛보았어요 .,ORG-B O O O O
+준오헤어 세련된 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽 건강한 콩나물죽을 주문했어요 .,ORG-B O O O O
+슈퍼마켓 신선한 야채와 과일을 구입했어요 .,ORG-B O O O O O
+피자스쿨 맛있는 불고기 피자를 주문했어요 .,ORG-B O O O O O
+김가네 맛있는 갈비찜과 김치찌개를 먹었어요 .,ORG-B O O O O O
+네네치킨 바삭한 양념치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+세븐일레븐 편리하게 간식과 음료수를 사왔어요 .,ORG-B O O O O O
+교촌치킨 담백한 양념치킨과 양배추샐러드를 주문했어요 .,ORG-B O O O O O
+신의주찹쌀순대 고소한 순대와 김치찌개를 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨 매콤한 양념치킨과 치즈스틱을 시켰어요 .,ORG-B O O O O O
+신전떡볶이 맛있는 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O O
+굽네치킨 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+삼성공인중개사사무소 쾌적한 아파트를 계약했어요 .,ORG-B O O O O
+전주식당 특별한 전주 비빔밥을 먹었어요 .,ORG-B O O O O O
+크린토피아 청결하게 옷을 세탁해주었어요 .,ORG-B O O O O
+파리바게뜨 달콤한 크림빵을 사왔어요 .,ORG-B O O O O
+투다리 건강한 보리밥과 도토리묵무침을 주문했어요 .,ORG-B O O O O O
+태후사랑 맛있는 간장게장과 고등어조림을 주문했어요 .,ORG-B O O O O O
+이디야 부드러운 카페라떼를 시켰어요 .,ORG-B O O O O
+남원추어탕 뜨끈한 추어탕을 맛보았어요 .,ORG-B O O O O
+준오헤어 세련된 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽 건강한 버섯죽을 주문했어요 .,ORG-B O O O O
+슈퍼마켓 신선한 야채와 과일을 구입했어요 .,ORG-B O O O O O
+피자스쿨 맛있는 포테이토 피자를 주문했어요 .,ORG-B O O O O O
+김가네 맛있는 김치찌개와 삼겹살을 먹었어요 .,ORG-B O O O O O
+네네치킨 바삭한 양념치킨과 치즈스틱을 시켰어요 .,ORG-B O O O O O
+세븐일레븐 간편하게 간식과 음료수를 사왔어요 .,ORG-B O O O O O
+교촌치킨 담백한 후라이드치킨과 양배추샐러드를 주문했어요 .,ORG-B O O O O O
+신의주찹쌀순대 고소한 순대와 백반을 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨 매콤한 양념치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+신전떡볶이 맛있는 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O O
+굽네치킨 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+삼성공인중개사사무소 쾌적한 주택을 계약했어요 .,ORG-B O O O O
+전주식당 특별한 전주 비빔밥을 먹었어요 .,ORG-B O O O O O
+크린토피아 청결하게 옷을 세탁해주었어요 .,ORG-B O O O O
+파리바게뜨 달콤한 크루아상을 사왔어요 .,ORG-B O O O O
+투다리 건강한 보리밥과 된장찌개를 주문했어요 .,ORG-B O O O O O
+태후사랑 맛있는 간장게장과 갈치조림을 주문했어요 .,ORG-B O O O O O
+이디야 부드러운 카페모카를 시켰어요 .,ORG-B O O O O
+남원추어탕 뜨끈한 추어탕을 맛보았어요 .,ORG-B O O O O
+준오헤어 세련된 헤어스타일로 변신했어요 .,ORG-B O O O O
+본죽 건강한 콩나물죽을 주문했어요 .,ORG-B O O O O
+슈퍼마켓 신선한 야채와 과일을 구입했어요 .,ORG-B O O O O O
+피자스쿨 맛있는 불고기 피자를 주문했어요 .,ORG-B O O O O O
+김가네 맛있는 해물 된장찌개를 먹었어요 .,ORG-B O O O O O
+네네치킨 바삭한 양념치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+세븐일레븐 편리하게 간식과 음료수를 사왔어요 .,ORG-B O O O O O
+교촌치킨 담백한 양념치킨과 양배추샐러드를 주문했어요 .,ORG-B O O O O O
+신의주찹쌀순대 고소한 순대와 백반을 주문했어요 .,ORG-B O O O O O
+처갓집양념치킨 매콤한 양념치킨과 맥주를 시켰어요 .,ORG-B O O O O O
+신전떡볶이 맛있는 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O O
+굽네치킨 고소한 간장치킨과 감자튀김을 시켰어요 .,ORG-B O O O O O
+나는 올리브영 화장품을 사러 가기 전에 먼저 투썸플레이스 카페라떼를 마셨어요 .,O ORG-B O O O O O ORG-B O O O
+GS25 물과 간식을 살 때 이디야커피 아메리카노를 마시기로 계획했어요 .,ORG-B O O O O ORG-B O O O O
+롯데리아 햄버거를 주문하기 전에 세븐일레븐 간식을 사러 갈까 고민 중이에요 .,ORG-B O O O ORG-B O O O O O O
+메가커피 커피를 사러 갔다가 빽다방 라떼를 마시게 되었어요 .,ORG-B O O O ORG-B O O O O
+맘스터치 치킨을 먹는 도중에 버거킹 간식을 시킬까 고민 중이에요 .,ORG-B O O O ORG-B O O O O O
+지방시 패션 감상하다가 유니클로 옷을 사야할지 말아야할지 고민 중이에요 .,ORG-B O O ORG-B O O O O O O
+나이키 운동화를 사러 가는 길에 뉴발란스 운동화를 둘러볼까 생각 중이에요 .,ORG-B O O O O ORG-B O O O O O
+던킨도너츠 도너츠를 시켰는데 미니스톱 아이스크림까지 장을 보게 되었어요 .,ORG-B O O ORG-B O O O O O
+버거킹 간식을 먹다가 뚜레쥬르 디저트를 사러 갈까 말까 고민 중이에요 .,ORG-B O O ORG-B O O O O O O O
+에이치앤엠 옷을 구매했는데 나이키 운동화도 함께 사야할까 고민 중이에요 .,ORG-B O O ORG-B O O O O O O
+저는 GS25 물을 사러 갈 때 맘스터치 치킨을 시켰어요 .,O ORG-B O O O O ORG-B O O O
+그녀는 롯데백화점 쇼핑을 하다가 이마트 식재료도 구입했어요 .,O ORG-B O O ORG-B O O O
+저희는 메가커피 커피를 주문하고 뚜레쥬르 달콤한 디저트도 먹었어요 .,O ORG-B O O ORG-B O O O O
+여자친구와 저는 씨유 생필품을 사러 갈 때 투썸플레이스 아메리카노를 마셨어요 .,O O ORG-B O O O O ORG-B O O O
+저희는 홈플러스 다양한 식재료를 구입하고 지방시 패션 감상도 했어요 .,O ORG-B O O O ORG-B O O O O
+친구들과 저는 버거킹 간식을 먹고 이디야 커피도 마셨어요 .,O O ORG-B O O ORG-B O O O
+가족들과 함께 롯데리아 햄버거를 시키고 맘스터치 치킨도 주문했어요 .,O O ORG-B O O ORG-B O O O
+친구들과 저는 지방시 패션을 쇼핑하고 유니클로 편안한 옷을 구입했어요 .,O O ORG-B O O ORG-B O O O O
+저희는 뚜레쥬르 달콤한 디저트를 먹은 후 메가커피 커피도 시켰어요 .,O ORG-B O O O O ORG-B O O O
+가족들과 저는 이마트 신선한 식재료를 사러 갔는데 홈플러스도 둘러보게 되었어요 .,O O ORG-B O O O O ORG-B O O O
+저는 스타벅스 커피를 마시고 이디야 빵을 샀어요 .,O ORG-B O O ORG-B O O O
+친구들과 저는 투썸플레이스 카페라떼를 시켰는데 빽다방 아메리카노도 주문했어요 .,O O ORG-B O O ORG-B O O O
+가족들과 저는 GS25 즉석 라면과 음료를 구입하고 파리바게뜨 빵도 사왔어요 .,O O ORG-B O O O O ORG-B O O O
+저는 버거킹 간식을 먹고 세븐일레븐 아이스크림도 샀어요 .,O ORG-B O O ORG-B O O O
+친구들과 저는 지방시 패션 감상하다가 유니클로 편안한 옷을 구입했어요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 롯데리아 간식을 먹고 맘스터치 치킨도 시켰어요 .,O O ORG-B O O ORG-B O O O
+저는 메가커피 커피를 마시고 뚜레쥬르 디저트도 먹을 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 이디야 커피를 마시고 씨유 생필품도 구입할 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 저는 홈플러스 다양한 식재료를 살 거에요 .,O O ORG-B O O O O O
+저는 맘스터치 치킨을 시키고 버거킹 간식도 먹을 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 이마트 장을 보고 미니스톱 간식도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 롯데백화점 쇼핑하고 현대백화점도 둘러볼 거에요 .,O O ORG-B O ORG-B O O O
+저는 뚜레쥬르 달콤한 디저트를 먹고 파리바게뜨 빵도 사왔어요 .,O ORG-B O O O ORG-B O O O
+친구들과 저는 지방시 패션 감상하다가 유니클로 옷도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 저는 버거킹 간식을 먹고 씨유 생필품도 살 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 메가커피 커피를 마시고 뚜레쥬르 빵도 사올 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 이디야 커피를 마시고 맘스터치 치킨도 시킬 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 롯데리아 간식을 먹고 GS25 즉석 라면도 살 거에요 .,O O ORG-B O O ORG-B O O O O O
+저는 버거킹 간식을 먹고 세븐일레븐 아이스크림도 사올 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 지방시 패션 감상하다가 유니클로 옷도 구매할 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 이마트 신선한 식재료를 구입하고 홈플러스도 둘러볼 거에요 .,O O ORG-B O O O ORG-B O O O
+저는 롯데백화점 쇼핑하고 현대백화점도 둘러볼 거에요 .,O ORG-B O ORG-B O O O
+친구들과 저는 뚜레쥬르 달콤한 디저트를 먹고 파리바게뜨 빵도 사올 거에요 .,O O ORG-B O O O ORG-B O O O O
+가족들과 저는 지방시 패션 감상하다가 유니클로 옷도 구매할 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 버거킹 간식을 먹고 씨유 생필품도 살 거에요 .,O ORG-B O O ORG-B O O O O
+친구들과 저는 메가커피 커피를 마시고 뚜레쥬르 빵도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 이디야 커피를 마시고 맘스터치 치킨도 시킬 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 롯데리아 간식을 먹고 GS25 즉석 라면도 살 거에요 .,O ORG-B O O ORG-B O O O O O
+친구들과 저는 버거킹 간식을 먹고 세븐일레븐 아이스크림도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 저는 지방시 패션 감상하다가 유니클로 옷도 구매할 거에요 .,O O ORG-B O O ORG-B O O O O
+올리브영 구매한 화장품이 너무 좋아서 또 가고 싶어요 .,ORG-B O O O O O O O O
+투썸플레이스 만난 친구와 맛있는 커피를 마시며 이야기를 나눴어요 .,ORG-B O O O O O O O O
+롯데백화점 구입한 옷이 정말 멋져서 자랑스러워요 .,ORG-B O O O O O O
+GS25 산 간식들로 가족들과 식사를 즐겼어요 .,ORG-B O O O O O O
+이디야커피 마신 커피가 너무 맛있어서 다시 갈 계획이에요 .,ORG-B O O O O O O O O
+스타벅스 친구에게 커피를 선물로 사주었어요 .,ORG-B O O O O O
+미니스톱 산 아이스크림이 상큼하고 맛있어서 두 개나 사왔어요 .,ORG-B O O O O O O O O
+베스킨라빈스 딸기 아이스크림을 주문했어요 .,ORG-B O O O O
+도미노피자 피자를 주문했는데 배달이 빨라서 놀랐어요 .,ORG-B O O O O O O
+아이디가 이마트트레이더스 만든 맛있는 떡볶이를 먹었어요 .,O ORG-B O O O O O
+공차 시원한 버블티를 마시며 여름을 즐기고 있어요 .,ORG-B O O O O O O O
+나이키 스토어 운동화를 신고 휠라 운동을 시작했어요 .,ORG-B O O O ORG-B O O O
+홍콩반점 먹은 짜장면이 정말 맛있었어요 .,ORG-B O O O O O
+노랑통닭 주문한 치킨이 매우 바삭하고 맛있었어요 .,ORG-B O O O O O O
+서브웨이 샌드위치를 시켰는데 맛이 좋아서 놀랐어요 .,ORG-B O O O O O O
+굽네치킨 치킨세트를 시켜서 가족들과 행복한 식사를 했어요 .,ORG-B O O O O O O O
+아웃백 먹은 스테이크가 부드럽고 맛있어서 기억에 남아요 .,ORG-B O O O O O O O
+맘스터치 먹은 치킨이 정말 맛있어서 다음에 또 가고 싶어요 .,ORG-B O O O O O O O O O
+교보문고 책을 사러 갔는데 시간 가는 줄 모르고 둘러봤어요 .,ORG-B O O O O O O O O O
+써브웨이 먹은 샌드위치가 건강하고 맛있어서 좋았어요 .,ORG-B O O O O O O
+할리스커피 카페라떼를 주문했는데 맛이 일품이었어요 .,ORG-B O O O O O
+메머드 마신 커피가 향이 좋고 맛있어서 좋았어요 .,ORG-B O O O O O O O
+쥬씨 주문한 주스가 상큼하고 건강적이라서 좋아요 .,ORG-B O O O O O O
+이마트 구입한 신선한 식재료로 맛있는 요리를 만들었어요 .,ORG-B O O O O O O O
+투썸플레이스 커피를 마시던 중에 빽다방 카페라떼를 발견했어요 .,ORG-B O O O ORG-B O O O
+공차 버블티를 시키고 도미노피자 피자도 주문했어요 .,ORG-B O O ORG-B O O O
+이디야 커피를 마시던 중에 맘스터치 치킨 냄새가 나서 배가 고파졌어요 .,ORG-B O O O ORG-B O O O O O O
+롯데리아 햄버거를 시키고 버거킹 감자튀김도 사왔어요 .,ORG-B O O ORG-B O O O
+GS25 즉석 라면을 사고 미니스톱 아이스크림도 구입했어요 .,ORG-B O O O ORG-B O O O
+스타벅스 커피를 마시고 뚜레쥬르 달콤한 디저트를 먹었어요 .,ORG-B O O ORG-B O O O O
+던킨도너츠 도넛을 사서 공차 버블티도 주문했어요 .,ORG-B O O ORG-B O O O
+투썸플레이스 아메리카노를 마시고 이디야 커피라떼도 주문했어요 .,ORG-B O O ORG-B O O O
+메가커피 커피를 마시던 중에 미니스톱 산 간식들을 발견했어요 .,ORG-B O O O ORG-B O O O O
+맘스터치 치킨을 시키고 롯데리아 햄버거도 먹을 거에요 .,ORG-B O O ORG-B O O O O
+공차 버블티를 마시던 중에 세븐일레븐 아이스크림도 살 거에요 .,ORG-B O O O ORG-B O O O O
+버거킹 햄버거를 먹고 뚜레쥬르 디저트도 먹을 거에요 .,ORG-B O O ORG-B O O O O
+미니스톱 간식을 사고 GS25 음료도 사왔어요 .,ORG-B O O ORG-B O O O
+이디야 커피를 마시던 중에 맘스터치 치킨을 발견했어요 .,ORG-B O O O ORG-B O O O
+롯데시네마 영화를 보고 투썸플레이스 커피도 마셨어요 .,ORG-B O O ORG-B O O O
+휴대폰 가게에 들렀는데 거기서도 던킨도너츠를 팔기 시작했어요 .,O O O O ORG-B O O O
+버거킹 햄버거를 시키고 스타벅스 커피도 주문했어요 .,ORG-B O O ORG-B O O O
+이디야 커피를 마시던 중에 뚜레쥬르 달콤한 디저트를 발견했어요 .,ORG-B O O O ORG-B O O O O
+공차 버블티를 마시고 GS25 즉석 라면도 사왔어요 .,ORG-B O O ORG-B O O O O
+세븐일레븐 아이스크림을 사고 롯데리아 햄버거도 시켰어요 .,ORG-B O O ORG-B O O O
+맘스터치 치킨을 주문하고 버거킹 감자튀김도 먹었어요 .,ORG-B O O ORG-B O O O
+투썸플레이스 커피를 마시던 중에 빽다방 카페라떼를 주문했어요 .,ORG-B O O O ORG-B O O O
+공차 버블티를 시키고 도미노피자 피자도 주문했어요 .,ORG-B O O ORG-B O O O
+이디야 커피를 마시던 중에 맘스터치 치킨 냄새가 났어요 .,ORG-B O O O ORG-B O O O O
+롯데리아 햄버거를 시키고 버거킹 감자튀김도 사왔어요 .,ORG-B O O ORG-B O O O
+GS25 즉석 라면을 사고 미니스톱 아이스크림도 살 거에요 .,ORG-B O O O ORG-B O O O O
+스타벅스 커피를 마시고 뚜레쥬르 달콤한 디저트를 먹을 거에요 .,ORG-B O O ORG-B O O O O O
+투썸플레이스 아메리카노를 마시고 이디야 커피라떼도 주문할 거에요 .,ORG-B O O ORG-B O O O O
+메가커피 커피를 마시던 중에 미니스톱 산 간식들을 발견했어요 .,ORG-B O O O ORG-B O O O O
+맘스터치 치킨을 시키고 롯데리아 햄버거도 먹을 거예요 .,ORG-B O O ORG-B O O O O
+공차 버블티를 마시던 중에 세븐일레븐 아이스크림도 살 거예요 .,ORG-B O O O ORG-B O O O O
+버거킹 햄버거를 먹고 뚜레쥬르 디저트도 먹을 거예요 .,ORG-B O O ORG-B O O O O
+미니스톱 간식을 사고 GS25 음료도 사왔어요 .,ORG-B O O ORG-B O O O
+이디야 커피를 마시던 중에 맘스터치 치킨을 발견했어요 .,ORG-B O O O ORG-B O O O
+롯데시네마 영화를 보고 투썸플레이스 커피도 마셨어요 .,ORG-B O O ORG-B O O O
+휴대폰 가게에 들렀는데 거기서도 던킨도너츠를 팔기 시작했어요 .,O O O O ORG-B O O O
+버거킹 햄버거를 시키고 스타벅스 커피도 주문했어요 .,ORG-B O O ORG-B O O O
+현대백화점 구매한 옷이 멋져서 친구들에게 자랑했어요 .,ORG-B O O O O O O
+에이치앤엠 옷을 구매했는데 나이키 운동화도 함께 사야할지 고민 중이에요 .,ORG-B O O ORG-B O O O O O O
+이마트 구입한 신선한 식재료로 맛있는 요리를 만들었어요 .,ORG-B O O O O O O O
+교보문고 책을 사러 갔는데 시간 가는 줄 모르고 둘러봤어요 .,ORG-B O O O O O O O O O
+써브웨이 먹은 샌드위치가 건강하고 맛있어서 좋았어요 .,ORG-B O O O O O O
+할리스커피 카페라떼를 주문했는데 맛이 일품이었어요 .,ORG-B O O O O O
+김밥천국 주문한 김밥이 신선하고 맛있어서 좋았어요 .,ORG-B O O O O O O
+뚜레쥬르 디저트를 먹은 후 메가커피 커피도 마셨어요 .,ORG-B O O O ORG-B O O O
+롯데시네마 먹은 햄버거가 맛있어서 배가 부르네요 .,ORG-B O O O O O O
+지방시 구입한 의류들이 디자인이 독특해서 매일 입어요 .,ORG-B O O O O O O O
+아디다스 스토어 구입한 운동화가 편해서 운동하기 좋아요 .,ORG-B O O O O O O O
+버거킹 간식을 먹고 씨유 생필품도 살 거에요 .,ORG-B O O ORG-B O O O O
+친구들과 저는 메가커피 커피를 마시고 뚜레쥬르 빵도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 이디야 커피를 마시고 맘스터치 치킨도 시킬 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 롯데리아 간식을 먹고 GS25 즉석 라면도 살 거에요 .,O ORG-B O O ORG-B O O O O O
+친구들과 저는 버거킹 간식을 먹고 세븐일레븐 아이스크림도 사올 거에요 .,O O ORG-B O O ORG-B O O O O
+가족들과 함께 지방시 패션 감상하다가 유니클로 옷도 구매할 거에요 .,O O ORG-B O O ORG-B O O O O
+저는 뚜레쥬르 달콤한 디저트를 먹고 파리바게뜨 빵도 사왔어요 .,O ORG-B O O O ORG-B O O O
+공차 주문한 버블티가 달콤하고 상큼해서 맛있었어요 .,ORG-B O O O O O O
+신세계백화점 브랜드 화장품을 구입해서 기분이 좋아요 .,ORG-B O O O O O O
+도미노피자 치즈피자를 주문했어요 .,ORG-B O O O
+맘스터치 핫크리스피버거를 먹었어요 .,ORG-B O O O
+명동칼국수 칼국수와 만두를 주문했어요 .,ORG-B O O O O
+푸라닭 간장치킨을 시켰어요 .,ORG-B O O O
+리안헤어 머리를 자르고 왔어요 .,ORG-B O O O O
+써브웨이 샌드위치를 맛있게 먹었어요 .,ORG-B O O O O
+역전할머니맥주 시원한 맥주 한 잔 마셨어요 .,ORG-B O O O O O O
+옛날통닭 양념치킨과 후라이드치킨을 시켰어요 .,ORG-B O O O O
+낙원떡집 떡볶이와 오뎅을 주문했어요 .,ORG-B O O O O
+자연별곡 건강한 채식식사를 했어요 .,ORG-B O O O O
+뚜레쥬르 빵과 커피를 구입했어요 .,ORG-B O O O O
+시골밥상 한식 뷔페를 즐겼어요 .,ORG-B O O O O
+메가커피 아이스라떼를 시켰어요 .,ORG-B O O O
+본도시락 도시락을 포장해 왔어요 .,ORG-B O O O O
+배스킨라빈스 아이스크림을 맛보았어요 .,ORG-B O O O
+호남식당 전주 비빔밥을 주문했어요 .,ORG-B O O O O
+페리카나 양념치킨과 파닭을 시켰어요 .,ORG-B O O O O
+기숙사 친구들과 함께 밥을 먹었어요 .,ORG-B O O O O O
+고시원 공부하고 왔어요 .,ORG-B O O O
+현대세탁 옷을 세탁해 왔어요 .,O O O O O
+도미노피자 피자와 음료를 시켰어요 .,ORG-B O O O O
+맘스터치 치킨과 감자튀김을 맛있게 먹었어요 .,ORG-B O O O O O
+명동칼국수 국수와 만두를 맛보았어요 .,ORG-B O O O O
+푸라닭 후라이드치킨과 양념치킨을 주문했어요 .,ORG-B O O O O
+리안헤어 머리 스타일링을 해줬어요 .,ORG-B O O O O
+써브웨이 샌드위치를 맛있게 먹었어요 .,ORG-B O O O O
+역전할머니맥주 생맥주 한 잔 마셨어요 .,ORG-B O O O O O
+옛날통닭 후라이드치킨과 감자튀김을 시켰어요 .,ORG-B O O O O
+낙원떡집 떡볶이와 김말이를 주문했어요 .,ORG-B O O O O
+자연별곡 채식 샐러드와 스무디를 주문했어요 .,ORG-B O O O O O
+슈퍼마켓 신선한 과일과 야채를 구입했어요 .,O O O O O O
+전주식당 맛있는 비빔국수를 주문했어요 .,O O O O O
+롯데리아 치즈버거와 감자튀김을 시켰어요 .,ORG-B O O O O
+컴포즈 음악을 감상하며 아메리카노를 마셨어요 .,ORG-B O O O O O
+컴포즈커피 카페라떼를 시켰어요 .,ORG-B ORG-B O O
+샐러디 건강한 샐러드를 주문했어요 .,ORG-B O O O O
+커피에반하다 카페모카를 마셨어요 .,ORG-B ORG-B O O
+맛닭꼬 닭강정과 튀김을 주문했어요 .,ORG-B O O O O
+노랑통닭 후라이드치킨과 감자튀김을 구입했어요 .,ORG-B O O O O
+명륜진사갈비 불고기를 주문했어요 .,ORG-B O O O
+고향식당 전통 한식을 맛보았어요 .,ORG-B O O O O
+롯데공인중개사사무소 주택 거래를 도와줬어요 .,ORG-B O O O O
+그린 식물을 구입했어요 .,ORG-B O O O
+미소 웃으면서 그림을 그렸어요 .,ORG-B O O O O
+김가네 김밥과 떡볶이를 주문했어요 .,ORG-B O O O O
+파리바게트 빵과 케이크를 구입했어요 .,ORG-B O O O O
+공차 맛있는 차를 시켰어요 .,ORG-B O O O O
+큰집닭강정 닭강정을 주문했어요 .,ORG-B O O O
+부산어묵 어묵과 오뎅을 주문했어요 .,ORG-B O O O O
+생활맥주 맥주 한 잔을 마셨어요 .,O O O O O O
+등촌샤브칼국수 칼국수와 샤브샤브를 맛보았어요 .,O O O O O
+제이헤어 머리 스타일링을 해줬어요 .,ORG-B O O O O
+롯데리아 더블치즈버거와 감자튀김을 시켰어요 .,ORG-B O O O O
+컴포즈 피아노 연주를 들으며 아메리카노를 마셨어요 .,ORG-B O O O O O O
+컴포즈커피 바닐라라떼를 시켰어요 .,ORG-B O O O
+샐러디 건강한 샐러드와 스무디를 주문했어요 .,ORG-B O O O O O
+커피에반하다 카라멜마끼아또를 마셨어요 .,ORG-B O O O
+맛닭꼬 닭강정과 치즈스틱을 주문했어요 .,ORG-B O O O O
+노랑통닭 핫후라이드치킨과 콜라를 구입했어요 .,ORG-B O O O O
+명륜진사갈비 생삼겹살과 간장새우를 주문했어요 .,ORG-B O O O O
+시골집 삼계탕을 맛보았어요 .,O O O O
+화이트365 빵과 커피를 주문했어요 .,ORG-B O O O O
+수헤어 헤어스타일링을 해주셨어요 .,ORG-B O O O
+종로떡집 떡국을 구입했어요 .,ORG-B O O O
+씨유 간식을 사왔어요 .,ORG-B O O O
+CU 편의점 물품을 구입했어요 .,ORG-B O O O O
+자담치킨 양념치킨과 감자튀김을 주문했어요 .,ORG-B O O O O
+서울식당 된장찌개와 비빔밥을 주문했어요 .,ORG-B O O O O
+청진동해장국 해장국을 맛보았어요 .,ORG-B O O O
+김밥나라 김밥과 국물떡볶이를 주문했어요 .,ORG-B O O O O
+백양세탁소 옷을 세탁했어요 .,ORG-B O O O
+더벤티 디저트와 커피를 주문했어요 .,ORG-B O O O O
+종로빈대떡 빈대떡을 맛보았어요 .,ORG-B O O O
+메머드 요가 수업을 들었어요 .,ORG-B O O O O
+깐부치킨 간장치킨과 감자튀김을 주문했어요 .,ORG-B O O O O
+스마일 화이트라떼와 케이크를 주문했어요 .,ORG-B ORG-B O O O
+수노래연습장 노래 연습을 했어요 .,ORG-B O O O O
+피자나라치킨공주 피자와 양념치킨을 주문했어요 .,ORG-B O O O O
+청년다방 아메리카노와 빵을 주문했어요 .,ORG-B O O O O
+이마트24 식료품을 구입했어요 .,O O O O
+롯데리아 핫도그와 감자튀김을 먹었어요 .,ORG-B O O O O
+미소 스테이크와 파스타를 주문했어요 .,ORG-B O O O O
+김밥천국 김밥과 라면을 주문했어요 .,O O O O O
+파리바게뜨 케이크와 빵을 사왔어요 .,O O O O O
+공차 버블티와 스무디를 주문했어요 .,ORG-B O O O O
+큰집닭강정 강정과 치킨을 주문했어요 .,ORG-B O O O O
+부산어묵 어묵과 떡볶이를 구입했어요 .,ORG-B O O O O
+생활맥주 맥주와 간식을 주문했어요 .,O O O O O
+롯데공인중개사사무소 집을 임대했어요 .,ORG-B O O O
+더벤티 디저트와 커피를 사왔어요 .,ORG-B O O O O
+애니카랜드 아이들과 함께 즐거운 시간을 보냈어요 .,O O O O O O O
+할매순대국 정말 맛있는 순대국을 맛봤어요 .,ORG-B O O O O O
+맥도날드 맥날버거와 감자튀김을 주문했어요 .,ORG-B ORG-B O O O
+후참잘 후라이드치킨과 참잘비빔밥을 주문했어요 .,ORG-B O O O O
+을지로골뱅이 뱅이새우와 뚝배기골뱅이를 주문했어요 .,ORG-B O O O O
+썬더치킨 양념치킨과 간식을 구입했어요 .,ORG-B O O O O
+피자마루 피자와 파스타를 주문했어요 .,ORG-B O O O O
+고향집 전통 한식을 맛보았어요 .,ORG-B O O O O
+다모아 다양한 음식을 즐겨 먹었어요 .,ORG-B O O O O O
+가장맛있는족발 맛있는 족발과 국밥을 주문했어요 .,ORG-B O O O O O
+봉구비어 맥주와 간식을 즐겼어요 .,ORG-B O O O O
+이모네 집밥을 먹었는데 정말 맛있더라고요 .,ORG-B O O O O O
+으뜸50안경 스타일리시한 안경을 구입했어요 .,ORG-B O O O O
+봉구스밥버거 밥버거와 감자튀김을 주문했어요 .,ORG-B O O O O
+프랭크버거 프랭크스테이크버거와 음료를 주문했어요 .,ORG-B O O O O
+대박집 대박메뉴를 맛보았어요 .,ORG-B O O O
+중국식품 중국요리 재료를 구입했어요 .,ORG-B O O O O
+지에스 편리한 배달 서비스를 이용했어요 .,ORG-B O O O O O
+애니카랜드 원하는 캐릭터들을 만날 수 있었어요 .,O O O O O O O
+할매순대국 정성가득한 순대국을 맛봤어요 .,ORG-B O O O O
+맥도날드 햄버거와 감자튀김을 주문했어요 .,ORG-B O O O O
+후참잘하는집 맛있는 후라이드치킨을 먹었어요 .,ORG-B O O O O
+을지로골뱅이 매콤한 골뱅이를 즐겼어요 .,ORG-B O O O O
+썬더치킨 양념치킨과 맥주를 주문했어요 .,ORG-B O O O O
+피자마루 다양한 피자를 주문했어요 .,ORG-B O O O O
+고향집 고향의 맛을 다시 느꼈어요 .,ORG-B O O O O O
+다모아 맛있는 음식들을 한 자리에 먹을 수 있었어요 .,ORG-B O O O O O O O O
+가장맛있는족발 족발과 국물까지 모두 맛있었어요 .,ORG-B O O O O O
+봉구비어 맥주와 안주를 함께 즐겼어요 .,ORG-B O O O O O
+이모네 집밥이 향긋하고 맛있었어요 .,ORG-B O O O O
+또래오래 젊고 활기찬 분위기를 느꼈어요 .,ORG-B O O O O O
+전주집 전통 한식을 맛보았는데 정말 맛있었어요 .,ORG-B O O O O O O
+호식이두마리치킨 치킨과 맥주를 함께 즐겼어요 .,ORG-B O O O O O
+오렌즈 멋진 안경을 구입했어요 .,ORG-B O O O O
+명동찌개마을 매콤한 찌개를 맛봤는데,ORG-B O O O
+정말 맛있더라고요 .,O O O
+배떡 고소한 떡볶이를 맛보았어요 .,ORG-B O O O O
+정관장 건강에 좋은 건강식품을 구입했어요 .,ORG-B O O O O O
+대성 시원한 음료를 즐겼어요 .,ORG-B O O O O
+보드람치킨 바삭한 치킨을 주문했어요 .,ORG-B O O O O
+알파문구 다양한 문구용품을 구입했어요 .,ORG-B O O O O
+래미안 편안한 주거공간을 느꼈어요 .,ORG-B O O O O
+카페 아로마 커피를 즐겼어요 .,ORG-B O O O O
+우리마트 신선한 식재료를 구입했어요 .,ORG-B O O O O
+골목집 정통 한식을 맛보았는데,ORG-B O O O
+정말 맛있었어요 .,O O O
+명가 가족과 함께 식사를 즐겼어요 .,ORG-B O O O O O
+설빙 시원한 빙수를 맛보았는데,ORG-B O O O
+정말 시원했어요 .,O O O
+모닝글로리 아침을 맛있게 시작했어요 .,ORG-B O O O O
+애플 최신 기술을 만날 수 있었어요 .,ORG-B O O O O O O
+세븐 편리하고 다양한 상품을 구입했어요 .,ORG-B O O O O O
+조이 즐거운 시간을 보냈어요 .,ORG-B O O O O
+우리할매떡볶이 매콤한 떡볶이를 맛보았는데,ORG-B O O O
+정말 맛있었어요 .,O O O
+지에스25 빠른 배달 서비스를 이용했어요 .,ORG-B O O O O O
+화이트 깔끔하고 심플한 의류를 구입했어요 .,ORG-B O O O O O
+육쌈냉면 시원하고 맛있는 냉면을 맛보았어요 .,ORG-B O O O O O
+홍콩반점 정통 중국요리를 즐겼어요 .,ORG-B O O O O
+지코바 정통 이탈리아 피자를 맛보았는데,ORG-B O O O O
+정말 맛있었어요 .,O O O
+죠스떡볶이 쫄깃한 떡볶이를 맛보았는데,ORG-B O O O
+정말 맛있었어요 .,O O O
+북촌손만두 손맛이 느껴지는 만두를 맛보았어요 .,ORG-B O O O O O
+레인보우 다채롭고 아름다운 의류를 구입했어요 .,ORG-B O O O O O
+하모니마트로 신나고 즐거운 쇼핑을 즐겼어요 .,O O O O O O
+빽다방과 크로커다일 아침 식사를 했어요 .,O ORG-B O O O O
+파파존스 맛있는 피자를 주문했어요 .,ORG-B O O O O
+경성꽈배기와 큰맘할매순대국 매콤한 음식을 맛보았어요 .,ORG-B ORG-B O O O O
+코코호도 상큼한 오렌지 주스를 즐겼어요 .,ORG-B O ORG-B O O O
+양평해장국과 봉추찜닭 맛있는 식사를 했어요 .,ORG-B ORG-B O O O O
+치킨플러스와 코웨이렌탈 새로운 상품들을 구입했어요 .,ORG-B ORG-B O O O O
+나무와 올포유 건강한 식재료를 구입했어요 .,ORG-B ORG-B O O O O
+싸다김밥 싸고 맛있는 김밥을 주문했어요 .,ORG-B O O O O O
+정원과 헤어갤러리 휴식과 헤어 스타일링을 즐겼어요 .,ORG-B ORG-B ORG-B O O O O
+피자알볼로 정통 이탈리아 피자를 맛보았어요 .,ORG-B O O O O O
+중국성과 북경 중국 요리를 맛보았는데,ORG-B ORG-B O O O
+정말 맛있었어요 .,O O O
+오한수우육면가와 모모 아시아 음식을 즐겼어요 .,ORG-B ORG-B O O O O
+더풋샵 편안한 신발을 구입했어요 .,ORG-B O O O O
+삼천리자전거와 땅스부대찌개 운동 후 맛있는 식사를 했어요 .,ORG-B ORG-B O O O O O O
+휴와 한솥도시락 각각 다른 식사를 했는데,ORG-B ORG-B O O O O
+둘 다 맛있었어요 .,O O O O
+국수나무 상큼한 국수를 맛보았는데,ORG-B O O O
+정말 맛있었어요 .,O O O
+장수식당과 가위소리 전통 한식을 맛보았어요 .,ORG-B ORG-B O O O O
+가마로강정 바삭한 강정을 주문했어요 .,ORG-B O O O O
+빽다방과 오한수우육면가 커피와 우육면을 주문했어요 .,O ORG-B O O O O
+헤어갤러리와 정원 머리를 자르고 휴식을 즐겼어요 .,ORG-B ORG-B O O ORG-B O O
+모모와 봉추찜닭 각각 다른 식사를 즐겼어요 .,ORG-B ORG-B O O O O O
+올포유와 가위소리 건강한 상품과 문구를 구입했어요 .,ORG-B ORG-B O O O O O
+파파존스와 중국성 피자와 중국 요리를 주문했어요 .,ORG-B ORG-B O O O O O
+씨유와 북경 다양한 상품을 구입했어요 .,ORG-B ORG-B O O O O
+피자알볼로와 한솥도시락 피자와 도시락을 주문했어요 .,ORG-B ORG-B O O O O
+더풋샵과 삼천리자전거 운동화와 자전거를 구입했어요 .,ORG-B ORG-B O O O O
+코웨이렌탈과 장수식당 청소기와 전통 한식을 주문했어요 .,ORG-B ORG-B O O O O O
+경성꽈배기와 치킨플러스 꽈배기와 치킨을 주문했어요 .,ORG-B ORG-B O O O O
+한솥도시락과 피자알볼로 도시락과 피자를 주문했어요 .,ORG-B ORG-B O O O O
+크로커다일과 삼천리자전거 샌드위치와 자전거를 주문했어요 .,ORG-B ORG-B O O O O
+코웨이렌탈과 국수나무 청소기와 국수를 주문했어요 .,ORG-B ORG-B O O O O
+큰맘할매순대국과 더풋샵 순대국과 운동화를 주문했어요 .,ORG-B ORG-B O O O O
+올포유와 모모 건강 상품과 아시아 음식을 주문했어요 .,ORG-B ORG-B O O O O O O
+치킨플러스와 장수식당 치킨과 전통 한식을 주문했어요 .,ORG-B ORG-B O O O O O
+파파존스와 가마로강정 피자와 강정을 주문했어요 .,ORG-B ORG-B O O O O
+빽다방과 한솥도시락 커피와 도시락을 주문했어요 .,O ORG-B O O O O
+모모와 삼천리자전거 아시아 음식과 자전거를 주문했어요 .,ORG-B ORG-B O O O O O
+헤어갤러리와 씨유 머리를 자르고 상품을 구입했어요 .,ORG-B ORG-B O O O O O
+코코호도와 중국성 오렌지 주스와 중국 요리를 주문했어요 .,ORG-B ORG-B ORG-B O O O O O
+양평해장국과 북경 해장국과 중국 요리를 주문했어요 .,ORG-B ORG-B O O O O O
+봉추찜닭과 모모 찜닭과 아시아 음식을 주문했어요 .,ORG-B ORG-B O O O O O
+크로커다일과 한솥도시락 샌드위치와 도시락을 주문했어요 .,ORG-B ORG-B O O O O
+중국성과 치킨플러스 중국 요리와 치킨을 주문했어요 .,ORG-B ORG-B O O O O O
+올포유와 큰맘할매순대국 상품과 순대국을 주문했어요 .,ORG-B ORG-B O O O O
+헤어갤러리와 빽다방 머리를 자르고 커피를 주문했어요 .,ORG-B O O O O O O
+국수나무와 코웨이렌탈 국수와 청소기를 주문했어요 .,ORG-B ORG-B O O O O
+씨유와 파파존스 상품과 피자를 주문했어요 .,ORG-B ORG-B O O O O
+장수식당과 더풋샵 전통 한식과 운동화를 주문했어요 .,ORG-B ORG-B O O O O O
+봉추찜닭과 경성꽈배기 찜닭과 꽈배기를 주문했어요 .,ORG-B ORG-B O O O O
+휴와 올포유 휴식과 상품을 구입했어요 .,ORG-B ORG-B ORG-B O O O
+디저트39 매장 디저트를 먹고 그 뒤로 서오릉피자 피자를 주문했어요 .,ORG-B O O O O O ORG-B O O O
+죽이야기 매장 죽을 먹고 정미용실 헤어스타일을 바꾸었어요 .,ORG-B O O O ORG-B O O O
+은행골 한식을 맛보고 진미식당 또 다른 한식을 주문했어요 .,ORG-B O O ORG-B O O O O O
+아띠 매장 악세서리를 살펴보고 그렇게 해피데이 매장 특별한 선물을 샀어요 .,ORG-B O O O O ORG-B O O O O O
+여성크로커다일 매장 여성복을 구입하고 얌샘김밥 김밥을 먹었어요 .,ORG-B O O O ORG-B O O O
+치킨뱅이 치킨을 주문하고 현대마트 재료를 사왔어요 .,ORG-B O O ORG-B O O O
+코코헤어 매장 헤어스타일을 바꾸고 서오릉피자 피자를 주문했어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장 와인을 마시고 엉터리생고기 생고기를 주문했어요 .,ORG-B O O O ORG-B O O O
+이브자리 매장 의상을 살펴보고 아띠 매장 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+진헤어 매장 헤어스타일을 바꾸고 춘천닭갈비 매장 닭갈비를 주문했어요 .,ORG-B O O O ORG-B O O O O
+스파게티스토리 매장 스파게티를 먹고 피자마루 피자를 주문했어요 .,ORG-B O O O O O O O
+치킨마루 치킨을 주문하고 서오릉피자 피자를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장 치킨을 주문하고 엉터리생고기 고기를 먹었어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장 헤어스타일을 바꾸고 해피데이 매장 선물을 샀어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자 피자를 주문하고 정미용실 헤어스타일을 바꾸었어요 .,ORG-B O O ORG-B O O O
+비비큐치킨 매장 바비큐치킨을 먹고 치킨뱅이 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+죽이야기 매장 죽을 먹고 은행골 한식을 주문했어요 .,ORG-B O O O ORG-B O O O
+치킨매니아 매장 치킨을 주문하고 아띠 매장 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자 매장 피자를 먹고 코코헤어 헤어스타일을 바꾸었어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장 와인을 마시고 치킨뱅이 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+치킨마루 치킨을 주문하고 디저트39 디저트를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장 치킨을 주문하고 현대마트 재료를 사왔어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장 헤어스타일을 바꾸고 서오릉피자 피자를 주문했어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장 와인을 마시고 엉터리생고기 생고기를 주문했어요 .,ORG-B O O O ORG-B O O O
+이브자리 매장 의상을 살펴보고 아띠 매장 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+진헤어 매장 헤어스타일을 바꾸고 춘천닭갈비 매장 닭갈비를 주문했어요 .,ORG-B O O O ORG-B O O O O
+스파게티스토리 매장 스파게티를 먹고 피자마루 피자를 주문했어요 .,ORG-B O O O O O O O
+치킨마루 치킨을 주문하고 서오릉피자 피자를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장 치킨을 주문하고 엉터리생고기 고기를 먹었어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장 헤어스타일을 바꾸고 해피데이 매장 선물을 샀어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자 피자를 주문하고 정미용실 헤어스타일을 바꾸었어요 .,ORG-B O O ORG-B O O O
+비비큐치킨 매장 바비큐치킨을 먹고 치킨뱅이 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+죽이야기 매장 죽을 먹고 은행골 한식을 주문했어요 .,ORG-B O O O ORG-B O O O
+치킨매니아 매장 치킨을 주문하고 아띠 매장 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자 매장 피자를 먹고 코코헤어 헤어스타일을 바꾸었어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장 와인을 마시고 치킨뱅이 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+치킨마루 치킨을 주문하고 디저트39 디저트를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장 치킨을 주문하고 현대마트 재료를 사왔어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장 헤어스타일을 바꾸고 서오릉피자 피자를 주문했어요 .,ORG-B O O O ORG-B O O O
+오늘와인한잔 매장 와인을 마시고 엉터리생고기 생고기를 주문했어요 .,ORG-B O O O ORG-B O O O
+이브자리 매장 의상을 살펴보고 아띠 매장 악세서리를 구입했어요 .,ORG-B O O O ORG-B O O O O
+진헤어 매장 헤어스타일을 바꾸고 춘천닭갈비 매장 닭갈비를 주문했어요 .,ORG-B O O O ORG-B O O O O
+스파게티스토리 매장 스파게티를 먹고 피자마루 피자를 주문했어요 .,ORG-B O O O O O O O
+치킨마루 치킨을 주문하고 서오릉피자 피자를 먹었어요 .,ORG-B O O ORG-B O O O
+치킨매니아 매장 치킨을 주문하고 엉터리생고기 고기를 먹었어요 .,ORG-B O O O ORG-B O O O
+코코헤어 매장 헤어스타일을 바꾸고 해피데이 매장 선물을 샀어요 .,ORG-B O O O ORG-B O O O O
+서오릉피자 피자를 주문하고 정미용실 헤어스타일을 바꾸었어요 .,ORG-B O O ORG-B O O O
+비비큐치킨 매장 바비큐치킨을 먹고 치킨뱅이 치킨을 주문했어요 .,ORG-B O O O ORG-B O O O
+잭슨피자 피자를 주문하고 에이원 차를 마셨어요 .,ORG-B O O ORG-B O O O
+시크릿 매장 시크릿 상품을 구입했어요 .,ORG-B O ORG-B O O O
+포토이즘 매장 사진을 촬영하고 아이비 매장 옷을 샀어요 .,ORG-B O O O ORG-B O O O O
+스카 공부하고 미니스톱 아이스크림을 샀어요 .,ORG-B O ORG-B O O O
+전주콩나물국밥 국밥을 먹고 남도식당 전통음식을 주문했어요 .,ORG-B O O ORG-B O O O
+이삭 매장 감자튀김을 주문하고 명금당 디저트를 먹었어요 .,ORG-B O O O ORG-B O O O
+한솥 도시락을 시켰어요 .,ORG-B O O O
+이화 매장 책을 구입하고 커피베이 커피를 마셨어요 .,ORG-B O O O ORG-B O O O
+스터디카페 공부하고 지니24스터디카페 카페라떼를 주문했어요 .,ORG-B O ORG-B O O O
+구두수선 매장 신발을 수선하고 왕십리곱창 곱창을 먹었어요 .,ORG-B O O O ORG-B O O O
+써니 매장 옷을 사고 포메인 매장 메인상품을 구입했어요 .,ORG-B O O O ORG-B O O O O
+족발야시장 족발을 먹고 골목식당 미식을 즐겼어요 .,ORG-B O O ORG-B O O O
+모텔 숙박하고 여관 숙소를 잡았어요 .,ORG-B O ORG-B O O O
+비비안 매장 액세서리를 구입하고 탑텐키즈 어린이상품을 샀어요 .,ORG-B O O O ORG-B O O O
+크린에이드 매장 청소용품을 구입하고 남도식당 음식을 주문했어요 .,ORG-B O O O ORG-B O O O
+세탁소 옷을 세탁하고 포토이즘 사진을 촬영했어요 .,ORG-B O O ORG-B O O O
+오드리 매장 옷을 사고 써니 액세서리를 구입했어요 .,ORG-B O O O ORG-B O O O
+포메인 매장 새로운 상품을 발견했어요 .,ORG-B O O O O O
+구두수선 매장 구두를 수선하고 모텔 편안한 휴식을 즐겼어요 .,ORG-B O O O ORG-B O O O O
+한솥 매장 도시락을 주문하고 포토이즘 사진을 촬영했어요 .,ORG-B O O O ORG-B O O O
+에이원 매장 상품을 구입하고 비비안 매장 악세서리를 샀어요 .,ORG-B O O O ORG-B O O O O
+스터디카페 공부하고 지니24스터디카페 커피를 마셨어요 .,ORG-B O ORG-B O O O
+명금당 매장 디저트를 주문하고 이삭 감자튀김을 샀어요 .,ORG-B O O O ORG-B O O O
+나주곰탕 매장 곰탕을 먹고 골목식당 미식을 즐겼어요 .,ORG-B O O O ORG-B O O O
+연희김밥 김밥을 먹고 전주콩나물국밥 국밥을 주문했어요 .,ORG-B O O ORG-B O O O
+커피베이 매장 커피를 마시고 포토이즘 사진을 촬영했어요 .,ORG-B O O O ORG-B O O O
+족발야시장 족발을 먹고 놀이터 놀이를 즐겼어요 .,ORG-B O O ORG-B O O O
+세탁소 옷을 세탁하고 스터디카페 공부했어요 .,ORG-B O O ORG-B O O
+은행골 매장 음식을 주문하고 놀이터 놀았어요 .,ORG-B O O O ORG-B O O
+아모레 매장 화장품을 샀어요 .,ORG-B O O O O
+이삭 매장 감자튀김을 주문하고 은행골 음식을 즐겼어요 .,ORG-B O O O ORG-B O O O
+죽이야기 죽을 먹고 포토이즘 사진을 찍었어요 .,ORG-B O O ORG-B O O O
+스카 매장 액세서리를 구입하고 써니 옷을 사왔어요 .,ORG-B O O O ORG-B O O O
+세탁소 옷을 세탁하고 놀이터 놀았어요 .,ORG-B O O ORG-B O O
+포메인 매장 새로운 상품을 발견했어요 .,ORG-B O O O O O
+구두수선 매장 구두를 수선하고 모텔 숙박했어요 .,ORG-B O O O ORG-B O O
+한솥 매장 도시락을 주문하고 포토이즘 사진을 촬영했어요 .,ORG-B O O O ORG-B O O O
+에이원 매장 상품을 구입하고 비비안 매장 악세서리를 샀어요 .,ORG-B O O O ORG-B O O O O
+스터디카페 공부하고 지니24스터디카페 커피를 마셨어요 .,ORG-B O ORG-B O O O
+명금당 매장 디저트를 주문하고 이삭 감자튀김을 샀어요 .,ORG-B O O O ORG-B O O O
+탐앤탐스 매장 커피를 주문하고 티아라 매장 케이크를 먹었어요 .,ORG-B O O O ORG-B O O O O
+의정부부대찌개 부대찌개를 주문하고 제이에스 쇼핑을 했어요 .,ORG-B O O ORG-B O O O
+앨리스 매장 도넛을 사고 셀프빨래방 빨래를 했어요 .,ORG-B O O O ORG-B O O O
+은하수 매장 별을 감상하고 마포갈비 고기를 먹었어요 .,ORG-B O O O ORG-B O O O
+더카페 커피를 마시고 마왕족발 족발을 먹었어요 .,ORG-B O O ORG-B O O O
+던킨도너츠 매장 도너츠를 주문하고 금별맥주 맥주를 마셨어요 .,ORG-B O O O ORG-B O O O
+토마토김밥 매장 김밥을 주문하고 탕화쿵푸 중국요리를 즐겼어요 .,ORG-B O O O ORG-B O O O
+쥬씨 쥬스를 마시고 진미용실 미용을 했어요 .,ORG-B O O ORG-B O O O
+밀라노 매장 의류를 구입하고 곱분이곱창 곱창을 먹었어요 .,ORG-B O O O ORG-B O O O
+맥주창고 맥주를 주문하고 민들레 매장 꽃을 사왔어요 .,ORG-B O O ORG-B O O O O
+소림마라 마라탕을 먹고 이브 매장 화장품을 샀어요 .,ORG-B O O ORG-B O O O O
+우정식당 음식을 주문하고 하루필름 필름을 구매했어요 .,ORG-B O O ORG-B O O O
+가마치통닭 치킨을 주문하고 스마일꽈배기 꽈배기를 먹었어요 .,ORG-B O O ORG-B O O O
+탑 매장 상품을 구입하고 미분당 떡볶이를 주문했어요 .,ORG-B O O O ORG-B O O O
+네이처리퍼블릭 매장 화장품을 구입하고 에덴 식물을 구매했어요 .,ORG-B O O O ORG-B O O O
+해오름 매장 바다를 감상하고 짝태앤노가리 스시를 먹었어요 .,ORG-B O O O ORG-B O O O
+플랜에이치 계획을 세우고 오봉집 닭갈비를 주문했어요 .,ORG-B O O ORG-B O O O
+궁 매장 전통요리를 즐기고 버거킹 햄버거를 주문했어요 .,ORG-B O O O ORG-B O O O
+종로김밥 김밥을 주문하고 동궁찜닭 찜닭을 먹었어요 .,ORG-B O O ORG-B O O O
+또봉이통닭 치킨을 주문하고 크린업24 청소를 했어요 .,ORG-B O O ORG-B O O O
+탐앤탐스 매장 아침 커피를 마시고 셀프빨래방 빨래를 했어요 .,ORG-B O O O O ORG-B O O O
+의정부부대찌개 부대찌개를 주문하고 던킨도너츠 매장 도너츠를 사왔어요 .,ORG-B O O ORG-B O O O O
+티아라 매장 악세사리를 구매하고 미니스톱 아이스크림을 샀어요 .,ORG-B O O O ORG-B O O O
+엉터리생고기 고기를 주문하고 피자알볼로 피자를 먹었어요 .,ORG-B O O O O O O
+진미용실 미용을 하고 밀라노 매장 쇼핑을 했어요 .,ORG-B O O ORG-B O O O O
+정미용실 헤어스타일링을 했고,ORG-B O O
+은행골 특별한 저녁식사를 즐겼어요 .,ORG-B O O O O
+더카페 커피를 주문하고,ORG-B O O
+우정식당 소바를 먹었어요 .,ORG-B O O O
+비비안 매장 액세서리를 구입하고,ORG-B O O O
+은하수 은하수 감상했어요 .,ORG-B ORG-B O O
+놀이터 놀고,ORG-B O
+의정부부대찌개 부대찌개를 먹었어요 .,ORG-B O O O
+탐앤탐스 아메리카노를 주문하고,ORG-B O O
+던킨도너츠 도너츠를 사왔어요 .,ORG-B O O O
+비비안 매장 액세서리를 구입하고,ORG-B O O O
+은하수 은하수 감상했어요 .,ORG-B ORG-B O O
+놀이터 놀고,ORG-B O
+의정부부대찌개 부대찌개를 먹었어요 .,ORG-B O O O
+탐앤탐스 아메리카노를 주문하고,ORG-B O O
+던킨도너츠 도너츠를 사왔어요 .,ORG-B O O O
+셀프빨래방 빨래를 하고,ORG-B O O
+소림마라 마라탕을 주문했어요 .,ORG-B O O O
+마포갈비 갈비를 주문하고,ORG-B O O
+던킨도너츠 커피를 마셨어요 .,ORG-B O O O
+셀프빨래방 빨래를 하고,ORG-B O O
+소림마라 마라탕을 주문했어요 .,ORG-B O O O
+마포갈비 갈비를 주문하고,ORG-B O O
+던킨도너츠 커피를 마셨어요 .,ORG-B O O O
+은하수 별을 감상하고,ORG-B O O
+해오름 해를 보며 휴식을 즐겼어요 .,ORG-B O O O O O
+티아라 매장 액세서리를 구입하고,ORG-B O O O
+엉터리생고기 고기를 주문했어요 .,ORG-B O O O
+아머리 매장 쇼핑하고,O O O
+은행골 특별한 저녁식사를 즐겼어요 .,ORG-B O O O O
+엄마손식당 된장찌개를 주문하고 로엠 쇼핑을 즐겼어요 .,ORG-B O O ORG-B O O O
+대성식당 제육볶음을 맛보고,ORG-B O O
+육대장 매장 육개장을 먹었어요 .,ORG-B O O O O
+올리브영 화장품을 구매하고,ORG-B O O
+썸 커피를 마셨어요 .,ORG-B O O O
+삼첩분식 떡볶이를 주문하고,ORG-B O O
+본죽 매장 죽을 맛보았어요 .,ORG-B O O O O
+마산아구찜 매장 아구찜을 주문하고,ORG-B O O O
+비너스 옷을 구매했어요 .,ORG-B O O O
+써니헤어 머리를 자르고,ORG-B O O
+행복식당 떡국을 먹었어요 .,ORG-B O O O
+미미 매장 액세서리를 샀고,ORG-B O O O
+미스터피자 피자를 주문했어요 .,ORG-B O O O
+노블레스 디저트를 즐기고,ORG-B O O
+형제상회 매장 짜장면을 주문했어요 .,ORG-B O O O O
+봄약국 약을 구매했고,ORG-B O O
+남원골추어탕 추어탕을 맛보았어요 .,ORG-B O O O
+서울풍물시장 민속공연을 감상하고,ORG-B O O
+새봄약국 건강한 음료를 샀어요 .,ORG-B O O O O
+원당감자탕 감자탕을 주문하고,ORG-B O O
+지센 시원한 아이스크림을 먹었어요 .,ORG-B O O O O
+도도헤어 헤어스타일링을 했고,ORG-B O O
+엽기떡볶이 매운 떡볶이를 즐겼어요 .,ORG-B O O O O
+엽떡 매장 떡볶이를 주문하고,ORG-B O O O
+랭스터디카페 공부를 했어요 .,ORG-B O O O
+60계치킨 치킨을 시켰고,ORG-B O O
+파파존스피자 피자를 주문했어요 .,ORG-B O O O
+으뜸플러스안경 안경을 샀고,ORG-B O O
+지오지아 신발을 구매했어요 .,ORG-B O O O
+장호덕손만두 매장 손만두를 주문하고,ORG-B O O O
+시작스터디카페 책을 읽었어요 .,ORG-B O O O
+청년피자 피자를 주문하고,ORG-B O O
+광주식당 광주식을 맛보았어요 .,ORG-B O O O
+명랑핫도그 핫도그를 주문하고,ORG-B O O
+하늘약국 약을 샀어요 .,ORG-B O O O
+새마을식당 한정식을 주문하고,ORG-B O O
+포토시그니처 사진을 찍었어요 .,ORG-B O O O
+인생닭강정 매장 닭강정을 시켰고,ORG-B O O O
+올리브영 화장품을 구매했어요 .,ORG-B O O O
+엄마손식당 맛있는 떡볶이를 주문하고,ORG-B O O O
+썸 매장 선물을 샀어요 .,ORG-B O O O O
+로엠 스타일리시한 옷을 구매했고,ORG-B O O O
+행복식당 집밥을 즐겼어요 .,ORG-B O O O
+대성식당 냉면을 시켰고,ORG-B O O
+미미 매장 의류를 살 수 있었어요 .,ORG-B O O O O O O
+육대장 매운 갈비찜을 시켰고,ORG-B O O O
+랭스터디카페 공부를 했어요 .,ORG-B O O O
+올리브영 매장 화장품을 구매했고,ORG-B O O O
+청년피자 피자를 주문했어요 .,ORG-B O O O
+써니헤어 헤어스타일링을 했고,ORG-B O O
+명랑핫도그 핫도그를 주문했어요 .,ORG-B O O O
+삼첩분식 매장 분식을 시켰고,ORG-B O O O
+하늘약국 약을 샀어요 .,ORG-B O O O
+본죽 죽을 주문하고,ORG-B O O
+새마을식당 농촌음식을 즐겼어요 .,ORG-B O O O
+마산아구찜 매장 아구찜을 시켰고,ORG-B O O O
+포토시그니처 사진을 찍었어요 .,ORG-B O O O
+비너스 옷을 구매했고,ORG-B O O
+포토시그니처 사진을 찍었어요 .,ORG-B O O O
+미스터피자 피자를 주문하고,ORG-B O O
+하늘약국 약을 샀어요 .,ORG-B O O O
+노블레스 매장 디저트를 주문하고,ORG-B O O O
+지오지아 음악을 감상했어요 .,ORG-B O O O
+형제상회 횟집을 주문하고,ORG-B O O
+장호덕손만두 만두를 즐겼어요 .,ORG-B O O O
+봄약국 약을 사고,ORG-B O O
+엽기떡볶이 떡볶이를 주문했어요 .,ORG-B O O O
+남원골추어탕 매장 추어탕을 주문하고,ORG-B O O O
+시작스터디카페 공부를 했어요 .,ORG-B O O O
+서울풍물시장 전통음식을 즐겼고,ORG-B O O
+광주식당 횟집을 주문했어요 .,ORG-B O O O
+새봄약국 약을 사고,ORG-B O O
+청년피자 피자를 주문했어요 .,ORG-B O O O
+원당감자탕 매장 감자탕을 시켰고,ORG-B O O O
+하늘약국 약을 샀어요 .,ORG-B O O O
+지센 예쁜 의류를 구매했고,ORG-B O O O
+인생닭강정 닭강정을 주문했어요 .,ORG-B O O O
+도도헤어 머리를 자르고,ORG-B O O
+행복식당 맛있는 음식을 즐겼어요 .,ORG-B O O O O
+올영 매장 화장품을 샀어요 .,ORG-B O O O O
+왕돈까스왕냉면 맛있는 냉면을 먹었어요 .,ORG-B O O O O
+신참떡볶이 매콤한 떡볶이를 주문했어요 .,ORG-B O O O O
+풍천장어 매장 싱싱한 장어를 시켰어요 .,ORG-B O O O O O
+필노래연습장 노래연습을 했어요 .,ORG-B O O O
+구두수선대 구두를 수선했어요 .,ORG-B O O O
+위너스 매장 옷을 구매했어요 .,ORG-B O O O O
+아이스크림스토리 아이스크림을 즐겼어요 .,ORG-B O O O
+놀숲 즐거운 시간을 보냈어요 .,ORG-B O O O O
+싸움의고수 매장 매운 음식을 주문했어요 .,ORG-B O O O O O
+홍두깨손칼국수 칼국수를 시켰어요 .,ORG-B O O O
+소담촌 정갈한 한식을 즐겼어요 .,ORG-B O O O O
+제니스 매장 의류를 구매했어요 .,ORG-B O O O O
+우성 다양한 상품을 찾았어요 .,ORG-B O O O O
+경성양꼬치 매장 양꼬치를 시켰어요 .,ORG-B O O O O
+낙원떡방앗간 떡을 사왔어요 .,ORG-B O O O
+알레르망 매장 디저트를 즐겼어요 .,ORG-B O O O O
+우리약국 약을 사왔어요 .,ORG-B O O O
+크로플각 맛있는 크로플을 먹었어요 .,ORG-B O O O O
+미가 매장 다양한 상품을 구매했어요 .,ORG-B O O O O O
+포차천국 술안주를 시켰어요 .,ORG-B O O O
+라화쿵부 중국요리를 주문했어요 .,ORG-B O O O
+신발나라 구두를 사왔어요 .,ORG-B O O O
+한강 봄을 즐겼어요 .,ORG-B O O O
+포시즌 매장 시골음식을 즐겼어요 .,ORG-B O O O O
+원조부안집 맛있는 음식을 먹었어요 .,ORG-B O O O O
+맛나식당 다양한 메뉴를 주문했어요 .,ORG-B O O O O
+라밥 라면과 밥을 주문했어요 .,ORG-B O O O O
+바르다김선생 김밥을 주문했어요 .,ORG-B O O O
+미스사이공 디저트를 즐겼어요 .,ORG-B O O O
+명태어장 매장 회를 주문했어요 .,ORG-B O O O O
+황소곱창 곱창을 즐겼어요 .,ORG-B O O O
+고기싸롱 고기를 주문했어요 .,ORG-B O O O
+육회바른연어 육회를 주문했어요 .,ORG-B O O O
+박승철헤어스투디오 머리를 자르고 왔어요 .,ORG-B O O O O
+샤넬 시계를 구매했어요 .,ORG-B O O O
+응급실국물떡볶이 국물떡볶이를 주문했어요 .,ORG-B O O O
+청년치킨 치킨을 시켰어요 .,ORG-B O O O
+명성왕족발 족발을 주문했어요 .,ORG-B O O O
+프린트카페 사진을 출력했어요 .,ORG-B O O O
+경복궁 아름다운 전통 건축물을 구경하면서 역사에 대해 배웠어요 .,ORG-B O O O O O O O O
+창덕궁에 가서 한복을 입고 아름다운 사진을 찍었어요 .,ORG-B O O O O O O O
+덕수궁 주변에는 조용하고 아늑한 카페들이 많아서 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O O
+종묘를 방문해서 조선 시대의 왕과 왕비들을 모신 곳을 구경했어요 .,ORG-B O O O O O O O O O
+서울시청 근처에는 다양한 레스토랑과 카페들이 있어서 편리하게 식사를 할 수 있었어요 .,ORG-B O O O O O O O O O O O
+남산타워 서울의 야경을 감상하면서 특별한 순간을 보냈어요 .,ORG-B O O O O O O O
+명동 쇼핑을 즐기면서 맛있는 음식도 많이 먹었어요 .,ORG-B O O O O O O O
+동대문디자인플라자 다양한 디자인 제품들을 구경하고 구입했어요 .,ORG-B O O O O O O
+동대문시장 저렴한 옷들을 구입해서 기분이 좋았어요 .,ORG-B O O O O O O
+남대문시장 한국 전통 공예품들을 구경하면서 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O
+인사동 예술적인 분위기를 느끼면서 골목길을 거닐었어요 .,ORG-B O O O O O O
+홍대 다양한 문화공연과 거리음악을 즐기면서 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O
+이태원 다양한 나라의 음식을 맛보면서 다양한 문화를 경험했어요 .,ORG-B O O O O O O O O
+가로수길 멋진 브랜드 상점들을 구경하고 쇼핑을 즐겼어요 .,ORG-B O O O O O O O
+압구정로데오거리 하이패션 브랜드들을 구경하면서 쇼핑을 즐겼어요 .,ORG-B O O O O O O
+삼청동의 전통 한옥 건물들을 구경하면서 한국의 역사를 느꼈어요 .,ORG-B O O O O O O O O
+서촌 한국의 전통문화와 민속예술을 배우고 즐겼어요 .,ORG-B O O O O O O
+광장시장 다양한 먹거리들을 맛보고 저렴한 가격에 쇼핑을 했어요 .,ORG-B O O O O O O O O
+청계천을 따라 산책하면서 시원한 바람을 느꼈어요 .,ORG-B O O O O O O
+올림픽공원 여유롭게 산책하면서 휴식을 즐겼어요 .,ORG-B O O O O O
+경복궁 오랜 역사를 엿볼 수 있었어요 .,ORG-B O O O O O O
+창덕궁 조선 왕실의 멋진 정원을 구경했어요 .,ORG-B O O O O O O
+덕수궁 평화로운 분위기를 느낄 수 있었어요 .,ORG-B O O O O O O
+종묘를 방문해서 조선 시대의 역사를 배웠어요 .,ORG-B O O O O O O
+서울시청 시민들의 활기찬 생활을 볼 수 있었어요 .,ORG-B O O O O O O O
+남산타워 서울의 멋진 야경을 감상했어요 .,ORG-B O O O O O
+명동 다양한 쇼핑과 먹거리를 즐겼어요 .,ORG-B O O O O O
+동대문디자인플라자 창의적인 디자인을 감상했어요 .,ORG-B O O O O
+동대문시장 저렴한 가격으로 쇼핑을 즐겼어요 .,ORG-B O O O O O
+남대문시장 전통적인 한국 물건들을 구경했어요 .,ORG-B O O O O O
+인사동 예술적인 분위기를 즐겼어요 .,ORG-B O O O O
+홍대 젊은 에너지와 예술을 느꼈어요 .,ORG-B O O O O O
+이태원 다양한 문화를 만끽했어요 .,ORG-B O O O O
+가로수길 고급스러운 쇼핑을 즐겼어요 .,ORG-B O O O O
+압구정로데오거리 유행을 쫓아갈 수 있었어요 .,ORG-B O O O O O
+삼청동 조용하고 아늑한 분위기를 느꼈어요 .,ORG-B O O O O O
+서촌 전통적인 한국 문화를 즐겼어요 .,ORG-B O O O O O
+광장시장 먹거리와 재미를 함께 즐겼어요 .,ORG-B O O O O O
+청계천을 따라 산책하면서 시원한 바람을 느꼈어요 .,ORG-B O O O O O O
+올림픽공원 체육시설과 푸른 자연을 즐겼어요 .,ORG-B O O O O O
+석촌호수 조용한 호수를 둘러보면서 여유를 느꼈어요 .,ORG-B O O O O O O
+경복궁 조용하고 운치있는 분위기를 느꼈어요 .,ORG-B O O O O O
+창덕궁 아름다운 정원을 구경했어요 .,ORG-B O O O O
+덕수궁 한국 전통 건축물을 감상했어요 .,ORG-B O O O O O
+종묘를 방문해서 역사적인 분위기를 느꼈어요 .,ORG-B O O O O O
+서울시청 현대적인 건물들을 구경했어요 .,ORG-B O O O O
+남산타워 서울의 야경을 감상하면서 특별한 순간을 보냈어요 .,ORG-B O O O O O O O
+명동 다양한 쇼핑과 먹거리를 즐기며 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O
+동대문디자인플라자 다양한 디자인과 예술을 즐겼어요 .,ORG-B O O O O O
+동대문시장 저렴하고 다양한 상품들을 구경했어요 .,ORG-B O O O O O
+오늘은 날씨가 좋아서 묵은지닭갈비를 먹으러 가고 싶어요 .,O O O ORG-B O O O O
+명동교자의 만두는 정말 맛있어서 자주 가요 .,ORG-B O O O O O O
+동국제과 구워진 빵 냄새가 정말 좋아요 .,ORG-B O O O O O O
+아오리라멘 맛집이라고 들어서 한 번 가보고 싶어요 .,ORG-B O O O O O O O
+국화원 아름다운 꽃을 구경하면서 시간을 보내고 싶어요 .,ORG-B O O O O O O O
+감천문화마을 예쁜 그림들을 감상할 수 있었어요 .,ORG-B O O O O O O
+서울올림픽기념관 역사적인 분위기가 훌륭했어요 .,ORG-B O O O O
+선유도공원 산책하면서 바람을 쐬는 것이 좋아요 .,ORG-B O O O O O O
+명동성당 예배를 드리러 가야겠어요 .,ORG-B O O O O
+서대문형무소역사관 역사적인 감동을 줬어요 .,ORG-B O O O O
+덕수궁 한복을 입고 사진을 찍으면 재미있겠죠? 창덕궁의 정원은 정말 아름답게 꾸며져 있어요 .,ORG-B O O O O O ORG-B O O O O O O
+남산타워 서울 야경을 감상하고 싶어요 .,ORG-B O O O O O
+동대문디자인플라자 쇼핑을 하면서 먹거리도 즐기고 싶어요 .,ORG-B O O O O O O
+남대문시장 다양한 물건들을 구경하면서 재미있게 쇼핑했어요 .,ORG-B O O O O O O
+인사동의 골목길을 걸으면서 예술과 전통을 느껴보고 싶어요 .,ORG-B O O O O O O O
+홍대 느긋한 분위기를 즐기면서 카페에 앉아 커피를 마셔요 .,ORG-B O O O O O O O O
+이태원의 다양한 레스토랑 맛있는 음식을 먹고 싶어요 .,ORG-B O O O O O O O
+가로수길 유니크한 상점들을 구경하면서 쇼핑을 해요 .,ORG-B O O O O O O
+압구정로데오거리 패션 아이템을 구입하고 싶어요 .,ORG-B O O O O O
+삼청동의 작은 골목길을 돌아다니면서 색다른 경험을 해보고 싶어요 .,ORG-B O O O O O O O O
+서촌의 한옥들을 구경하면서 한국의 전통을 느낄 수 있어요 .,ORG-B O O O O O O O O
+광장시장 분위기 있는 거리음식을 맛보고 싶어요 .,ORG-B O O O O O O
+청계천 따라 산책하면서 여유로운 시간을 보내고 싶어요 .,ORG-B O O O O O O O
+올림픽공원 피크닉을 즐기면서 힐링하고 싶어요 .,ORG-B O O O O O
+석촌호수 물가를 따라 자전거를 타면서 즐거운 시간을 보내요 .,ORG-B O O O O O O O O
+경복궁 궁궐의 아름다움을 감상하고 싶어요 .,O O O O O O
+명동 쇼핑을 하면서 다양한 브랜드 제품을 구경했어요 .,ORG-B O O O O O O O
+동대문시장 저렴한 옷을 구입하면서 재미있게 놀았어요 .,ORG-B O O O O O O
+남산타워 밤 뷰를 감상하며 특별한 순간을 만들고 싶어요 .,ORG-B O O O O O O O O
+서울시청 광장 다양한 행사들을 즐기고 싶어요 .,ORG-B O O O O O O
+국화원 사계절의 꽃들을 구경하며 나들이하기 좋아요 .,ORG-B O O O O O O
+동국제과 구워지는 빵 냄새가 먹음직스러워요 .,ORG-B O O O O O
+아오리라멘 맛집의 매운 라멘이 입맛에 맞아요 .,ORG-B O O O O O O
+감천문화마을 예술가들의 작품을 감상하면서 문화를 느낄 수 있었어요 .,ORG-B O O O O O O O O
+서울올림픽기념관 역사적인 사건들을 생생하게 보여줘서 감동적이었어요 .,ORG-B O O O O O O
+선유도공원 바람을 쐬면서 힐링하기 좋아요 .,ORG-B O O O O O
+명동성당 소중한 사람과 함께 기도를 드리고 싶어요 .,ORG-B O O O O O O O
+덕수궁 한복을 입고 사진을 찍으면서 즐거운 시간을 보냈어요 .,ORG-B O O O O O O O O
+경복궁 아름다운 정원을 구경하면서 자연 속 힐링하고 싶어요 .,O O O O O O O O O
+창덕궁 조선시대의 멋과 우아함을 느껴보고 싶어요 .,ORG-B O O O O O O
+명동 다양한 브랜드의 제품들을 구경하고 쇼핑하고 싶어요 .,ORG-B O O O O O O O
+홍대 거리 예술가들의 공연을 감상하면서 놀고 싶어요 .,ORG-B O O O O O O O
+이태원 다양한 레스토랑 세계 음식을 맛보고 싶어요 .,ORG-B O O O O O O O
+가로수길 유니크한 상점들을 구경하면서 쇼핑하고 싶어요 .,ORG-B O O O O O O
+압구정로데오거리 패션 아이템들을 구입하고 싶어요 .,ORG-B O O O O O
+삼청동의 작은 골목길을 따라 걷으면서 예술적인 분위기를 느껴보고 싶어요 .,ORG-B O O O O O O O O O
+서촌의 전통한옥들을 구경하면서 한국의 아름다움을 느끼고 싶어요 .,ORG-B O O O O O O O
+광장시장 다양한 먹거리를 먹으며 먹방을 즐기고 싶어요 .,ORG-B O O O O O O O
+청계천을 따라 산책하면서 여유롭고 평화로운 시간을 보내고 싶어요 .,ORG-B O O O O O O O O
+서울타워 멋진 야경을 볼 수 있어요 .,ORG-B O O O O O O
+국립중앙박물관 다양한 역사적 유물들이 전시되어 있어요 .,ORG-B O O O O O O
+세빛섬 힐링하며 시간을 보내고 싶어요 .,ORG-B O O O O O
+서울숲 피크닉을 하면서 여유를 즐겨요 .,ORG-B O O O O O
+선릉는 유명한 레스토랑들이 많아요 .,ORG-B O O O O
+서울로7017 따라 산책하는 것도 좋아요 .,ORG-B O O O O O
+봉은사 조용한 시간을 보내고 싶어요 .,ORG-B O O O O O
+덕수궁돌담길을 걷는 것은 정말로 특별한 경험이에요 .,ORG-B O O O O O O
+한강시민공원 자전거를 타고 놀면서 즐거운 시간을 보내요 .,ORG-B O O O O O O O
+명동성당 소중한 이벤트를 기념하고 싶어요 .,ORG-B O O O O O
+미술관 63 현대 미술을 감상하면서 예술에 대해 이야기해요 .,O O O O O O O O O
+한강대교 노을을 구경하며 낭만적인 분위기를 느껴요 .,ORG-B O O O O O O
+서울어린이대공원 아이들과 함께 놀이를 즐겨요 .,ORG-B O O O O O
+롯데월드타워 서울의 멋진 경치를 감상하고 싶어요 .,ORG-B O O O O O O
+용산전자상가 최신 기기들을 구경하며 흥미로운 대화를 나누어요 .,ORG-B O O O O O O O
+영등포여객터미널 멀리 떠나는 여행에 대해 꿈을 나누어요 .,ORG-B O O O O O O O
+허브청 향긋한 허브차를 마시면서 여유를 느껴요 .,ORG-B O O O O O O
+세븐럭 음악을 들으며 즐거운 시간을 보내요 .,ORG-B O O O O O O
+여의도한강공원 야경을 감상하며 휴식을 취해요 .,ORG-B O O O O O
+코엑스 다양한 전시회를 관람하고 싶어요 .,ORG-B O O O O O
+세빛섬호수공원 아름다운 호수를 배경으로 사진을 찍어요 .,ORG-B O O O O O O
+강서습지생태공원 자연을 느끼며 건강을 챙겨요 .,ORG-B O O O O O
+뚝섬유원지 수상스키를 타면서 스릴을 느껴요 .,ORG-B O O O O O
+북서울꿈의숲 신나는 야외 공연을 관람하며 즐겨요 .,ORG-B O O O O O O
+명동중앙회관 다양한 문화 행사를 즐겨요 .,ORG-B O O O O O
+어린이대공원 동물들과 가까이 소통해요 .,ORG-B O O O O
+국립민속박물관 전통 문화를 배우고 체험해요 .,ORG-B O O O O O
+반포한강공원 낭만적인 데이트를 즐겨요 .,ORG-B O O O O
+삼청각 한국의 전통 문화를 느껴요 .,O O O O O O
+아시아문화전당 다양한 아시아 문화를 체험해요 .,ORG-B O O O O O
