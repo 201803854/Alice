@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'service',
+    'voice_to_text_app',
 ]
 
 MIDDLEWARE = [

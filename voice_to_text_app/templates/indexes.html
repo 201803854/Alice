@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice to Text Conversion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        #audioFile {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        #convertButton {
+            display: block;
+            margin: 0 auto;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            
+        }
+        #convertButton:hover{
+            background-color: #0056b3;
+
+        }
+
+        #convertedText {
+            margin-top: 20px;
+        }
+    #fileLabel {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+    }
+
+    #fileLabel:hover {
+            background-color: #0056b3;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Voice to Text Conversion</h1>
+        <input type="file" id="audioFile" accept="audio/*" style="display: none;">
+        <label for="audioFile" id="fileLabel" class="file-label">Select Audio File</label>
+        <hr>
+        <button  id="convertButton" onclick="convertAudioToText()">Convert Voice to Text</button>
+        <div id="convertedText"></div>
+    </div>
+
+    <script>
+        function convertAudioToText() {
+            var audioFile = document.getElementById('audioFile').files[0];
+            if (!audioFile) {
+                alert('Please select an audio file.');
+                return;
+            }
+
+            var formData = new FormData();
+            formData.append('audio', audioFile);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '{% url "convert_audio" %}', true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        var response = JSON.parse(xhr.responseText);
+                        displayConvertedText(response.text);
+                    } else {
+                        alert('Server error occurred.');
+                    }
+                }
+            };
+            xhr.send(formData);
+        }
+
+        function displayConvertedText(text) {
+            var convertedTextDiv = document.getElementById('convertedText');
+            convertedTextDiv.innerHTML = text;
+        }
+    </script>
+</body>
+</html>
