@@ -23,13 +23,10 @@
             width: 300px;
             text-align: center;
         }
-
-        #audioFile {
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 20px;
-        }
-
+        
+        #fileLabel,
+        #startRecordButton,
+        #stopRecordButton,
         #convertButton {
             display: block;
             margin: 0 auto;
@@ -39,30 +36,17 @@
             border-radius: 5px;
             padding: 10px;
             cursor: pointer;
-            
         }
-        #convertButton:hover{
+        #fileLabel:hover,
+        #convertButton:hover,
+        #startRecordButton:hover,
+        #stopRecordButton:hover {
             background-color: #0056b3;
-
         }
 
         #convertedText {
             margin-top: 20px;
         }
-    #fileLabel {
-            display: inline-block;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-            transition: background-color 0.3s ease-in-out;
-    }
-
-    #fileLabel:hover {
-            background-color: #0056b3;
-    }
     </style>
 </head>
 <body>
@@ -71,11 +55,19 @@
         <input type="file" id="audioFile" accept="audio/*" style="display: none;">
         <label for="audioFile" id="fileLabel" class="file-label">Select Audio File</label>
         <hr>
+        <button id="startRecordButton">Start Recording</button>
+        <hr>
+        <button id="stopRecordButton" disabled>Stop Recording</button>
+        <hr>
         <button  id="convertButton" onclick="convertAudioToText()">Convert Voice to Text</button>
+        <div id="indicator" style="width: 10px; height: 10px; background-color: red; border-radius: 50%; display: inline-block; margin-left: 5px; visibility: hidden;"></div>
+        <div id="convertedText"></div>
         <div id="convertedText"></div>
     </div>
 
     <script>
+        let mediaRecorder;
+        let recordedChunks = [];
         function convertAudioToText() {
             var audioFile = document.getElementById('audioFile').files[0];
             if (!audioFile) {
@@ -101,10 +93,86 @@
             xhr.send(formData);
         }
 
+
+        const startRecording = async () => {
+            recordedChunks = [];
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            mediaRecorder = new MediaRecorder(stream);
+
+            mediaRecorder.ondataavailable = (event) => {
+                if (event.data.size > 0) {
+                    recordedChunks.push(event.data);
+                }
+            };
+
+            mediaRecorder.onstop = () => {
+                const blob = new Blob(recordedChunks, { type: 'audio/wav' });
+                const formData = new FormData();
+                formData.append('audio', blob);
+
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', '{% url "convert_audio" %}', true);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === XMLHttpRequest.DONE) {
+                        if (xhr.status === 200) {
+                            const response = JSON.parse(xhr.responseText);
+                            displayConvertedText(response.text);
+                        } else {
+                            alert('Server error occurred.');
+                        }
+                    }
+                };
+                xhr.send(formData);
+            };
+
+            mediaRecorder.start();
+            document.getElementById('startRecordButton').disabled = true;
+            document.getElementById('stopRecordButton').disabled = false;
+            document.getElementById('convertButton').disabled = true;
+        };
+
+        const stopRecording = () => {
+            if (mediaRecorder && mediaRecorder.state === 'recording') {
+                mediaRecorder.stop();
+                document.getElementById('startRecordButton').disabled = false;
+                document.getElementById('stopRecordButton').disabled = true;
+                document.getElementById('convertButton').disabled = false;
+            }
+        };
+
         function displayConvertedText(text) {
             var convertedTextDiv = document.getElementById('convertedText');
             convertedTextDiv.innerHTML = text;
         }
+
+        document.getElementById('startRecordButton').addEventListener('click', startRecording);
+        document.getElementById('stopRecordButton').addEventListener('click', stopRecording);
+    let isRecording = false;
+    setInterval(() => {
+        if (isRecording) {
+
+            document.getElementById('indicator').style.visibility = 'hidden';
+            setTimeout(() => {
+
+                if (!isRecording) {
+                    document.getElementById('indicator').style.visibility = 'hidden';
+                } else {
+                    document.getElementById('indicator').style.visibility = 'visible';
+                }
+            }, 500);
+        }
+    }, 1000);
+
+    document.getElementById('startRecordButton').addEventListener('click', () => {
+        startRecording();
+        isRecording = true;
+    });
+
+    document.getElementById('stopRecordButton').addEventListener('click', () => {
+        stopRecording();
+        isRecording = false;
+        document.getElementById('indicator').style.visibility = 'hidden';
+    });
     </script>
 </body>
 </html>
