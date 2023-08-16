@@ -41,28 +41,198 @@
 #pagination {margin:10px auto;text-align: center;}
 #pagination a {display:inline-block;margin-right:10px;}
 #pagination .on {font-weight: bold; cursor: default;color:#777;}
+        body {
+            font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            padding: 20px;
+            background-color: #007bff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .map_wrap {
+            flex: 1;
+            height: 500px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+            overflow: hidden;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #roadview {
+            width: 100%;
+            height: 300px;
+        }
+
+        #menu_wrap {
+            flex: 0 0 250px;
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            overflow-y: auto;
+            font-size: 12px;
+        }
+
+        #placesList li {
+            list-style: none;
+        }
+
+        #placesList .item {
+            position: relative;
+            border-bottom: 1px solid #888;
+            overflow: hidden;
+            cursor: pointer;
+            min-height: 65px;
+        }
+
+        #placesList .item span {
+            display: block;
+            margin-top: 4px;
+        }
+
+        #placesList .item h5,
+        #placesList .item .info {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        #placesList .info .gray {
+            color: #8a8a8a;
+        }
+
+        #placesList .info .jibun {
+            padding-left: 26px;
+            background: url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png) no-repeat;
+        }
+
+        #placesList .info .tel {
+            color: #009900;
+        }
+
+        #placesList .item .markerbg {
+            float: left;
+            position: absolute;
+            width: 36px;
+            height: 37px;
+            margin: 10px 0 0 10px;
+            background: url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_number_blue.png) no-repeat;
+        }
+
+        /* STT UI 스타일 */
+        .stt-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 0 0 300px;
+            text-align: center;
+        }
+
+        #fileLabel,
+        #startRecordButton,
+        #stopRecordButton,
+        #convertButton {
+            display: block;
+            margin: 0 auto;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #fileLabel:hover,
+        #convertButton:hover,
+        #startRecordButton:hover,
+        #stopRecordButton:hover {
+            background-color: #0056b3;
+        }
+
+        #convertedText {
+            margin-top: 20px;
+        }
+
+        #indicator {
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 5px;
+            visibility: hidden;
+        }
+
+        #pagination {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        #pagination a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        #pagination .on {
+            font-weight: bold;
+            cursor: default;
+            color: #777;
+        }
 </style>
 </head>
 <body>
-<div class="map_wrap">
-    <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
-    <div id="roadview" style="width: 100%; height: 300px;"></div>
-
-
-    <div id="menu_wrap" class="bg_white">
-        <div class="option">
-            <div>
-                <form onsubmit="searchPlaces(); return false;">
-                    키워드 : <input type="text" value="신림역 스타벅스" id="keyword" size="15"> 
-                    <button type="submit">검색하기</button> 
-                </form>
+<div class="container">
+    <div class="map_wrap">
+        <div id="map"></div>
+        
+        <div id="menu_wrap">
+            <div class="option">
+                <div>
+                    <form onsubmit="searchPlaces(); return false;">
+                        키워드 : <input type="text" value="{{ words }}" id="keyword" size="15">
+                        <button type="submit">검색하기</button>
+                    </form>
+                </div>
             </div>
+            <hr>
+            <ul id="placesList"></ul>
+            <div id="pagination"></div>
         </div>
+    </div>
+    <div class="stt-container">
+        <h1>Voice to Text Conversion</h1>
+        <input type="file" id="audioFile" accept="audio/*" style="display: none;">
+        <label for="audioFile" id="fileLabel" class="file-label">Select Audio File</label>
         <hr>
-        <ul id="placesList"></ul>
-        <div id="pagination"></div>
+        <button id="startRecordButton">Start Recording</button>
+        <hr>
+        <button id="stopRecordButton" disabled>Stop Recording</button>
+        <hr>
+        <button id="convertButton" onclick="convertAudioToText()">Convert Voice to Text</button>
+        <div id="indicator"></div>
+        <div id="convertedText"></div>
     </div>
 </div>
+<div id="roadview"></div>
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=990c65316ad7b43897d80882ebd58ac1&libraries=services"></script>
 <script>
@@ -90,14 +260,8 @@ var infowindow = new kakao.maps.InfoWindow({zIndex:1});
 searchPlaces();
 
 // 키워드 검색을 요청하는 함수입니다
-function searchPlaces() {
+function searchPlaces(keyword) {
 
-    var keyword = document.getElementById('keyword').value;
-
-    if (!keyword.replace(/^\s+|\s+$/g, '')) {
-        alert('키워드를 입력해주세요!');
-        return false;
-    }
 
     // 장소검색 객체를 통해 키워드로 장소검색을 요청합니다
     ps.keywordSearch( keyword, placesSearchCB); 
@@ -302,6 +466,118 @@ function removeAllChildNods(el) {
         el.removeChild (el.lastChild);
     }
 }
+        let mediaRecorder;
+        let recordedChunks = [];
+        function convertAudioToText() {
+            var audioFile = document.getElementById('audioFile').files[0];
+            if (!audioFile) {
+                alert('Please select an audio file.');
+                return;
+            }
+
+            var formData = new FormData();
+            formData.append('audio', audioFile);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '{% url "convert_audio" %}', true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        var response = JSON.parse(xhr.responseText);
+                        displayConvertedText(response.text);
+                        searchPlaces(response.words_with_label_25);
+                    } else {
+                        alert('Server error occurred.');
+                    }
+                }
+            };
+            xhr.send(formData);
+        }
+
+
+        const startRecording = async () => {
+            recordedChunks = [];
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            mediaRecorder = new MediaRecorder(stream);
+
+            mediaRecorder.ondataavailable = (event) => {
+                if (event.data.size > 0) {
+                    recordedChunks.push(event.data);
+                }
+            };
+
+            mediaRecorder.onstop = () => {
+                const blob = new Blob(recordedChunks, { type: 'audio/wav' });
+                const formData = new FormData();
+                formData.append('audio', blob);
+
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', '{% url "convert_audio" %}', true);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === XMLHttpRequest.DONE) {
+                        if (xhr.status === 200) {
+                            const response = JSON.parse(xhr.responseText);
+                            displayConvertedText(response.text);
+
+                            searchPlaces(response.words_with_label_25);
+                            
+                        
+                        } else {
+                            alert('Server error occurred.');
+                        }
+                    }
+                };
+                xhr.send(formData);
+            };
+
+            mediaRecorder.start();
+            document.getElementById('startRecordButton').disabled = true;
+            document.getElementById('stopRecordButton').disabled = false;
+            document.getElementById('convertButton').disabled = true;
+        };
+
+        const stopRecording = () => {
+            if (mediaRecorder && mediaRecorder.state === 'recording') {
+                mediaRecorder.stop();
+                document.getElementById('startRecordButton').disabled = false;
+                document.getElementById('stopRecordButton').disabled = true;
+                document.getElementById('convertButton').disabled = false;
+            }
+        };
+
+        function displayConvertedText(text) {
+            var convertedTextDiv = document.getElementById('convertedText');
+            convertedTextDiv.innerHTML = text;
+        }
+
+        document.getElementById('startRecordButton').addEventListener('click', startRecording);
+        document.getElementById('stopRecordButton').addEventListener('click', stopRecording);
+    let isRecording = false;
+    setInterval(() => {
+        if (isRecording) {
+
+            document.getElementById('indicator').style.visibility = 'hidden';
+            setTimeout(() => {
+
+                if (!isRecording) {
+                    document.getElementById('indicator').style.visibility = 'hidden';
+                } else {
+                    document.getElementById('indicator').style.visibility = 'visible';
+                }
+            }, 500);
+        }
+    }, 1000);
+
+    document.getElementById('startRecordButton').addEventListener('click', () => {
+        startRecording();
+        isRecording = true;
+    });
+
+    document.getElementById('stopRecordButton').addEventListener('click', () => {
+        stopRecording();
+        isRecording = false;
+        document.getElementById('indicator').style.visibility = 'hidden';
+    });
 </script>
 </body>
 </html>
