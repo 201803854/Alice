@@ -4,6 +4,9 @@ from django.views.decorators.csrf import csrf_exempt
 import requests
 import ner
 import re
+
+from .models import VoiceResult
+
 API_URL = "https://api-inference.huggingface.co/models/kyungmin011029/test_fith"
 HEADERS = {"Authorization": "Bearer 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"}
 
@@ -16,7 +19,12 @@ def convert_audio(request):
         print("Response Content:", response)
         result_text = response['text']
         ner_result = ner.ner_prediction(result_text)
-        print("ner_reslut", ner_result)
+        words_with_label_25 = [word for word, label in ner_result if label == 'LABEL_25']
+        print(words_with_label_25)
+        
+        result = VoiceResult(value=words_with_label_25)
+        result.save()
+    
         return JsonResponse(response)
 
     return JsonResponse({'error': 'Invalid request'}, status=400)
@@ -25,3 +33,8 @@ def convert_audio(request):
 def query_hugging_face_model(audio_data):
     response = requests.post(API_URL, headers=HEADERS, data=audio_data)
     return response.json()
+
+
+
+
+
