@@ -1,14 +1,15 @@
-{% load static %}
+{%load static%}
+
 <!DOCTYPE html>
-<html>
+
+<html lang="ko">
 <head>
-    <meta charset="utf-8">
-    <title>키워드로 장소검색하고 목록으로 표출하기</title>
-    <style>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
 .map_wrap, .map_wrap * {margin:0;padding:0;font-family:'Malgun Gothic',dotum,'돋움',sans-serif;font-size:12px;}
 .map_wrap a, .map_wrap a:hover, .map_wrap a:active{color:#000;text-decoration: none;}
 .map_wrap {position:relative;width:100%;height:500px;}
-#menu_wrap {position:absolute;top:0;left:0;bottom:0;width:250px;margin:10px 0 30px 10px;padding:5px;overflow-y:auto;background:rgba(255, 255, 255, 0.7);z-index: 1;font-size:12px;border-radius: 10px;}
+#menu_wrap {position:absolute;top:0;left:0;bottom:0;width:250px;height:150px;margin:10px 0 30px 10px;padding:5px;overflow-y:auto;background:rgba(255, 255, 255, 0.7);z-index: 1;font-size:12px;border-radius: 10px;}
 .bg_white {background:#fff;}
 #menu_wrap hr {display: block; height: 1px;border: 0; border-top: 2px solid #5F5F5F;margin:3px 0;}
 #menu_wrap .option{text-align: center;}
@@ -41,53 +42,34 @@
 #pagination {margin:10px auto;text-align: center;}
 #pagination a {display:inline-block;margin-right:10px;}
 #pagination .on {font-weight: bold; cursor: default;color:#777;}
-        body {
-            font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;
-            font-size: 12px;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-between;
-            margin: 20px;
-            padding: 20px;
-            background-color: #007bff;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .map_wrap {
-            flex: 1;
-            height: 500px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            margin-right: 20px;
-            overflow: hidden;
-        }
-
-        #map {
-            width: 100%;
-            height: 100%;
-            position: relative;
-            overflow: hidden;
-        }
-
         #roadview {
-            width: 100%;
-            height: 300px;
+            margin:20px;
+            height: 200px; /* 변경된 높이값 */
+            background: white;
+            padding: 20px;
+            flex: 20px;
+            border-radius: 10px;
+            bottom:20px;
         }
-
+        #map {
+            width: 64%;
+            height: 40%;
+            position: absolute;
+            left:310px;
+            top:80px;
+            
+        }
         #menu_wrap {
-            flex: 0 0 250px;
+            flex: 0 0 10px;
             padding: 5px;
             background-color: rgba(255, 255, 255, 0.7);
             border-radius: 10px;
             overflow-y: auto;
             font-size: 12px;
+            left:310px;
+            top:80px;
+            font-family:'Malgun Gothic',dotum,'돋움',sans-serif;font-size:12px;
+            width:35%;
         }
 
         #placesList li {
@@ -135,43 +117,6 @@
             margin: 10px 0 0 10px;
             background: url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_number_blue.png) no-repeat;
         }
-
-        /* STT UI 스타일 */
-        .stt-container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            flex: 0 0 300px;
-            text-align: center;
-        }
-
-        #fileLabel,
-        #startRecordButton,
-        #stopRecordButton,
-        #convertButton {
-            display: block;
-            margin: 0 auto;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-
-        #fileLabel:hover,
-        #convertButton:hover,
-        #startRecordButton:hover,
-        #stopRecordButton:hover {
-            background-color: #0056b3;
-        }
-
-        #convertedText {
-            margin-top: 20px;
-        }
-
         #indicator {
             width: 10px;
             height: 10px;
@@ -181,64 +126,628 @@
             margin-left: 5px;
             visibility: hidden;
         }
+        #audioFile {
+            position: relative;
+            right: 5px;
+    } 
 
-        #pagination {
-            margin-top: 10px;
-            text-align: center;
-        }
 
-        #pagination a {
-            display: inline-block;
-            margin-right: 10px;
-        }
+.partial-code.root {
+  background-color: white;
+  display: grid;
+  min-height: 1080px;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.partial-code .box {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 24px 24px 24px 24px;
+  box-shadow: 0px 10px 100px 0px rgba(62, 38, 101, 0.149);
+  display: grid;
+  flex-grow: 1;
+  margin: 51px auto;
+  min-height: 978px;
+  overflow: hidden;
+  position: relative;
+  width: 95.78%;
+}
+.partial-code .flex_row {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  margin: 0px 0px 53px;
+  position: relative;
+}
+.partial-code .flex_row > .cell {
+  display: grid;
+  flex: 0 0 272px;
+  z-index: 5;
+  position:relative;
+}
+.partial-code .flex_col {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0px 0px 441px;
+  position: relative;
+}
+.partial-code .flex_col > .cell {
+  display: grid;
+  z-index: 0;
+}
+.partial-code .cover {
+  flex-grow: 1;
+  min-height: 484px;
+  object-fit: cover;
+  width: 100%;
+}
+.partial-code .flex_col > .cell1 {
+  display: grid;
+  margin-top: -484px;
+  z-index: 1;
+}
+.partial-code .flex_col > .cell2 {
+  display: grid;
+  margin-top: -460px;
+  z-index: 11;
+}
+.partial-code .big_title {
+  color: white;
+  display: flex;
+  flex-grow: 1;
+  font: 800 34px/1.39 "Poppins", Helvetica, Arial, serif;
+  justify-content: flex-end;
+  letter-spacing: 0px;
+  margin: 0px auto;
+  text-align: right;
+  width: 128px;
+}
+.partial-code .flex_col > .cell3 {
+  display: grid;
+  z-index: 2;
+}
+.partial-code .icon {
+  flex-grow: 1;
+  height: 24px;
+  margin: 116px 65.07% 0px 26.1%;
+  min-height: 24px;
+  object-fit: cover;
+  width: 24px;
+}
+.partial-code .flex_col > .cell4 {
+  display: grid;
+  margin-top: -23px;
+  z-index: 3;
+}
+.partial-code .highlight {
+  color: white;
+  display: flex;
+  flex-grow: 1;
+  border: none; background: none; padding: 0; font: inherit; cursor: pointer;  letter-spacing: -0.9px;
+  justify-content: flex-end;
+  letter-spacing: -1px;
+  margin: 0px auto;
+  text-align: right;
+  width: 58.09%;
+}
+.partial-code .flex_col > .cell5 {
+  display: grid;
+  z-index: 4;
+}
+.partial-code .icon1 {
+  flex-grow: 1;
+  height: 24px;
+  margin: 37px 65.07% 0px 26.1%;
+  min-height: 24px;
+  object-fit: cover;
+  width: 24px;
+}
+.partial-code .flex_col > .cell6 {
+  display: grid;
+  margin-top: -23px;
+  z-index: 5;
+}
+.partial-code .highlight1 {
+  color: white;
+  flex-grow: 1;
+  border: none; background: none; padding: 0; font: inherit; cursor: pointer;  letter-spacing: -0.9px;
+  margin: 0px auto;
+  width: 66px;
 
-        #pagination .on {
-            font-weight: bold;
-            cursor: default;
-            color: #777;
-        }
-</style>
+}
+.partial-code .flex_col > .cell7 {
+  display: grid;
+  z-index: 6;
+}
+.partial-code .flex_col > .cell8 {
+  display: grid;
+  margin-top: -23px;
+  z-index: 7;
+}
+.partial-code .flex_col > .cell9 {
+  display: grid;
+  z-index: 10;
+}
+.partial-code .rect {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1.5px 1.5px 1.5px 1.5px;
+  flex-grow: 1;
+  margin: 29px 18.38% 0px 26.1%;
+  min-height: 3px;
+  width: 55.51%;
+}
+.partial-code .flex_col > .cell10 {
+  display: grid;
+  z-index: 8;
+}
+.partial-code .cover1 {
+  border-radius: 20px 20px 20px 20px;
+  flex-grow: 1;
+  margin: 31px 18.38% 0px 23.53%;
+  min-height: 48px;
+  object-fit: cover;
+  width: 58.09%;
+}
+.partial-code .flex_col > .cell11 {
+  display: grid;
+  margin-top: -38px;
+  z-index: 9;
+}
+.partial-code .subtitle {
+  color: white;
+  display: flex;
+  flex-grow: 1;
+  font: 500 20px/1.39 "Poppins", Helvetica, Arial, serif;
+  justify-content: center;
+  letter-spacing: -1.51px;
+  margin: 0px 40.44% 0px 45.96%;
+  text-align: center;
+  width: 13.6%;
+}
+.partial-code .flex_row > .cell1 {
+  display: grid;
+  flex: 0 0 950px;
+  margin-left: -223px;
+  z-index: 0;
+  position:relative;
+}
+.partial-code .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 60px 0px;
+  margin: 14px 0px 0px;
+  position: relative;
+}
+.partial-code .image4 {
+  border-radius: 24px 24px 24px 24px;
+  margin: 0px 0px 0px auto;
+  min-height: 470px;
+  object-fit: cover;
+  width: 71.37%;
+}
+.partial-code .box3 {
+  background-color: white;
+  border-radius: 24px 24px 24px 24px;
+  box-shadow: 10px 10px 80px 0px rgba(62, 38, 101, 0.2);
+  display: grid;
+  position: relative;
+}
+.partial-code .flex_row1 {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  gap: 0px 11px;
+  margin: 16px 16px 16px;
+  position: relative;
+}
+.partial-code .image5 {
+  border-radius: 16px 16px 16px 16px;
+  flex: 0 0 61px;
+  height: 37px;
+  margin: 0px 0px 3px;
+  min-height: 37px;
+  object-fit: cover;
+  width: 61px;
+}
+.partial-code .flex_row1 > .cell {
+  display: grid;
+  flex: 0 0 56px;
+  margin-left: -57px;
+
+}
+.partial-code .image6 {
+  border-radius: 28px 28px 28px 28px;
+  flex-grow: 1;
+  height: 33px;
+  margin: 4px 0px 3px;
+  min-height: 33px;
+  object-fit: cover;
+  width: 56px;
+}
+.partial-code .highlight2 {
+  color: #242730;
+  /*flex: 0 0 62px;*/
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -1px;
+  margin: 0px 0px 17px;
+  font-size: 16px;
+  left: -10px;
+  position: relative;
+}
+.partial-code .flex_row1 > .cell1 {
+  display: grid;
+  flex: 0 0 100px;
+  margin-left: -79px;
+}
+.partial-code .infor {
+  color: #959ba5;
+  flex-grow: 1;
+  font: 600 12px/1.39 "Poppins", Helvetica, Arial, serif;
+  letter-spacing: 0px;
+  margin: 23px 0px 0px;
+}
+.partial-code .flex_row > .spacer {
+  flex: 0 1 55px;
+}
+.partial-code .flex_row > .cell2 {
+  display: grid;
+  flex: 0 0 728px;
+  z-index: 6;
+
+}
+.partial-code .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 25px 0px;
+  margin: 613px 0px 0px;
+  position: relative;
+}
+.partial-code .medium_title {
+  color: #242730;
+  font: 700 24px/1.39 "Malgun gothic", Helvetica, Arial, serif;
+  letter-spacing: 0px;
+  margin: 0px 5px;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+.partial-code .flex_col2 > .cell {
+  display: grid;
+  margin-top: -31px;
+}
+.partial-code .subtitle1 {
+  color: #242730;
+  display: flex;
+  flex-grow: 1;
+  font: 700 20px/1.39 "Poppins", Helvetica, Arial, serif;
+  justify-content: flex-end;
+  letter-spacing: 0px;
+  margin: 0px 40px;
+  text-align: right;
+}
+.partial-code .flex_col2 > .cell1 {
+  display: grid;
+  margin-top: -20px;
+}
+.partial-code .image3 {
+  flex-grow: 1;
+  height: 12px;
+  margin: 0px 1.24% 0px 97.94%;
+  min-height: 12px;
+  object-fit: cover;
+  width: 6px;
+}
+.partial-code .rect2 {
+  background-color: white;
+  border-radius: 24px 24px 24px 24px;
+  box-shadow: 10px 10px 80px 0px rgba(62, 38, 101, 0.2);
+  min-height: 264px;
+  bottom: 40px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+    
+.rect2 img {
+    width: 70%;  /* 이미지의 너비를 rect2의 너비에 맞춤 */
+    height: 70%; /* 이미지의 높이를 rect2의 높이에 맞춤 */
+    object-fit: cover;  /* 이미지 비율을 유지하면서 rect2에 맞게 조절 */
+}
+    
+.partial-code .flex_row > .cell3 {
+  display: grid;
+  flex: 0 0 768px;
+  margin-left: -723px;
+  z-index: 1;
+}
+.partial-code .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 7px 0px;
+  margin: 346px 0px 358px;
+  position: relative;
+}
+.partial-code .medium_title1 {
+  color: #242730;
+  font: 700 24px/1.39 "Poppins", Helvetica, Arial, serif;
+  letter-spacing: 0px;
+  font-family: 'Noto Sans KR', sans-serif;
+  position:relative;
+  top:5px;
+
+}
+.partial-code .image {
+  border-radius: 24px 24px 24px 24px;
+  filter: drop-shadow(10px 10px 80px rgba(62, 38, 101, 0.298));
+  margin: 0px auto 0px 0px;
+  min-height: 180px;
+  object-fit: cover;
+  width: 49.61%;
+}
+.partial-code .flex_row > .cell4 {
+  display: grid;
+  flex: 0 0 732px;
+  margin-left: -768px;
+  z-index: 4;
+}
+.partial-code .flex_col4 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px 0px;
+  margin: 32px 0px 605px;
+  position: relative;
+}
+.partial-code .rect1 {
+  background-color: #2e2e68;
+  border-radius: 14px 14px 14px 14px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.247);
+  min-height: 242px;
+  outline: 5px solid white;
+}
+.partial-code .flex_row > .cell5 {
+  display: grid;
+  flex: 0 0 319px;
+  margin-left: -325px;
+  z-index: 2;
+}
+.partial-code .box1 {
+  border-radius: 24px 24px 24px 24px;
+  display: grid;
+  filter: drop-shadow(10px 10px 80px rgba(62, 38, 101, 0.098));
+  flex-grow: 1;
+  margin: 392px 0px 448px;
+  position: relative;
+}
+.partial-code .content_box {
+  display: grid;
+  flex-grow: 1;
+  position: relative;
+  top: 5px;
+}
+.partial-code .image1 {
+  border-radius: 24px 24px 24px 24px;
+  bottom: 0px;
+  filter: drop-shadow(10px 10px 80px rgba(62, 38, 101, 0.098));
+  left: 0px;
+  margin: 0px auto;
+  min-height: 85px;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  
+}
+.partial-code .highlight11 {
+  color: white;
+  flex-grow: 1;
+  font: 700 18px/1.39 "Poppins", Helvetica, Arial, serif;
+  letter-spacing: -1.3px;
+  margin: 16px 73.35% 38px 5.64%;
+  width: 24%;
+  position: relative;
+  z-index: 4;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+.partial-code .flex_row > .cell6 {
+  display: grid;
+  flex: 0 0 319px;
+  margin-left: -319px;
+  z-index: 3;
+}
+.partial-code .box2 {
+  border-radius: 24px 24px 24px 24px;
+  display: grid;
+  filter: drop-shadow(10px 10px 80px rgba(62, 38, 101, 0.098));
+  flex-grow: 1;
+  margin: 487px 0px 358px;
+  position: relative;
+}
+.partial-code .content_box2 {
+  display: grid;
+  flex-grow: 1;
+  position: relative;
+  top: 19px;
+}
+.partial-code .image2 {
+  border-radius: 24px 24px 24px 24px;
+  bottom: 0px;
+  filter: drop-shadow(10px 10px 80px rgba(62, 38, 101, 0.098));
+  left: 0px;
+  margin: 0px auto;
+  min-height: 80px;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+}
+.partial-code .highlight12 {
+  color: white;
+  flex-grow: 1;
+  font: 700 18px/1.39 "Poppins", Helvetica, Arial, serif;
+  letter-spacing: -1.3px;
+  margin: 16px 73.35% 38px 5.64%;
+  width: 24%;
+  position: relative;
+  z-index: 4;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+    .partial-code .cov_text{
+        left: 100px;
+        top: -8px;
+        position: absolute;
+        padding: 22px;
+        font: 700 18px/1.39 "Poppins", Helvetica, Arial, serif;
+
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size:40px;
+        color:white;
+
+    }
+    .partial-code .code_style{
+        position: absolute;
+        padding: 110px;
+        left: -30px;
+        font: 700 18px/1.39 "Poppins", Helvetica, Arial, serif;
+
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size:80px;
+        color:white;
+       
+}
+    }
+
+    </style>
+  <title>Document</title>
 </head>
 <body>
-<div class="container">
-    <div class="map_wrap">
-        <div id="map"></div>
-        
-        <div id="menu_wrap">
-            <div class="option">
-                <div>
-                    <form onsubmit="searchPlaces(); return false;">
-                        키워드 : <input type="text" value="{{ words }}" id="keyword" size="15">
-                        <button type="submit">검색하기</button>
-                    </form>
-                </div>
+<div class="partial-code root">
+  <div class="box">
+    <div class="flex_row">
+      <div class="cell">
+        <div class="flex_col">
+          <div class="cell"><img class="cover" src="/assets/8de0b46f9bdf405ae79a4fc813340ac6.png" alt="alt text" /></div>
+          <div class="cell1"><img class= "cover" src="https://i.imgur.com/NtNNE3w.png" title="source: imgur.com" /></div>
+          <div class="cell2"><h1 class="big_title">ALICE</h1></div>
+          <div class="cell3"><img class="icon" src="https://i.imgur.com/QQrcFCO.png" alt="alt text" /></div>
+          
+          <div class="cell4"><h5 class="highlight">
+              <input type="file" id="audioFile" accept="audio/*" style="display: none;">
+              <label for="audioFile" id ="audioFile">오디오 파일 선택</label></h5></div>
+          <div class="cell5"><img class="icon1" src="https://i.imgur.com/OWYQl2f.png" alt="alt text" /></div>
+          <div class="cell6"><button type="button" class="highlight1" id="startRecordButton" style="border: none; background: none; padding: 0; font: inherit; cursor: pointer;">녹음 시작</button></div>
+          <div class="cell7"><img class="icon1" src="https://i.imgur.com/JEfMqhO.png" alt="alt text" /></div>
+          <div class="cell8"><button type="button" class="highlight1" id="stopRecordButton"  style="border: none; background: none; padding: 0; font: inherit; cursor: pointer;">녹음 종료</button>
+
+            </div>
+            
+          <div class="cell9"><div class="rect"></div></div>
+          <div class="cell10"><img class="cover1" src="https://i.imgur.com/Cq3D3ox.png" alt="alt text" /></div>
+          <div class="cell11"> <button type="button" class="subtitle" id="convertButton"  onclick="convertAudioToText()"style="border: none; background: none; padding: 0; font: inherit; cursor: pointer;">실행</button></div>
+        </div>
+                      <div id="indicator" style="z-index:100;position:relative"></div>
+      </div>
+      <div class="cell1">
+        <div class="flex_col1">
+          <img class="image4" src="https://i.imgur.com/b8izXeK.png" title="source: imgur.com" />
+            
+            <div id = "map">  </div>
+            <div id="menu_wrap">
+                <div class="option">
             </div>
             <hr>
-            <ul id="placesList"></ul>
+            <ul id="placesList" style="padding-inline-start: 0px;"></ul>
             <div id="pagination"></div>
         </div>
+
+          <div class="box3">
+            <div class="flex_row1">
+              <img class="image5" src="https://i.imgur.com/t9ZEUlN.png" type="image/png" alt="alt text" />
+              <div class="cell"><img class="image6" src="https://i.imgur.com/Eji9r94.png" alt="alt text" /></div>
+              <h5 class="highlight2">로드뷰 맵</h5>
+              <div class="cell1"><div class="infor">ROAD VIEW MAP</div></div>
+              
+
+            </div>
+          <div id="roadview"> </div>
+            </div>
+        </div>
+      </div>
+      <div class="spacer"></div>
+        
+      <div class="cell2">
+        <div class="flex_col2">
+        <h2 class="medium_title">안심 상권 지수</h2>
+        <div class="cell"><h3 class="subtitle1">2023</h3></div>
+        <div class="cell1"></div>
+        <div class="rect2" id="convertedImage"></div>
+        
+        </div>
+      </div>
+
+      <div class="cell3">
+        <div class="flex_col3">
+          <h2 class="medium_title1">코드 분류</h2>
+          <img class="image" src="https://i.imgur.com/nNdf8N6.png" alt="alt text" />
+            <div id="Code" class="code_style">
+            </div>
+        </div>
+      </div>
+        
+      <div class="cell4">
+        <div class="flex_col4">
+          <h2 class="medium_title1">변환된 텍스트</h2>
+          <div class="rect1">
+            <div id = "convertedText" style="color:white; padding:20px">
+                
+              </div>
+
+            </div>
+        </div>
+      </div>
+      <div class="cell5">
+        <div class="box1">
+          <div class="content_box">
+            <div class="content_box">
+              <img class="image1" src="https://i.imgur.com/6jzRXwQ.png" alt="alt text" />
+              <h4 class="highlight11">예측확률</h4>
+                <div id="prob" class="cov_text">
+                    
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cell6">
+        <div class="box2">
+          <div class="content_box2">
+            <img class="image2" src="https://i.imgur.com/41Aalfm.png" alt="alt text" />
+            <h4 class="highlight12">사건분류</h4>
+              <div id="get" class="cov_text">
+                  
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="stt-container">
-        <h1>Voice to Text Conversion</h1>
-        <input type="file" id="audioFile" accept="audio/*" style="display: none;">
-        <label for="audioFile" id="fileLabel" class="file-label">Select Audio File</label>
-        <hr>
-        <button id="startRecordButton">Start Recording</button>
-        <hr>
-        <button id="stopRecordButton" disabled>Stop Recording</button>
-        <hr>
-        <button id="convertButton" onclick="convertAudioToText()">Convert Voice to Text</button>
-        <div id="indicator"></div>
-        <div id="convertedText"></div>
-    </div>
+  </div>
 </div>
-<div id="roadview"></div>
+</body>
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=990c65316ad7b43897d80882ebd58ac1&libraries=services"></script>
 <script>
 // 마커를 담을 배열입니다
 var markers = [];
-
+localStorage.clear();
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = {
         center: new kakao.maps.LatLng(37.566826, 126.9786567), // 지도의 중심좌표
@@ -261,7 +770,7 @@ searchPlaces();
 
 // 키워드 검색을 요청하는 함수입니다
 function searchPlaces(keyword) {
-
+    
 
     // 장소검색 객체를 통해 키워드로 장소검색을 요청합니다
     ps.keywordSearch( keyword, placesSearchCB); 
@@ -293,7 +802,7 @@ function placesSearchCB(data, status, pagination) {
 
 // 검색 결과 목록과 마커를 표출하는 함수입니다
 function displayPlaces(places) {
-
+   
     var listEl = document.getElementById('placesList'), 
     menuEl = document.getElementById('menu_wrap'),
     fragment = document.createDocumentFragment(), 
@@ -302,20 +811,33 @@ function displayPlaces(places) {
     
     // 검색 결과 목록에 추가된 항목들을 제거합니다
     removeAllChildNods(listEl);
+    var list = []
 
     // 지도에 표시되고 있는 마커를 제거합니다
     removeMarker();
     
     for ( var i=0; i<places.length; i++ ) {
 
+
         // 마커를 생성하고 지도에 표시합니다
         var placePosition = new kakao.maps.LatLng(places[i].y, places[i].x),
             marker = addMarker(placePosition, i), 
             itemEl = getListItem(i, places[i]); // 검색 결과 항목 Element를 생성합니다
+        console.log(places)
+        
+        var infor = {
+            "place_name" : places[0].place_name,
+            "road_address_name" : places[0].road_address_name,
+            "address_name": places[0].address_name
+        }
+        localStorage.setItem("infor",JSON.stringify(infor));
+
+
 
         // 검색된 장소 위치를 기준으로 지도 범위를 재설정하기위해
         // LatLngBounds 객체에 좌표를 추가합니다
         bounds.extend(placePosition);
+
 
         // 마커와 검색결과 항목에 mouseover 했을때
         // 해당 장소에 인포윈도우에 장소명을 표시합니다
@@ -344,16 +866,18 @@ function displayPlaces(places) {
     // 검색결과 항목들을 검색결과 목록 Element에 추가합니다
     listEl.appendChild(fragment);
     menuEl.scrollTop = 0;
-
+  
     // 검색된 장소 위치를 기준으로 지도 범위를 재설정합니다
     map.setBounds(bounds);
+    if (places.length > 0) {
+        displayRoadview(new kakao.maps.LatLng(places[0].y, places[0].x));
+    }
 }
     
 var roadviewContainer = document.getElementById('roadview');
 var roadview = new kakao.maps.Roadview(roadviewContainer);
 var roadviewClient = new kakao.maps.RoadviewClient();
     
-
 
 
 // 검색결과 항목을 Element로 반환하는 함수입니다
@@ -377,6 +901,7 @@ function getListItem(index, places) {
     el.innerHTML = itemStr;
     el.className = 'item';
 
+
     return el;
 }
 
@@ -395,21 +920,25 @@ function addMarker(position, idx, title) {
             image: markerImage
         });
 
-    marker.setMap(map); // 지도 위에 마커를 표출합니다
+    marker.setMap(map);
+
+    // 마커를 클릭했을 때 로드뷰를 띄우는 함수
 
     // 마커 클릭 이벤트
     kakao.maps.event.addListener(marker, 'click', function() {
-        // 클릭한 마커의 위치
-        var latlng = marker.getPosition();
-
-        // 특정 위치의 좌표와 가까운 로드뷰의 panoId를 추출하여 로드뷰를 띄운다.
-        roadviewClient.getNearestPanoId(latlng, 50, function(panoId) {
-            roadview.setPanoId(panoId, latlng); // panoId와 중심좌표를 통해 로드뷰 실행
-        });
+        displayRoadview(marker.getPosition());
     });
+
+    // 첫 번째 마커에 대해서만 자동으로 로드뷰를 띄움
 
     return marker;
 }
+function displayRoadview(latlng) {
+        roadviewClient.getNearestPanoId(latlng, 50, function(panoId) {
+            roadview.setPanoId(panoId, latlng);
+        });
+    }
+
 
 
 // 지도 위에 표시되고 있는 마커를 모두 제거합니다
@@ -485,6 +1014,17 @@ function removeAllChildNods(el) {
                     if (xhr.status === 200) {
                         var response = JSON.parse(xhr.responseText);
                         displayConvertedText(response.text);
+                        displayConvertedProb(response.code.prob);
+                        displayConvertedCode(response.code.count);
+                        displayConvertedGet(response.code.get);
+                        displayConvertedImage();
+
+                        var textinfor = {
+                            "code" : response.code,
+                            "text" : response.text
+                             }
+                        localStorage.setItem("textinfor",JSON.stringify(textinfor));
+
                         searchPlaces(response.words_with_label_25);
                     } else {
                         alert('Server error occurred.');
@@ -518,6 +1058,15 @@ function removeAllChildNods(el) {
                         if (xhr.status === 200) {
                             const response = JSON.parse(xhr.responseText);
                             displayConvertedText(response.text);
+                            displayConvertedProb(response.code.prob);
+                            displayConvertedCode(response.code.count);
+                            displayConvertedGet(response.code.get);
+                            displayConvertedImage();
+                            var textinfor = {
+                                "code" : response.code,
+                                "text" : response.text
+                                 }
+                            localStorage.setItem("textinfor",JSON.stringify(textinfor));
 
                             searchPlaces(response.words_with_label_25);
                             
@@ -549,6 +1098,27 @@ function removeAllChildNods(el) {
             var convertedTextDiv = document.getElementById('convertedText');
             convertedTextDiv.innerHTML = text;
         }
+        function displayConvertedImage() {
+            var additionalPhotosElement = document.getElementById('convertedImage');
+                document.getElementById('convertedImage').innerHTML = '';
+
+additionalPhotosElement.innerHTML = '<img src="{% static 'graph_output.png' %}?t=' + new Date().getTime() + '" alt="추가 사진 1">';
+        }
+
+        function displayConvertedCode(code) {
+            var convertedTextDiv = document.getElementById('Code');
+            convertedTextDiv.innerHTML = code;            
+        }
+        function displayConvertedProb(prob) {
+            var convertedTextDiv = document.getElementById('prob');
+            convertedTextDiv.innerHTML = prob;            
+        }
+        function displayConvertedGet(get) {
+            var convertedTextDiv = document.getElementById('get');
+            convertedTextDiv.innerHTML = get;            
+        }
+    
+    
 
         document.getElementById('startRecordButton').addEventListener('click', startRecording);
         document.getElementById('stopRecordButton').addEventListener('click', stopRecording);
@@ -578,6 +1148,11 @@ function removeAllChildNods(el) {
         isRecording = false;
         document.getElementById('indicator').style.visibility = 'hidden';
     });
-</script>
-</body>
-</html>
+    // 페이지 이동 버튼 클릭 이벤트 처리
+    var linkToTempButton = document.getElementById("linktotemp");
+    linkToTempButton.addEventListener("click", function() {
+        // index_final.html로 페이지 이동
+        window.location.href = "https://alice-qhkpb.run.goorm.site/service/temp/";
+    });
+
+</script></html>
