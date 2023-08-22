@@ -18,7 +18,7 @@
 #placesList li {list-style: none;}
 #placesList .item {position:relative;border-bottom:1px solid #888;overflow: hidden;cursor: pointer;min-height: 65px;}
 #placesList .item span {display: block;margin-top:4px;}
-#placesList .item h5, #placesList .item .info {text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+#placesList .item h5, #placesList .item .info {text-overflow: ellipsis;overflow: hidden;white-space: nowrap; font-size:12px;}
 #placesList .item .info{padding:10px 0 10px 55px;}
 #placesList .info .gray {color:#8a8a8a;}
 #placesList .info .jibun {padding-left:26px;background:url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png) no-repeat;}
@@ -130,8 +130,21 @@
             position: relative;
             right: 5px;
     } 
-
-
+        #startRecordButton:hover,
+        #audioFile:hover,
+        #stopRecordButton:hover{
+             background-color: rgb(84, 176, 212);          
+             cursor: pointer;
+             background: linear-gradient(180deg, #d8b6ff, #6b2d91);
+             border-radius: 4px;
+            
+    }
+        #photo-title,
+        #photo-description{
+              font: 700 18px/1.39 "Poppins", Helvetica, Arial, serif;
+              font-family: 'Noto Sans KR', sans-serif;
+        }
+    
 .partial-code.root {
   background-color: white;
   display: grid;
@@ -444,19 +457,45 @@
   border-radius: 24px 24px 24px 24px;
   box-shadow: 10px 10px 80px 0px rgba(62, 38, 101, 0.2);
   min-height: 264px;
-  bottom: 40px;
+  bottom: 32px;
   position: relative;
 
   display: flex;
   justify-content: center;
   align-items: center;  
 }
+.partial-code .description {
+  background-color: white;
+  border-radius: 24px 24px 24px 24px;
+  box-shadow: 10px 10px 80px 0px rgba(62, 38, 101, 0.2);
+  min-height: 264px;
+  bottom: 40px;
+  position: absolute;
+  
+  display: block;
+  justify-content: center;
+  align-items: center;  
+  
+}   
     
 .rect2 img {
-    width: 70%;  /* 이미지의 너비를 rect2의 너비에 맞춤 */
-    height: 70%; /* 이미지의 높이를 rect2의 높이에 맞춤 */
     object-fit: cover;  /* 이미지 비율을 유지하면서 rect2에 맞게 조절 */
+
 }
+
+.rect2 .graph {
+    width: 90%;  /* 이미지의 너비를 rect2의 너비에 맞춤 */
+    height: 70%; /* 이미지의 높이를 rect2의 높이에 맞춤 */
+}
+
+.rect2 .safety {
+    width: 30%;
+    
+    position: absolute;
+    right: 10px;
+    top: 10px;    z-index: 1000;
+}
+
     
 .partial-code .flex_row > .cell3 {
   display: grid;
@@ -616,7 +655,7 @@
     .partial-code .code_style{
         position: absolute;
         padding: 110px;
-        left: -30px;
+        left: -48px;
         font: 700 18px/1.39 "Poppins", Helvetica, Arial, serif;
 
         font-family: 'Noto Sans KR', sans-serif;
@@ -644,9 +683,9 @@
               <input type="file" id="audioFile" accept="audio/*" style="display: none;">
               <label for="audioFile" id ="audioFile">오디오 파일 선택</label></h5></div>
           <div class="cell5"><img class="icon1" src="https://i.imgur.com/OWYQl2f.png" alt="alt text" /></div>
-          <div class="cell6"><button type="button" class="highlight1" id="startRecordButton" style="border: none; background: none; padding: 0; font: inherit; cursor: pointer;">녹음 시작</button></div>
+          <div class="cell6"><button type="button" class="highlight1" id="startRecordButton" >녹음 시작</button></div>
           <div class="cell7"><img class="icon1" src="https://i.imgur.com/JEfMqhO.png" alt="alt text" /></div>
-          <div class="cell8"><button type="button" class="highlight1" id="stopRecordButton"  style="border: none; background: none; padding: 0; font: inherit; cursor: pointer;">녹음 종료</button>
+          <div class="cell8"><button type="button" class="highlight1" id="stopRecordButton"  >녹음 종료</button>
 
             </div>
             
@@ -686,11 +725,18 @@
         
       <div class="cell2">
         <div class="flex_col2">
-        <h2 class="medium_title">안심 상권 지수</h2>
+        <h2 class="medium_title">상권안전지수</h2>
         <div class="cell"><h3 class="subtitle1">2023</h3></div>
         <div class="cell1"></div>
-        <div class="rect2" id="convertedImage"></div>
         
+        <div class="rect2" id="convertedImage" onclick="showDescription('photo1')" class="graph">
+            <img src="{% static 'safety_zisoo.png'%}" alt="Safety Zisoo Image" class="safety">
+        </div>
+        <div class="description" id="description">
+            <h2 id="photo-title"></h2>
+            <p id="photo-description"></p>
+            <div id="additional-photos" class="additional-photos"></div>
+        </div>
         </div>
       </div>
 
@@ -1100,9 +1146,9 @@ function removeAllChildNods(el) {
         }
         function displayConvertedImage() {
             var additionalPhotosElement = document.getElementById('convertedImage');
-                document.getElementById('convertedImage').innerHTML = '';
+                
 
-additionalPhotosElement.innerHTML = '<img src="{% static 'graph_output.png' %}?t=' + new Date().getTime() + '" alt="추가 사진 1">';
+additionalPhotosElement.innerHTML ='<img src="{% static 'safety_zisoo.png'%}" alt="Safety Zisoo Image" class="safety">'+ '<img src="{% static 'graph_output_2.png' %}?t=' + new Date().getTime() + '" alt="추가 사진 1">';
         }
 
         function displayConvertedCode(code) {
@@ -1154,5 +1200,22 @@ additionalPhotosElement.innerHTML = '<img src="{% static 'graph_output.png' %}?t
         // index_final.html로 페이지 이동
         window.location.href = "https://alice-qhkpb.run.goorm.site/service/temp/";
     });
+function showDescription(photoId) {
+  const titleElement = document.getElementById('photo-title');
+  const descriptionElement = document.getElementById('photo-description');
+  const additionalPhotosElement = document.getElementById('additional-photos');
 
+  if (photoId === 'photo1') {
+    titleElement.textContent = '안전상권 지수 변수';
+    descriptionElement.textContent = '이 변수들에 의거하여 안전상권 지수가 결정됩니다.';
+    additionalPhotosElement.innerHTML = '<img src="{% static 'graph_output_1.png' %}?t=' + new Date().getTime() + '" alt="추가 사진 1">';
+  }
+  const description = document.getElementById('description');
+  description.style.display = 'block';
+
+  // description 영역을 클릭하면 다시 숨기도록 설정
+  description.addEventListener('click', function () {
+    description.style.display = 'none';
+  });
+}
 </script></html>
