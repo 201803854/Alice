@@ -144,6 +144,30 @@
               font: 700 18px/1.39 "Poppins", Helvetica, Arial, serif;
               font-family: 'Noto Sans KR', sans-serif;
         }
+        body {
+    position: relative;
+    min-height: 100vh;
+}
+
+        #nextButton {
+            position: absolute;  
+            top: 95%;            
+            left: 50%;           
+            transform: translate(-50%, -50%); 
+            padding: 10px 20px;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            z-index: 101;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* 그림자 추가 */
+            font-weight: bold;  /* 텍스트 두께 조정 */
+            color: #333;  /* 텍스트 색상 조정 */
+            border-radius: 5px;  /* 버튼 모서리 둥글게 */
+            transition: all 0.3s ease;        /* 다른 요소 위에 표시되도록 z-index 값 설정 */
+}
+
+}
+
     
 .partial-code.root {
   background-color: white;
@@ -671,6 +695,7 @@
 <body>
 <div class="partial-code root">
   <div class="box">
+      <button id="nextButton">조서작성</button>
     <div class="flex_row">
       <div class="cell">
         <div class="flex_col">
@@ -693,7 +718,7 @@
           <div class="cell10"><img class="cover1" src="https://i.imgur.com/Cq3D3ox.png" alt="alt text" /></div>
           <div class="cell11"> <button type="button" class="subtitle" id="convertButton"  onclick="convertAudioToText()"style="border: none; background: none; padding: 0; font: inherit; cursor: pointer;">실행</button></div>
         </div>
-                      <div id="indicator" style="z-index:100;position:relative"></div>
+                      <div id="indicator" style="z-index:100;position:absolute ;left:130px;top:450px"></div>
       </div>
       <div class="cell1">
         <div class="flex_col1">
@@ -713,19 +738,20 @@
               <img class="image5" src="https://i.imgur.com/t9ZEUlN.png" type="image/png" alt="alt text" />
               <div class="cell"><img class="image6" src="https://i.imgur.com/Eji9r94.png" alt="alt text" /></div>
               <h5 class="highlight2">로드뷰 맵</h5>
-              <div class="cell1"><div class="infor">ROAD VIEW MAP</div></div>
-              
-
+              <div class="cell1"><div class="infor">ROAD VIEW MAP</div>
+                </div>
             </div>
           <div id="roadview"> </div>
+          
             </div>
         </div>
+          
       </div>
       <div class="spacer"></div>
         
       <div class="cell2">
         <div class="flex_col2">
-        <h2 class="medium_title">상권안전지수</h2>
+        <h2 class="medium_title">안심상권지수</h2>
         <div class="cell"><h3 class="subtitle1">2023</h3></div>
         <div class="cell1"></div>
         
@@ -791,6 +817,13 @@
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=990c65316ad7b43897d80882ebd58ac1&libraries=services"></script>
 <script>
+    
+const nextButton = document.getElementById('nextButton');
+
+nextButton.addEventListener('click', function() {
+  window.location.href = "https://alice-qhkpb.run.goorm.site/service/temp/"; // 이동하려는 페이지의 URL
+});
+    
 // 마커를 담을 배열입니다
 var markers = [];
 localStorage.clear();
@@ -1206,8 +1239,6 @@ function showDescription(photoId) {
   const additionalPhotosElement = document.getElementById('additional-photos');
 
   if (photoId === 'photo1') {
-    titleElement.textContent = '안전상권 지수 변수';
-    descriptionElement.textContent = '이 변수들에 의거하여 안전상권 지수가 결정됩니다.';
     additionalPhotosElement.innerHTML = '<img src="{% static 'graph_output_1.png' %}?t=' + new Date().getTime() + '" alt="추가 사진 1">';
   }
   const description = document.getElementById('description');

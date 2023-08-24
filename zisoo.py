@@ -89,8 +89,10 @@ def main(words_with_label_25):
 
                 if nanum_font:
                     plt.rcParams['font.family'] = 'NanumGothic'
-                    
+                
                 # 그래프 생성
+                # 정리된 코드
+                
                 fig1 = plt.figure(figsize=(5, 5))
                 ax1 = fig1.add_subplot(121, projection='3d')
 
@@ -104,18 +106,18 @@ def main(words_with_label_25):
 
                 numeric_values_x = selected_data.iloc[0].apply(lambda x: height_mapping_x.get(x, 0))
 
-                x_labels = ['', '방범지수', '', '토지이용지수', '', '상권지수','', '인구지수', '']  # x 축 라벨 리스트
+                x_labels = ['방범지수', '토지이용지수', '상권지수', '인구지수']  # x 축 라벨 리스트
 
                 x_pos = np.arange(len(numeric_values_x[:-1]))
                 y_pos = np.zeros(1)
                 z_pos = np.zeros(len(numeric_values[:-1]))
                 dz = numeric_values[:-1]
 
-              # 원기둥 모양의 3D 막대 그래프 생성
+            # 원기둥 모양의 3D 막대 그래프 생성
                 ax1.bar3d(x_pos, y_pos, z_pos, 0.8, 0.8, dz, shade=True, color=color_values[:-1], alpha=0.7)
 
-              # x 축 라벨 설정
-              #ax1.set_xticks(x_pos)
+            # x 축 라벨 설정
+                ax1.set_xticks(x_pos)
                 ax1.set_xticklabels(x_labels, rotation=45, ha='right')
 
               # y 축 눈금과 라벨 비활성화
@@ -129,6 +131,14 @@ def main(words_with_label_25):
                 ax1.set_ylabel("")  # y 축 라벨을 빈 문자열로 설정하여 라벨을 제거
                 ax1.set_zlabel("높이")
                 ax1.set_title("상권 데이터 (3D 원기둥 그래프)")
+
+                
+                # 그래프를 이미지 파일로 저장
+                fig1.tight_layout()
+                file_path1 = os.path.join(settings.BASE_DIR, 'static/graph_output_1.png')
+                fig1.savefig(file_path1, bbox_inches='tight')
+                plt.close(fig1)
+
                 
                 # 그래프를 이미지 파일로 저장
                 fig1.tight_layout()

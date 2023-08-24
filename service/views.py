@@ -17,6 +17,7 @@ from geopy.geocoders import Nominatim
 import pandas as pd
 import matplotlib.pyplot as plt
 from geopy.distance import geodesic
+from kss import split_sentences
 
 # whisper fine-tuned model api
 API_URL = "https://api-inference.huggingface.co/models/kyungmin011029/test_third"
@@ -33,22 +34,41 @@ def convert_audio(request):
     if request.method == 'POST' and request.FILES.get('audio'):
         audio_data = request.FILES['audio'].read()
         #response = query_hugging_face_model(audio_data)
-        #print(response)
-        response = {'text':"도와주세요 지금 이상한 남자가 집 앞까지 따라와서 문 앞에 현관문을 막 들어오려고 해요 신림역 푸리마타운이요 빨리요"}
-        code_class = query(response)
-        print(code_class)
-        category = query_category(response)
-        code_classifiering= code_classifier(code_class, category)
+        #print('\n들어온 음성: ', response)
+        response = {'text':"외대 코코니주방 앞인데 교통사고가 났어요"}
+        
+        sentences = split_sentences(response['text'])
+        print("\n분리된 문장:", sentences)
+        results=[]
+        for sentence in sentences:
+            temp = {'text' : sentence}
+            code_class = query(sentence)
+            results.append([code_class[0][0]['label'][-1],code_class[0][0]['score'],temp])
+        results = sorted(results, key = lambda x : (x[0], -x[1]))
+        print("\n문장 별 가장 높은 코드: ", results)
+        urgent_code = results[0]
+        print("\n긴급코드: ", urgent_code)
+        category_sentence=urgent_code[2]
+        # 한문장인 경우 (옛날)        
+        # code_class = query(response)
+        # print(code_class)
+        category = query_category(category_sentence)
+        # print('\ncategory 3개만: ', category[:3])
+        code_classifiering= code_classifier(urgent_code, category)
         result_text = response['text']
+
+        # print("\n category:", category)
+        #code_classifiering= code_classifier(code_class, category)
+        #result_text = response['text']
         
         # call ner.py for ner / result_text<->
         ner_result = ner.ner_prediction(result_text)
         words_with_label_25 = [word for word, label in ner_result if label == 'LABEL_25' and word != '[CLS]' and word!= '[SEP]']
-        print(words_with_label_25)
+        print('\nNER 라벨: ', words_with_label_25)
         
         zisoo_result = zisoo.main(words_with_label_25)
         response.update(zisoo_result)
-        print(zisoo_result) 
+        print('\n지수 결과' ,zisoo_result) 
         
         response['words_with_label_25'] = words_with_label_25
         response['code'] = code_classifiering
@@ -85,16 +105,16 @@ def query_category(text):
 
 
 def code_classifier(code, category):
-    result = code[0]
+    # if type(code) == 'int' or type(code) == 'str': count = code 
+    result = "CODE"+str(code[0])
     category = category[0]
     print(category)
   #result[0]['score']
-    max_prob = result['score']
+    max_prob = code[1]
     max_prob *= 100
-    count = result['label']
+    count = result
     category_prob = category['score']
     check = category['label']
-    count = count.replace('LABEL_', 'CODE')
     check = check.replace('LABEL_', '')
     check = int(check)
     
@@ -110,3 +130,34 @@ def code_classifier(code, category):
 
     return code_zip
 
+# --- 
+        # sentences = split_sentences(response['text'])
+        # print("\n분리된 문장:", sentences)
+        # results = []
+
+        # for sentence in sentences:
+        #     temp = {'text' : sentence}
+        #     code_class = query(sentence)
+        # results.append([code_class[0][0]['label'][-1],code_class[0][0]['score']])
+        # result.sort(key = lambda x:x[0])
+        # urgent_code = result[0]
+            
+        # # print(urgent_code) 
+
+        # urgent_code_index = results.index(urgent_code)
+        # # print("urgent_code_index", urgent_code_index)
+        # urgent_sentence = sentences[urgent_code_index]
+        # # print("urgent_sentence", urgent_sentence)
+
+        # category = query_category(urgent_sentence)
+        
+        
+        #---
+        #code_class = []
+        #category = []
+
+        # for sentence in sentences:
+        #     c_l = query(sentence)
+        #     code_class.extend(c_l)
+        #     t_l = query_category(sentence)
+        #     category.extend(t_l)
