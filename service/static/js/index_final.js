@@ -1,4 +1,3 @@
-<script>
 window.onload = function() {
     
     var castdata = JSON.parse(localStorage.getItem("infor"));
@@ -37,4 +36,3 @@ window.onload = function() {
     reportContentInput.value=textdata.text;
     
 }
-</script>

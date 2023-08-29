@@ -1,10 +1,10 @@
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=990c65316ad7b43897d80882ebd58ac1&libraries=services"></script>
 
+
 <script>
 const nextButton = document.getElementById('nextButton');
-
 nextButton.addEventListener('click', function() {
-  window.location.href = "https://alice-qhkpb.run.goorm.site/service/temp/"; // 이동하려는 페이지의 URL
+window.location.href = "https://alice-qhkpb.run.goorm.site/service/temp/"; // 이동하려는 페이지의 URL
 });
     
 // 마커를 담을 배열입니다
@@ -363,9 +363,9 @@ function removeAllChildNods(el) {
         function displayConvertedImage() {
             var additionalPhotosElement = document.getElementById('convertedImage');
                 
+            
+additionalPhotosElement.innerHTML = '<img src="{% static "safety_zisoo.png" %}" alt="Safety Zisoo Image" class="safety">' + '<img src="{% static "graph_output_2.png" %}?t=' + new Date().getTime() + '" alt="추가 사진 1">';
 
-additionalPhotosElement.innerHTML ='<img src="{% static 'safety_zisoo.png'%}" alt="Safety Zisoo Image" class="safety">'+ '<img src="{% static 'graph_output_2.png' %}?t=' + new Date().getTime() + '" alt="추가 사진 1">';
-        }
 
         function displayConvertedCode(code) {
             var convertedTextDiv = document.getElementById('Code');
@@ -432,4 +432,4 @@ function showDescription(photoId) {
     description.style.display = 'none';
   });
 }
-    </script>
+        } </script>
