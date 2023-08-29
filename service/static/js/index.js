@@ -1,6 +1,6 @@
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=990c65316ad7b43897d80882ebd58ac1&libraries=services"></script>
+
 <script>
-    
 const nextButton = document.getElementById('nextButton');
 
 nextButton.addEventListener('click', function() {
