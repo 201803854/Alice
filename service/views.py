@@ -20,7 +20,7 @@ from geopy.distance import geodesic
 from kss import split_sentences
 
 # whisper fine-tuned model api
-API_URL = "https://api-inference.huggingface.co/models/kyungmin011029/test_third"
+API_URL = "https://api-inference.huggingface.co/models/kyungmin011029/test_seven"
 #code-classification model api
 API_URL2 = "https://api-inference.huggingface.co/models/kyungmin011029/code4"
 #code_category model api
@@ -33,9 +33,9 @@ HEADERS = {"Authorization": "Bearer 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"}
 def convert_audio(request):
     if request.method == 'POST' and request.FILES.get('audio'):
         audio_data = request.FILES['audio'].read()
-        #response = query_hugging_face_model(audio_data)
-        #print('\n들어온 음성: ', response)
-        response = {'text':"외대 코코니주방 앞인데 교통사고가 났어요"}
+        response = query_hugging_face_model(audio_data)
+        print('\n들어온 음성: ', response)
+        #response = {'text':"외대 코코니주방 앞인데 교통사고가 났어요"}
         
         sentences = split_sentences(response['text'])
         print("\n분리된 문장:", sentences)

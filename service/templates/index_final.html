@@ -1,110 +1,12 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>키워드로 장소검색하고 목록으로 표출하기</title>
-    <style>
-        body {
-            font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;
-            font-size: 12px;
-            margin: 0;
-            padding: 0;
-            background-color: #fff; /* 배경색 설정 */
-        }
+    <link rel="stylesheet" href="{% static 'css/index_final.css' %}">
+    <script src="{% static 'js/index_final.js' %}"></script>
 
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 20px;
-            padding: 20px;
-            background-color: #DAE3F4;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .form-section {
-            flex: 0 0 calc(50% - 20px);
-            margin-bottom: 20px;
-            position:relative;
-            display:block;
-        }
-
-        .form-section h2 {
-            margin-bottom: 10px;
-        }
-
-
-
-        .form-section input,
-        .form-section textarea {
-            width: 200%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            display:block;
-            position:relative;
-
-        }
-
-        .form-section textarea {
-            resize: vertical;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-            font-family:italic;
-            
-        }
-
-        ul li {
-            display: flex;
-            align-items: center;
-        }
-
-        ul li input[type="checkbox"] {
-            margin-left: auto;
-        }
-    #code {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        font-size:40px;
-        
-    }
-
-    #code div {
-        margin-bottom: 10px;
-        background-color:#C6D3EE;
-    }
-    #reportContent{
-            width:400%;
-        }
-
-    #submit {
-        display: block;
-        margin: 20px auto;
-        background-color: rgb(171, 229, 252);
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 30px;
-        cursor: pointer;
-        font-size: 16px;
-    }
-
-    #submit:hover {
-        background-color: rgb(84, 176, 212);
-    }
-        #policeLogo {
-            display: block;
-            margin: 0 auto; /* 수평 가운데 정렬 */
-            max-width: 200px; /* 이미지 최대 너비 지정 */
-            height: auto; /* 높이 자동 조정 */
-        }
-
-
-    </style>
 <h1>
 <img src="https://i.imgur.com/1qBjQJH.png" alt="경찰 로고" id="policeLogo">
 </h1>
@@ -168,44 +70,4 @@
             </button>
         </div>
 </body>
-<script>
-window.onload = function() {
-    
-    var castdata = JSON.parse(localStorage.getItem("infor"));
-    var textdata = JSON.parse(localStorage.getItem("textinfor"));
-    var locationInput = document.getElementById("location");
-    var addressInput = document.getElementById("address");
-    if (textdata.code.count == "CODE0"){
-        var checkboxes= document.getElementById("code0Checkbox");
-        checkboxes.checked=true;
-    }
-    if (textdata.code.count == "CODE1"){
-        var checkboxes= document.getElementById("code1Checkbox");
-        checkboxes.checked=true;
-    }
-    if (textdata.code.count == "CODE2"){
-        var checkboxes= document.getElementById("code2Checkbox");
-        checkboxes.checked=true;
-    }
-    if (textdata.code.count == "CODE3"){
-        var checkboxes= document.getElementById("code3Checkbox");
-        checkboxes.checked=true;
-    }
-    if (textdata.code.count == "CODE4"){
-        var checkboxes= document.getElementById("code4Checkbox");
-        checkboxes.checked=true;
-    }
-
-    var roadaddressInput = document.getElementById("jibunAddress");
-    console.log(textdata)
-    var reportContentInput = document.getElementById("reportContent");
-    var probInput=document.getElementById("codeprob");
-    
-    locationInput.value = castdata.place_name;
-    roadaddressInput.value = castdata.road_address_name;
-    addressInput.value = castdata.address_name;
-    reportContentInput.value=textdata.text;
-    
-}
-</script>
 </html>

@@ -1,0 +1,102 @@
+<style>
+        body {
+            font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; /* 배경색 설정 */
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+            padding: 20px;
+            background-color: #DAE3F4;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-section {
+            flex: 0 0 calc(50% - 20px);
+            margin-bottom: 20px;
+            position:relative;
+            display:block;
+        }
+
+        .form-section h2 {
+            margin-bottom: 10px;
+        }
+
+
+
+        .form-section input,
+        .form-section textarea {
+            width: 200%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display:block;
+            position:relative;
+
+        }
+
+        .form-section textarea {
+            resize: vertical;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            font-family:italic;
+            
+        }
+
+        ul li {
+            display: flex;
+            align-items: center;
+        }
+
+        ul li input[type="checkbox"] {
+            margin-left: auto;
+        }
+    #code {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size:40px;
+        
+    }
+
+    #code div {
+        margin-bottom: 10px;
+        background-color:#C6D3EE;
+    }
+    #reportContent{
+            width:400%;
+        }
+
+    #submit {
+        display: block;
+        margin: 20px auto;
+        background-color: rgb(171, 229, 252);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 30px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    #submit:hover {
+        background-color: rgb(84, 176, 212);
+    }
+        #policeLogo {
+            display: block;
+            margin: 0 auto; /* 수평 가운데 정렬 */
+            max-width: 200px; /* 이미지 최대 너비 지정 */
+            height: auto; /* 높이 자동 조정 */
+        }
+
+
+    </style>

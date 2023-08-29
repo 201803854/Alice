@@ -1,6 +1,10 @@
+torch
 transformers
 seqeval
 pandas
 numpy
 tqdm
-tensorflow  
+tensorflow
+geopy
+kss
+##pip install --upgrade torch torchvision
