@@ -11,6 +11,7 @@ import numpy as np
 from django.conf import settings
 from geopy.distance import geodesic
 import matplotlib.font_manager as fm
+from matplotlib import font_manager
 import matplotlib
 from PIL import Image, ImageDraw, ImageFont
 
@@ -86,6 +87,7 @@ def main(words_with_label_25):
                 matplotlib.font_manager._rebuild()
                 font_path = fm.findSystemFonts(fontpaths=None, fontext='ttf')
                 nanum_font = [font for font in font_path if 'Nanum' in font]
+                font_manager._rebuild()
 
                 if nanum_font:
                     plt.rcParams['font.family'] = 'NanumGothic'
@@ -139,12 +141,6 @@ def main(words_with_label_25):
                 fig1.savefig(file_path1, bbox_inches='tight')
                 plt.close(fig1)
 
-                
-                # 그래프를 이미지 파일로 저장
-                fig1.tight_layout()
-                file_path1 = os.path.join(settings.BASE_DIR, 'static/graph_output_1.png')
-                fig1.savefig(file_path1, bbox_inches='tight')
-                plt.close(fig1)
                 
                 ###########################################################################
                 

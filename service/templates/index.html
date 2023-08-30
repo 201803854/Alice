@@ -1,13 +1,12 @@
+<!DOCTYPE html>
 {%load static%}
 
-<!DOCTYPE html>
-<link rel="stylesheet" href="{% static 'css/index.css' %}">
-<script src="{% static 'js/index.js' %}"></script>
+
 <html lang="ko">
 <head>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
     <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
 </head>
 <body>
 <div class="partial-code root">
@@ -130,5 +129,15 @@
     </div>
   </div>
 </div>
+
 </body>
 
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=990c65316ad7b43897d80882ebd58ac1&libraries=services"></script>
+<script>
+    const convertAudioUrl = "{% url 'convert_audio' %}";
+    var safetyImageUrl = "{% static 'safety_zisoo.png' %}";
+    var graphImageUrl = "{% static 'graph_output_1.png' %}";
+    var graphImageUrl2 = "{% static 'graph_output_2.png' %}";
+    
+    </script>
+<script src="{% static 'js/index.js' %}"></script>

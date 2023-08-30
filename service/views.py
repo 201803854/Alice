@@ -1,22 +1,13 @@
 
-from django.shortcuts import render , redirect
+from django.shortcuts import render
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
+
 import requests
 import ner
-import re
 
 import zisoo
 
-#추가
-import os
-from django.http import HttpResponse
-
-import pprint
-from geopy.geocoders import Nominatim
-import pandas as pd
-import matplotlib.pyplot as plt
-from geopy.distance import geodesic
 from kss import split_sentences
 
 # whisper fine-tuned model api
@@ -35,46 +26,41 @@ def convert_audio(request):
         audio_data = request.FILES['audio'].read()
         response = query_hugging_face_model(audio_data)
         print('\n들어온 음성: ', response)
-        #response = {'text':"외대 코코니주방 앞인데 교통사고가 났어요"}
-        
         sentences = split_sentences(response['text'])
         print("\n분리된 문장:", sentences)
         results=[]
         for sentence in sentences:
             temp = {'text' : sentence}
             code_class = query(sentence)
-            results.append([code_class[0][0]['label'][-1],code_class[0][0]['score'],temp])
+            print(code_class)
+            if code_class:
+                results.append([code_class[0][0].get('label')[-1],code_class[0][0].get('score'),temp])
+            else:
+                continue
         results = sorted(results, key = lambda x : (x[0], -x[1]))
         print("\n문장 별 가장 높은 코드: ", results)
         urgent_code = results[0]
         print("\n긴급코드: ", urgent_code)
         category_sentence=urgent_code[2]
-        # 한문장인 경우 (옛날)        
-        # code_class = query(response)
-        # print(code_class)
         category = query_category(category_sentence)
-        # print('\ncategory 3개만: ', category[:3])
+        print(category)
         code_classifiering= code_classifier(urgent_code, category)
         result_text = response['text']
 
-        # print("\n category:", category)
-        #code_classifiering= code_classifier(code_class, category)
-        #result_text = response['text']
-        
         # call ner.py for ner / result_text<->
         ner_result = ner.ner_prediction(result_text)
         words_with_label_25 = [word for word, label in ner_result if label == 'LABEL_25' and word != '[CLS]' and word!= '[SEP]']
         print('\nNER 라벨: ', words_with_label_25)
-        
+
         zisoo_result = zisoo.main(words_with_label_25)
         response.update(zisoo_result)
         print('\n지수 결과' ,zisoo_result) 
-        
+
         response['words_with_label_25'] = words_with_label_25
         response['code'] = code_classifiering
         print("Response Content:", response)
         return JsonResponse(response)
-    
+
 
     return JsonResponse({'error': 'Invalid request'}, status=400)
 
@@ -83,26 +69,32 @@ def convert_audio(request):
 
 def query_hugging_face_model(audio_data):
     response = requests.post(API_URL, headers=HEADERS, data=audio_data)
-    return response.json()
-
+    if response.status_code == 200:
+          # 모델에 입력
+        return response.json()
+    else:
+        return None
 # call code_classfication model
 
 
 def query(payload):
     response = requests.post(API_URL2, headers=HEADERS, json=payload)
-    return response.json()
-
-
-def index2(request):
-    return render(request, 'index2.html')
+    if response.status_code == 200:
+          # 모델에 입력
+        return response.json()
+    else:
+        return None
 
 
 #call code_category model
 
 def query_category(text):
     response = requests.post(API_URL3, headers=HEADERS, json=text)
-    return response.json()
-
+    if response.status_code == 200:
+          # 모델에 입력
+        return response.json()
+    else:
+        return None
 
 def code_classifier(code, category):
     # if type(code) == 'int' or type(code) == 'str': count = code 
@@ -130,34 +122,3 @@ def code_classifier(code, category):
 
     return code_zip
 
-# --- 
-        # sentences = split_sentences(response['text'])
-        # print("\n분리된 문장:", sentences)
-        # results = []
-
-        # for sentence in sentences:
-        #     temp = {'text' : sentence}
-        #     code_class = query(sentence)
-        # results.append([code_class[0][0]['label'][-1],code_class[0][0]['score']])
-        # result.sort(key = lambda x:x[0])
-        # urgent_code = result[0]
-            
-        # # print(urgent_code) 
-
-        # urgent_code_index = results.index(urgent_code)
-        # # print("urgent_code_index", urgent_code_index)
-        # urgent_sentence = sentences[urgent_code_index]
-        # # print("urgent_sentence", urgent_sentence)
-
-        # category = query_category(urgent_sentence)
-        
-        
-        #---
-        #code_class = []
-        #category = []
-
-        # for sentence in sentences:
-        #     c_l = query(sentence)
-        #     code_class.extend(c_l)
-        #     t_l = query_category(sentence)
-        #     category.extend(t_l)

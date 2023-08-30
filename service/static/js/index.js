@@ -1,12 +1,3 @@
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=990c65316ad7b43897d80882ebd58ac1&libraries=services"></script>
-
-
-<script>
-const nextButton = document.getElementById('nextButton');
-nextButton.addEventListener('click', function() {
-window.location.href = "https://alice-qhkpb.run.goorm.site/service/temp/"; // 이동하려는 페이지의 URL
-});
-    
 // 마커를 담을 배열입니다
 var markers = [];
 localStorage.clear();
@@ -200,9 +191,6 @@ function displayRoadview(latlng) {
             roadview.setPanoId(panoId, latlng);
         });
     }
-
-
-
 // 지도 위에 표시되고 있는 마커를 모두 제거합니다
 function removeMarker() {
     for ( var i = 0; i < markers.length; i++ ) {
@@ -210,7 +198,6 @@ function removeMarker() {
     }   
     markers = [];
 }
-
 // 검색결과 목록 하단에 페이지번호를 표시는 함수입니다
 function displayPagination(pagination) {
     var paginationEl = document.getElementById('pagination'),
@@ -265,12 +252,11 @@ function removeAllChildNods(el) {
                 alert('Please select an audio file.');
                 return;
             }
-
             var formData = new FormData();
             formData.append('audio', audioFile);
 
             var xhr = new XMLHttpRequest();
-            xhr.open('POST', '{% url "convert_audio" %}', true);
+            xhr.open('POST', convertAudioUrl, true);
             xhr.onreadystatechange = function () {
                 if (xhr.readyState === XMLHttpRequest.DONE) {
                     if (xhr.status === 200) {
@@ -295,8 +281,6 @@ function removeAllChildNods(el) {
             };
             xhr.send(formData);
         }
-
-
         const startRecording = async () => {
             recordedChunks = [];
             const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -307,14 +291,13 @@ function removeAllChildNods(el) {
                     recordedChunks.push(event.data);
                 }
             };
-
             mediaRecorder.onstop = () => {
                 const blob = new Blob(recordedChunks, { type: 'audio/wav' });
                 const formData = new FormData();
                 formData.append('audio', blob);
 
                 const xhr = new XMLHttpRequest();
-                xhr.open('POST', '{% url "convert_audio" %}', true);
+                xhr.open('POST', convertAudioUrl, true);
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState === XMLHttpRequest.DONE) {
                         if (xhr.status === 200) {
@@ -329,10 +312,7 @@ function removeAllChildNods(el) {
                                 "text" : response.text
                                  }
                             localStorage.setItem("textinfor",JSON.stringify(textinfor));
-
                             searchPlaces(response.words_with_label_25);
-                            
-                        
                         } else {
                             alert('Server error occurred.');
                         }
@@ -355,18 +335,14 @@ function removeAllChildNods(el) {
                 document.getElementById('convertButton').disabled = false;
             }
         };
-
         function displayConvertedText(text) {
             var convertedTextDiv = document.getElementById('convertedText');
             convertedTextDiv.innerHTML = text;
         }
         function displayConvertedImage() {
             var additionalPhotosElement = document.getElementById('convertedImage');
-                
-            
-additionalPhotosElement.innerHTML = '<img src="{% static "safety_zisoo.png" %}" alt="Safety Zisoo Image" class="safety">' + '<img src="{% static "graph_output_2.png" %}?t=' + new Date().getTime() + '" alt="추가 사진 1">';
-
-
+            additionalPhotosElement.innerHTML = '<img src="' + safetyImageUrl + '" alt="Safety Zisoo Image" class="safety">' + '<img src="' + graphImageUrl2 + '?t=' + new Date().getTime() + '" alt="추가 사진 1">';
+        }
         function displayConvertedCode(code) {
             var convertedTextDiv = document.getElementById('Code');
             convertedTextDiv.innerHTML = code;            
@@ -379,15 +355,11 @@ additionalPhotosElement.innerHTML = '<img src="{% static "safety_zisoo.png" %}" 
             var convertedTextDiv = document.getElementById('get');
             convertedTextDiv.innerHTML = get;            
         }
-    
-    
-
         document.getElementById('startRecordButton').addEventListener('click', startRecording);
         document.getElementById('stopRecordButton').addEventListener('click', stopRecording);
     let isRecording = false;
     setInterval(() => {
         if (isRecording) {
-
             document.getElementById('indicator').style.visibility = 'hidden';
             setTimeout(() => {
 
@@ -399,7 +371,6 @@ additionalPhotosElement.innerHTML = '<img src="{% static "safety_zisoo.png" %}" 
             }, 500);
         }
     }, 1000);
-
     document.getElementById('startRecordButton').addEventListener('click', () => {
         startRecording();
         isRecording = true;
@@ -422,7 +393,7 @@ function showDescription(photoId) {
   const additionalPhotosElement = document.getElementById('additional-photos');
 
   if (photoId === 'photo1') {
-    additionalPhotosElement.innerHTML = '<img src="{% static "graph_output_1.png" %}?t=' + new Date().getTime() + '" alt="추가 사진 1">';
+    additionalPhotosElement.innerHTML ='<img src="' + graphImageUrl + '?t=' + new Date().getTime() + '" alt="추가 사진 1">';
 }
   const description = document.getElementById('description');
   description.style.display = 'block';
@@ -432,4 +403,5 @@ function showDescription(photoId) {
     description.style.display = 'none';
   });
 }
-        } </script>
+        
+    

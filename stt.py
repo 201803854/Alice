@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "https://api-inference.huggingface.co/models/kyungmin011029/test_fith"
+API_URL = "https://api-inference.huggingface.co/models/kyungmin011029/test_seven"
 headers = {"Authorization": "Bearer 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"}
 
 
