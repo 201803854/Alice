@@ -69,32 +69,20 @@ def convert_audio(request):
 
 def query_hugging_face_model(audio_data):
     response = requests.post(API_URL, headers=HEADERS, data=audio_data)
-    if response.status_code == 200:
-          # 모델에 입력
-        return response.json()
-    else:
-        return None
+    return response.json()
 # call code_classfication model
 
 
 def query(payload):
     response = requests.post(API_URL2, headers=HEADERS, json=payload)
-    if response.status_code == 200:
-          # 모델에 입력
-        return response.json()
-    else:
-        return None
+    return response.json()
 
 
 #call code_category model
 
 def query_category(text):
     response = requests.post(API_URL3, headers=HEADERS, json=text)
-    if response.status_code == 200:
-          # 모델에 입력
-        return response.json()
-    else:
-        return None
+    return response.json()
 
 def code_classifier(code, category):
     # if type(code) == 'int' or type(code) == 'str': count = code 

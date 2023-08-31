@@ -20,3 +20,5 @@
   + "requirements.txt"를 통해 필요한 패키지 및 라이브러리를 설치를 한 번에 진행하면 더욱 수월합니다.(pytorch의 경우에만 추가적인 버전 업그레이드가 필요합니다)
   + 따로 설치 없이 페이지에 들어가셔서 사용이 가능합니다.
   + https://alice-itfcs.run.goorm.site/service/mymap
+  
+  ##pip install --upgrade torch torchvision
