@@ -22,3 +22,22 @@
   + https://alice-itfcs.run.goorm.site/service/mymap
   
   ##pip install --upgrade torch torchvision
+  
+### **실행 방법**
++ python은 3.11 사용하였습니다. 터미널에 들어가셔서 아래와 같은 절차를 따라주시면 됩니다**
+  + git clone https://github.com/201803854/Alice
+  + cd Alice
+  + pip install -r requirements.txt
+  + python manage.py runserver localhost:8000
+  + localhost:8000/service/mymap  페이지에 들어가셔서 사용하시면 됩니다
+  
+### **에러**
++ 각 환경에서 발생한 에러 모음들을 처리해놓은 웹 페이지 입니다.**
+  + ①ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory:  
+  + http://ngmsoftware.com/bbs/board.php?bo_table=study&wr_id=428&sfl=mb_id%2C1&stx=admin&sst=wr_nogood&sod=desc&sop=and&page=4
+  
+  + ②AttributeError: tuype object 'ImageDraw' has no attribute 'textsize
+  + python3 -m pip list -v
+  + python3 -c "import PIL;print(PIL.__version__)"
+  + 만약 버전이 10.0이라면, 다운그레이드 해주시면 됩니다
+  + python3 -m pip install Pillow==9.5.0

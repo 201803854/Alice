@@ -7,3 +7,6 @@ tqdm
 tensorflow
 geopy
 kss
+matplotlib
+Pillow
+djangorestframework
