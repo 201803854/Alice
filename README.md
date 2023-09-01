@@ -34,6 +34,10 @@
   + python manage.py runserver localhost:8000
   + localhost:8000/service/mymap  페이지에 들어가셔서 사용하시면 됩니다
   
+### **실행 도중 주의사항**
+ + 오디오 파일은 .wav만 가능합니다
+ + STT 모델이 Loading되는 시간이 있어 1분정도는 실행에 에러가 날 수 있습니다.
+  
 ### **requirements를 설치하는 도중 발생하는 에러모음**
 + Window 환경에서 발생한 에러 모음들입니다.
   + ① ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory:  
