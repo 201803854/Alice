@@ -3,6 +3,14 @@
 **언어모델 기반 개체명 인식 기술을 활용한 112 신고 음성기반 주소완성 및 코드 분류 서비스로, 신고자의 음성에서  
 피해장소를 인식하고 해당 주소에 대한 구체적인 정보와 전체 발화에서 상황을 파악하여 코드를 제공합니다.**
 <br>
+
+## 서비스 소개 
+
+
+## 데이터 모델 소개
+
+
+
 ### **주요 파일 설명**
 + **"service/views.py"**
   + main code가 작성된 파일입니다.
@@ -17,27 +25,30 @@
 
 ### **개발 환경**
 + **" 공용 컨테이너 환경인 goorm ide에서 개발을 진행하였습니다."** 
-  + "requirements.txt"를 통해 필요한 패키지 및 라이브러리를 설치를 한 번에 진행하면 더욱 수월합니다.(pytorch의 경우에만 추가적인 버전 업그레이드가 필요합니다)
-  + 따로 설치 없이 페이지에 들어가셔서 사용이 가능합니다.
-  + https://alice-itfcs.run.goorm.site/service/mymap
-  
-  ##pip install --upgrade torch torchvision
   
 ### **실행 방법**
-+ python은 3.11 사용하였습니다. 터미널에 들어가셔서 아래와 같은 절차를 따라주시면 됩니다**
++ python은 3.11version 사용하였습니다. 터미널에 들어가셔서 아래와 같은 절차를 따라주시면 됩니다**
   + git clone https://github.com/201803854/Alice
   + cd Alice
   + pip install -r requirements.txt
   + python manage.py runserver localhost:8000
   + localhost:8000/service/mymap  페이지에 들어가셔서 사용하시면 됩니다
   
-### **에러**
-+ Window 환경에서 발생한 에러 모음들을 처리해놓은 웹 페이지 입니다.
-  + ①ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory:  
+### **requirements를 설치하는 도중 발생하는 에러모음**
++ Window 환경에서 발생한 에러 모음들입니다.
+  + ① ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory:  
   + http://ngmsoftware.com/bbs/board.php?bo_table=study&wr_id=428&sfl=mb_id%2C1&stx=admin&sst=wr_nogood&sod=desc&sop=and&page=4
   
-  + ②AttributeError: tuype object 'ImageDraw' has no attribute 'textsize
+  + ② AttributeError: tuype object 'ImageDraw' has no attribute 'textsize
   + python3 -m pip list -v
   + python3 -c "import PIL;print(PIL.__version__)"
   + 만약 버전이 10.0이라면, 다운그레이드 해주시면 됩니다
   + python3 -m pip install Pillow==9.5.0
+
+  + ③ WARNING: The script huggingface-cli.exe is installed in 'C:\Users\이동현\' which is not on PATH. Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  + 시작 버튼을 마우스 오른쪽 버튼으로 클릭하고 '시스템'을 선택합니다.
+  + 오른쪽에 있는 '고급 시스템 설정'을 클릭합니다.
+  + '시스템 속성' 창 하단의 '환경 변수'를 클릭합니다.
+  + '사용자 변수' 아래에서 PATH 변수를 찾아 '편집'을 클릭합니다.
+  + 새로 만들기'를 클릭한 다음 디렉토리 경로를 붙여 넣습니다.
+  + 확인을 눌러 변경 사항을 저장합니다.
