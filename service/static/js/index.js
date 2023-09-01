@@ -4,7 +4,7 @@ localStorage.clear();
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = {
         center: new kakao.maps.LatLng(37.566826, 126.9786567), // 지도의 중심좌표
-        level: 4 // 지도의 확대 레벨
+        level: 1 // 지도의 확대 레벨
     };  
 
 // 지도를 생성합니다    
@@ -385,7 +385,7 @@ function removeAllChildNods(el) {
     var linkToTempButton = document.getElementById("nextButton");
     linkToTempButton.addEventListener("click", function() {
         // index_final.html로 페이지 이동
-        window.location.href = "https://alice-itfcs.run.goorm.site/service/temp/";
+        window.location.href = "localhost:8000/service/temp/";
     });
 function showDescription(photoId) {
   const titleElement = document.getElementById('photo-title');
