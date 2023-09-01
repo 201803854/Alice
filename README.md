@@ -32,7 +32,7 @@
   + localhost:8000/service/mymap  페이지에 들어가셔서 사용하시면 됩니다
   
 ### **에러**
-+ 각 환경에서 발생한 에러 모음들을 처리해놓은 웹 페이지 입니다.**
++ Window 환경에서 발생한 에러 모음들을 처리해놓은 웹 페이지 입니다.
   + ①ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory:  
   + http://ngmsoftware.com/bbs/board.php?bo_table=study&wr_id=428&sfl=mb_id%2C1&stx=admin&sst=wr_nogood&sod=desc&sop=and&page=4
   

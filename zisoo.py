@@ -84,10 +84,8 @@ def main(words_with_label_25):
                 response_data['selected_data'] = selected_data.to_dict(orient='records')[0]
                 
                 #폰트 설정
-                matplotlib.font_manager._rebuild()
                 font_path = fm.findSystemFonts(fontpaths=None, fontext='ttf')
                 nanum_font = [font for font in font_path if 'Nanum' in font]
-                font_manager._rebuild()
 
                 if nanum_font:
                     plt.rcParams['font.family'] = 'NanumGothic'
@@ -161,7 +159,6 @@ def main(words_with_label_25):
 
                 plt.subplots_adjust(left=0.05, right=0.95, top=0.85, bottom=0.15)
                 plt.tight_layout()
-                plt.show()
                 
                 # 그래프를 이미지 파일로 저장
                 fig2.tight_layout()
