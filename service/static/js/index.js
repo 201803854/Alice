@@ -385,7 +385,7 @@ function removeAllChildNods(el) {
     var linkToTempButton = document.getElementById("nextButton");
     linkToTempButton.addEventListener("click", function() {
         // index_final.html로 페이지 이동
-        window.location.href = "localhost:8000/service/temp/";
+        window.location.href = "http://localhost:8000/service/temp/";
     });
 function showDescription(photoId) {
   const titleElement = document.getElementById('photo-title');
