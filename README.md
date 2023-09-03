@@ -39,7 +39,8 @@ TFBertForSequenceClassification: 긴급성에 따른 사건의 코드 자동 분
   
 ### **실행 도중 주의사항**
  + 오디오 파일은 .wav만 가능합니다
- + STT 모델이 Loading되는 시간이 있어 1분정도는 실행에 에러가 날 수 있습니다.
+ + 인공지능 모델 로딩되는 순서는 STT -> KLUE-BERT -> TFBertForSequenceClassification 순서입니다.
+ + 모델이 순차적으로 로드되므로 처음 3회정도는 에러가 발생할 수 있습니다
   
 ### **requirements를 설치하는 도중 발생하는 에러모음**
 + Window 환경에서 발생한 에러 모음들입니다.
@@ -63,3 +64,10 @@ TFBertForSequenceClassification: 긴급성에 따른 사건의 코드 자동 분
 ## **시스템 구성도 및 웹 구현 화면**
 
 Whisper를 통해 신고자의 음성을 텍스트로 변환하고, 변환된 텍스트로 부터 위치 개체명 추출 및 검색한 후 지도에 맵핑시켜 줍니다. 또한 신고자의 발화 내용으로 부터 얻을 수 있는 정보를 활용하여 사건의 긴급성 코드를 0번부터 4번까지 분류해준 후 사건의 유형 및 신고자의 위치에 해당하는 안심상권지수를 보여줍니다. 추가적으로 조서 작성 페이지를 클릭하면 사건이 일어난 위치, 도로명 및 지번 주소, 신고 내용이 자동으로 작성되어 있으며 수정 및 제출이 가능하게 됩니다. 
+
+## **deep_learning_data**
+ + code_alice
+   코드 분류를 하기 위한 데이터입니다.
+## **deep_learning_model**
+ + KLUE_BERT_Final_ver.ipynb
+   NER(개체명 인식)을 하기 위한 모델입니다. google colab환경에서 바로 실행 가능합니다.
