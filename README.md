@@ -75,7 +75,8 @@ Whisper를 통해 신고자의 음성을 텍스트로 변환하고, 변환된 �
    NER(개체명 인식)을 하기 위한 모델입니다. google colab환경에서 바로 실행 가능합니다.
    
    
-<img src="Alice/1.jpg", width="300", height= "300">
+![Image description](1.jpg)
+
    
    
    
