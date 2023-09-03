@@ -1,0 +1,50 @@
+{
+	"info": {
+		"description": "v1.0",
+		"file_name": "1102_Q63050010_B1101_A2211.wav",
+		"date": "20220727",
+		"situation": "공공",
+		"environment": "112 분실신고",
+		"audio_quality": "16khz",
+		"local": "그 외 지역",
+		"region": "제주특별자치도",
+		"lat": 33.4774986545765,
+		"lng": 126.399127679811
+	},
+	"speakers": [
+		{
+			"id": "1",
+			"age": "1그룹",
+			"gender": "남",
+			"residence": "경기"
+		},
+		{
+			"id": "2",
+			"age": "2그룹",
+			"gender": "여",
+			"residence": "서울"
+		}
+	],
+	"dialogs": [
+		{
+			"speakerID": "1",
+			"dialogID": 1,
+			"text": "감사합니다 일일이 경찰입니다 무엇을 도와드릴까요.",
+			"ex_add": null,
+			"startPoint": 0,
+			"endPoint": 4.633922902494331,
+			"originAddress": null,
+			"textOrigin": "감사합니다 112 경찰입니다 무엇을 도와드릴까요."
+		},
+		{
+			"speakerID": "2",
+			"dialogID": 2,
+			"text": "여기 [하귀민형파인즈백일동]인데요 분실물을 습득해서 전화했어요.",
+			"ex_add": "하귀민형파인즈백일동",
+			"startPoint": 4.633922902494331,
+			"endPoint": 12.448979591836736,
+			"originAddress": "제주특별자치도 제주시 애월읍 하소로 28",
+			"textOrigin": "여기 [하귀민형파인즈101동] 인데요 분실물을 습득해서 전화했어요."
+		}
+	]
+}

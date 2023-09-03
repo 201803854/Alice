@@ -1,0 +1,50 @@
+{
+	"info": {
+		"description": "v1.0",
+		"file_name": "1102_Q63030003_B1101_B2118.wav",
+		"date": "20220727",
+		"situation": "공공",
+		"environment": "112 분실신고",
+		"audio_quality": "16khz",
+		"local": "그 외 지역",
+		"region": "제주특별자치도",
+		"lat": 33.420206674146,
+		"lng": 126.266097818032
+	},
+	"speakers": [
+		{
+			"id": "1",
+			"age": "1그룹",
+			"gender": "남",
+			"residence": "경기"
+		},
+		{
+			"id": "2",
+			"age": "1그룹",
+			"gender": "여",
+			"residence": "경기"
+		}
+	],
+	"dialogs": [
+		{
+			"speakerID": "1",
+			"dialogID": 1,
+			"text": "n/ 감사합니다 일일이 경찰입니다 무엇을 도와드릴까요",
+			"ex_add": null,
+			"startPoint": 0,
+			"endPoint": 4.8773333333333335,
+			"originAddress": null,
+			"textOrigin": "n/ 감사합니다 112 경찰입니다 무엇을 도와드릴까요"
+		},
+		{
+			"speakerID": "2",
+			"dialogID": 2,
+			"text": "n/ 여기 [청림연립]인데요 분실물을 습득해서 전화했어요.",
+			"ex_add": "청림연립",
+			"startPoint": 4.8773333333333335,
+			"endPoint": 9.584000000000001,
+			"originAddress": "제주특별자치도 제주시 한림읍 대림4길 15",
+			"textOrigin": "n/ 여기 [청림연립] 인데요 분실물을 습득해서 전화했어요."
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"info": {
+		"description": "v1.0",
+		"file_name": "1101_Q63586017_A2103_A2211.wav",
+		"date": "20220727",
+		"situation": "공공",
+		"environment": "110 민원",
+		"audio_quality": "16khz",
+		"local": "그 외 지역",
+		"region": "제주특별자치도",
+		"lat": 33.2633720796878,
+		"lng": 126.570135091669
+	},
+	"speakers": [
+		{
+			"id": "1",
+			"age": "1그룹",
+			"gender": "여",
+			"residence": "서울"
+		},
+		{
+			"id": "2",
+			"age": "2그룹",
+			"gender": "여",
+			"residence": "서울"
+		}
+	],
+	"dialogs": [
+		{
+			"speakerID": "1",
+			"dialogID": 1,
+			"text": "n/ 정부 민원신고 일일공입니다 무엇을 도와드릴까요?",
+			"ex_add": null,
+			"startPoint": 0,
+			"endPoint": 4.557333333333333,
+			"originAddress": null,
+			"textOrigin": "n/ 정부 민원신고 110입니다 무엇을 도와드릴까요?"
+		},
+		{
+			"speakerID": "2",
+			"dialogID": 2,
+			"text": "여기 [동홍반석아르미] 앞 큰길인데요 길에 동물 사체가 있어서 전화했어요.",
+			"ex_add": "동홍반석아르미",
+			"startPoint": 4.557333333333333,
+			"endPoint": 12.794666666666668,
+			"originAddress": "제주특별자치도 서귀포시 동홍동 동홍로162번길 30",
+			"textOrigin": "여기 [동홍반석아르미] 앞 큰길인데요 길에 동물 사체가 있어서 전화했어요."
+		}
+	]
+}

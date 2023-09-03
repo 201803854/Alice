@@ -1,0 +1,50 @@
+{
+	"info": {
+		"description": "v1.0",
+		"file_name": "1102_Q63102005_B1101_B2118.wav",
+		"date": "20220727",
+		"situation": "공공",
+		"environment": "112 분실신고",
+		"audio_quality": "16khz",
+		"local": "그 외 지역",
+		"region": "제주특별자치도",
+		"lat": 33.4843355554466,
+		"lng": 126.474494943781
+	},
+	"speakers": [
+		{
+			"id": "1",
+			"age": "1그룹",
+			"gender": "남",
+			"residence": "경기"
+		},
+		{
+			"id": "2",
+			"age": "1그룹",
+			"gender": "여",
+			"residence": "경기"
+		}
+	],
+	"dialogs": [
+		{
+			"speakerID": "1",
+			"dialogID": 1,
+			"text": "n/ 감사합니다 일일이 경찰입니다 무엇을 도와드릴까요",
+			"ex_add": null,
+			"startPoint": 0,
+			"endPoint": 4.893333333333333,
+			"originAddress": null,
+			"textOrigin": "n/ 감사합니다 112 경찰입니다 무엇을 도와드릴까요"
+		},
+		{
+			"speakerID": "2",
+			"dialogID": 2,
+			"text": "n/ 여기 [대림주택]인데요 분실물을 습득해서 전화했어요.",
+			"ex_add": "대림주택",
+			"startPoint": 4.893333333333333,
+			"endPoint": 9.386666666666667,
+			"originAddress": "제주특별자치도 제주시 노형동 수덕3길 40",
+			"textOrigin": "n/ 여기 [대림주택] 인데요 분실물을 습득해서 전화했어요."
+		}
+	]
+}

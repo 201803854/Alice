@@ -1,0 +1,50 @@
+{
+	"info": {
+		"description": "v1.0",
+		"file_name": "1102_Q63076004_B1101_O1101.wav",
+		"date": "20220727",
+		"situation": "공공",
+		"environment": "112 분실신고",
+		"audio_quality": "16khz",
+		"local": "그 외 지역",
+		"region": "제주특별자치도",
+		"lat": 33.4776372658753,
+		"lng": 126.450157467754
+	},
+	"speakers": [
+		{
+			"id": "1",
+			"age": "1그룹",
+			"gender": "남",
+			"residence": "경기"
+		},
+		{
+			"id": "2",
+			"age": "1그룹",
+			"gender": "남",
+			"residence": "광주"
+		}
+	],
+	"dialogs": [
+		{
+			"speakerID": "1",
+			"dialogID": 1,
+			"text": "n/ 감사합니다 일일이 경찰입니다 무엇을 도와드릴까요?",
+			"ex_add": null,
+			"startPoint": 0,
+			"endPoint": 4.664,
+			"originAddress": null,
+			"textOrigin": "n/ 감사합니다 112 경찰입니다 무엇을 도와드릴까요."
+		},
+		{
+			"speakerID": "2",
+			"dialogID": 2,
+			"text": "여기 [전원연립주택]인데요 분실물을 습득해서 전화했어요.",
+			"ex_add": "전원연립주택",
+			"startPoint": 4.664,
+			"endPoint": 10.986666666666668,
+			"originAddress": "제주특별자치도 제주시 도평동 고래소길 2",
+			"textOrigin": "여기 [전원연립주택] 인데요 분실물을 습득해서 전화했어요."
+		}
+	]
+}

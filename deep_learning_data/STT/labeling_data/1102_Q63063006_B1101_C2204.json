@@ -1,0 +1,50 @@
+{
+	"info": {
+		"description": "v1.0",
+		"file_name": "1102_Q63063006_B1101_C2204.wav",
+		"date": "20220727",
+		"situation": "공공",
+		"environment": "112 분실신고",
+		"audio_quality": "16khz",
+		"local": "그 외 지역",
+		"region": "제주특별자치도",
+		"lat": 33.4474802259546,
+		"lng": 126.43430282708
+	},
+	"speakers": [
+		{
+			"id": "1",
+			"age": "1그룹",
+			"gender": "남",
+			"residence": "경기"
+		},
+		{
+			"id": "2",
+			"age": "2그룹",
+			"gender": "여",
+			"residence": "인천"
+		}
+	],
+	"dialogs": [
+		{
+			"speakerID": "1",
+			"dialogID": 1,
+			"text": "n/ 감사합니다 일일이 경찰입니다 무엇을 도와드릴까요?",
+			"ex_add": null,
+			"startPoint": 0,
+			"endPoint": 4.664,
+			"originAddress": null,
+			"textOrigin": "n/ 감사합니다 112 경찰입니다 무엇을 도와드릴까요."
+		},
+		{
+			"speakerID": "2",
+			"dialogID": 2,
+			"text": "여기 [제주관광대학교 진취관]인데요 분실물을 습득해서 전화했어요.",
+			"ex_add": "제주관광대학교 진취관",
+			"startPoint": 4.664,
+			"endPoint": 10.991999999999999,
+			"originAddress": "제주특별자치도 제주시 애월읍 평화로 2715",
+			"textOrigin": "여기 [제주관광대학교 진취관] 인데요 분실물을 습득해서 전화했어요."
+		}
+	]
+}

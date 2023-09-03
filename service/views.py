@@ -13,9 +13,9 @@ from kss import split_sentences
 # whisper fine-tuned model api
 API_URL = "https://api-inference.huggingface.co/models/kyungmin011029/test_seven"
 #code-classification model api
-API_URL2 = "https://api-inference.huggingface.co/models/kyungmin011029/code_last"
+API_URL2 = "https://api-inference.huggingface.co/models/kyungmin011029/code_alice"
 #code_category model api
-API_URL3 = "https://api-inference.huggingface.co/models/kyungmin011029/category_last"
+API_URL3 = "https://api-inference.huggingface.co/models/kyungmin011029/category_alice"
 HEADERS = {"Authorization": "Bearer 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"}
 
 # csrf exempt

@@ -1,0 +1,50 @@
+{
+	"info": {
+		"description": "v1.0",
+		"file_name": "1102_Q63090007_B1101_C2209.wav",
+		"date": "20220727",
+		"situation": "공공",
+		"environment": "112 분실신고",
+		"audio_quality": "16khz",
+		"local": "그 외 지역",
+		"region": "제주특별자치도",
+		"lat": 33.4765139735599,
+		"lng": 126.485281159766
+	},
+	"speakers": [
+		{
+			"id": "1",
+			"age": "1그룹",
+			"gender": "남",
+			"residence": "경기"
+		},
+		{
+			"id": "2",
+			"age": "2그룹",
+			"gender": "여",
+			"residence": "인천"
+		}
+	],
+	"dialogs": [
+		{
+			"speakerID": "1",
+			"dialogID": 1,
+			"text": "감사합니다 일일이 경찰입니다 무엇을 도와드릴까요.",
+			"ex_add": null,
+			"startPoint": 0,
+			"endPoint": 4.628117913832199,
+			"originAddress": null,
+			"textOrigin": "감사합니다 112 경찰입니다 무엇을 도와드릴까요."
+		},
+		{
+			"speakerID": "2",
+			"dialogID": 2,
+			"text": "여기 [부영아파트]인데요 분실물을 습득해서 전화했어요.",
+			"ex_add": "부영아파트",
+			"startPoint": 4.628117913832199,
+			"endPoint": 9.76126984126984,
+			"originAddress": "제주특별자치도 제주시 노형동 과원로 11",
+			"textOrigin": "여기 [부영아파트] 인데요 분실물을 습득해서 전화했어요."
+		}
+	]
+}

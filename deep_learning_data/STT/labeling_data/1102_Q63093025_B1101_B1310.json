@@ -1,0 +1,50 @@
+{
+	"info": {
+		"description": "v1.0",
+		"file_name": "1102_Q63093025_B1101_B1310.wav",
+		"date": "20220727",
+		"situation": "공공",
+		"environment": "112 분실신고",
+		"audio_quality": "16khz",
+		"local": "그 외 지역",
+		"region": "제주특별자치도",
+		"lat": 33.4681282608062,
+		"lng": 126.466853920366
+	},
+	"speakers": [
+		{
+			"id": "1",
+			"age": "1그룹",
+			"gender": "남",
+			"residence": "경기"
+		},
+		{
+			"id": "2",
+			"age": "3그룹",
+			"gender": "남",
+			"residence": "경기"
+		}
+	],
+	"dialogs": [
+		{
+			"speakerID": "1",
+			"dialogID": 1,
+			"text": "감사합니다 일일이 경찰입니다 무엇을 도와드릴까요.",
+			"ex_add": null,
+			"startPoint": 0,
+			"endPoint": 4.633922902494331,
+			"originAddress": null,
+			"textOrigin": "감사합니다 112 경찰입니다 무엇을 도와드릴까요."
+		},
+		{
+			"speakerID": "2",
+			"dialogID": 2,
+			"text": "여기 [폴라리스빌삼차]인데요 분실물을 습득해서 전화했어요.",
+			"ex_add": "폴라리스빌삼차",
+			"startPoint": 4.633922902494331,
+			"endPoint": 10.03410430839002,
+			"originAddress": "제주특별자치도 제주시 노형동 월산남길 60-1",
+			"textOrigin": "여기 [폴라리스빌3차] 인데요 분실물을 습득해서 전화했어요."
+		}
+	]
+}

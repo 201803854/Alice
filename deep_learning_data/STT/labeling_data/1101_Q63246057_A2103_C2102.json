@@ -1,0 +1,50 @@
+{
+	"info": {
+		"description": "v1.0",
+		"file_name": "1101_Q63246057_A2103_C2102.wav",
+		"date": "20220727",
+		"situation": "공공",
+		"environment": "110 민원",
+		"audio_quality": "16khz",
+		"local": "그 외 지역",
+		"region": "제주특별자치도",
+		"lat": 33.4801270239767,
+		"lng": 126.553249309662
+	},
+	"speakers": [
+		{
+			"id": "1",
+			"age": "1그룹",
+			"gender": "여",
+			"residence": "서울"
+		},
+		{
+			"id": "2",
+			"age": "1그룹",
+			"gender": "여",
+			"residence": "인천"
+		}
+	],
+	"dialogs": [
+		{
+			"speakerID": "1",
+			"dialogID": 1,
+			"text": "정부 민원신고 일일공입니다 무엇을 도와드릴까요?",
+			"ex_add": null,
+			"startPoint": 0,
+			"endPoint": 4.189333333333334,
+			"originAddress": null,
+			"textOrigin": "정부 민원신고 110입니다 무엇을 도와드릴까요."
+		},
+		{
+			"speakerID": "2",
+			"dialogID": 2,
+			"text": "여기 [금천뜨래별백이동] 앞 큰길인데요 길에 동물 사체가 있어서 전화했어요.",
+			"ex_add": "금천뜨래별백이동",
+			"startPoint": 4.189333333333334,
+			"endPoint": 10.042666666666667,
+			"originAddress": "제주특별자치도 제주시 아라이동 금천길 27",
+			"textOrigin": "여기 [금천뜨래별102동] 앞 큰길인데요 길에 동물 사체가 있어서 전화했어요."
+		}
+	]
+}
