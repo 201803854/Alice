@@ -15,14 +15,13 @@ Alice 는 현 112 경찰 시스템의 1. 신고자의 정확한 주소를 일일
 신고자의 음성을 텍스트로 변환하기 위해 openai 에서 공개한 STT 모델인
 Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주소'를 오차없이 받아적는
 것이 중요하여 Aihub 의 주소발화 데이터로 fine tuning 하였습니다.
-
+ + Huggingface 모델 주소: https://huggingface.co/kyungmin011029/test_seven
+ 
 ### **KLUE-BERT**
-신고내용에서 주소를 자동으로 추출하여 특정해주는 작업을 위한 모델로
-사용합니다. KLUE 데이터와 Naver NLP 챌린지 데이터, 자체 구축 데이터 등 총 14 만개
-이상의 훈련 데이터로 학습되었습니다. 학습 데이터에 없는 고유한 거리, 가게이름까지
-위치로 추출해 줍니다. 
- + madedata.txt
-   NER(개체명 인식)에서 성능을 높이기 위해 사용한 직접 만든 데이터입니다.
+신고내용에서 주소를 자동으로 추출하여 특정해주는 작업을 위한 모델로 사용합니다. 
+데이터: KLUE 데이터, NAVER NLP챌린지 데이터, 자체구축데이터 (madedata.txt)
+ + Huggingface 모델 주소: https://huggingface.co/2Moogi/first_model
+ + madedata.txt NER(개체명 인식)에서 성능을 높이기 위해 사용한 직접 만든 데이터입니다.
 
 ### **TFBertForSequenceClassification**
 신고내용에서 긴급성에 따라 사건의 코드를 자동으로
@@ -30,9 +29,10 @@ Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주
 코드로 재구성한 코드 체계', '112 신고 사건 유형 분류'를 기준으로 데이터를 자체
 구축한 후 fine tuning 을 진행했습니다. 분류된 긴급성 코드와 사건 유형을 바탕으로
 경찰은 출동시간을 확정하고 필요한 인력을 배치할 수 있습니다.
- + code_alice.csv 
+ + Hugginface 모델 주소: https://huggingface.co/kyungmin011029/code_alice
+ 
+  + code_alice.csv 
    코드 분류를 하기 위해 직접 만든 데이터입니다. (깨짐 현상이 있다면 Excel을 통해 열어주세요!)
-
 
 ## **주요 파일 설명**
 + **"service/views.py"**
@@ -43,8 +43,6 @@ Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주
   + WAV 파일을 읽어 API에 POST 요청을 보내고, 그 응답을 반환합니다.
 + **"ner.py"**
   + Hugging Face의 transformers를 이용해 학습시킨 NER 모델을 로드하고, 사용자의 문장 입력에 따라 개체명을 인식하여 결과를 출력하는 코드입니다.
-  + 데이터같은 경우 ① KLUE-BERT 데이터 ② 2018 네이버 NLP 챌린지 데이터 ③ 자체구축 데이터로 이루어져 있습니다.
-  + 자체구축 데이터의 경우에는 깃허브 내 madedata.txt파일로 존재합니다.
 
 ## **개발 환경 및 실행 방법**
 + **"공용 컨테이너 환경인 goorm ide에서 개발을 진행하였습니다."** 
@@ -83,7 +81,10 @@ Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주
   
 ## 딥러닝 모델 훈련파일 실행방법
 모델에 데이터를 넣고 훈련이 돌아가는지 검증을 위한 단계입니다
-1. ```deep_learning_model/whisper_fine_tuning.ipynb``` 파일을 다운 받으셔서 코랩 환경에서 훈련에 대한 검증을 하실 수 있습니다. 6번째 셀의 #데이터 만드는 함수에서 dataset_dir, label_dir 를 현재 오디오 파일과 라벨 파일이 있는 곳으로 수정하면 됩니다. 해당함수는아래의 파일 트리에서 동작하도록 설계되었습니다. 예시데이터는 100개는 labeling_data, original_data 각각에 있습니다. 아래는 데이터파일트리입니다.
+1. ```deep_learning_model/whisper_fine_tuning.ipynb``` 파일을 다운 받으셔서 코랩 환경에서 훈련에 대한 검증을 하실 수 있습니다. 
+6번째 셀의 #데이터 만드는 함수에서 dataset_dir, label_dir 를 현재 오디오 파일과 라벨 파일이 있는 곳으로 수정하면 됩니다. 
+해당함수는아래의 파일 트리에서 동작하도록 설계되었습니다. 예시데이터는 100개는 labeling_data, original_data 각각에 있습니다. 
+아래는 데이터파일트리입니다.
 ```
 📦Alice
  ┗ 📂deep_learning_data
