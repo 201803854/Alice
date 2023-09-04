@@ -102,7 +102,7 @@ Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주
 ```
 
 2. ```deep_learning_model/KLUE-BERT_Final_ver.ipynb``` 파일을 다운받으셔서 그대로 실행하시면 됩니다. 데이터 역시 url 로 다운 받을 수 있도록 구성되어있습니다.
-```
+
 최종 성능 (참고)
 | Category | Precision | Recall | F1 Score |
 |----------|-----------|--------|----------|
@@ -119,7 +119,7 @@ Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주
 | PLT      | 0.97      | 0.82   | 0.89     |
 | TIM      | 0.93      | 0.97   | 0.95     |
 | TRM      | 0.90      | 0.92   | 0.91     |
-```
+
 
 3. ```deep_learning_model/Code_Classification_Final_ver.ipynb``` 파일을 그대로 실행하시면 됩니다. 데이터 역시 url 로 다운 받을 수 있도록 구성해두었습니다.
 ```
