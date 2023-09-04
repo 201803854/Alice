@@ -83,7 +83,7 @@ Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주
   
 ## 딥러닝 모델 훈련파일 실행방법
 모델에 데이터를 넣고 훈련이 돌아가는지 검증을 위한 단계입니다
-1. deep_learning_model/whisper_fine_tuning.ipynb 파일을 다운 받으셔서 코랩 환경에서 훈련에 대한 검증을 하실 수 있습니다. 6번째 셀의 #데이터 만드는 함수에서 dataset_dir, label_dir 를 현재 오디오 파일과 라벨 파일이 있는 곳으로 수정하면 됩니다. 해당함수는아래의 파일 트리에서 동작하도록 설계되었습니다. 예시데이터는 100개는 labeling_data, original_data 각각에 있습니다. 아래는 데이터파일트리입니다.
+1. ```deep_learning_model/whisper_fine_tuning.ipynb``` 파일을 다운 받으셔서 코랩 환경에서 훈련에 대한 검증을 하실 수 있습니다. 6번째 셀의 #데이터 만드는 함수에서 dataset_dir, label_dir 를 현재 오디오 파일과 라벨 파일이 있는 곳으로 수정하면 됩니다. 해당함수는아래의 파일 트리에서 동작하도록 설계되었습니다. 예시데이터는 100개는 labeling_data, original_data 각각에 있습니다. 아래는 데이터파일트리입니다.
 ```
 📦Alice
  ┗ 📂deep_learning_data
@@ -101,7 +101,7 @@ Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주
  ┃ ┃ ┗ 📜1102_Q63104038_B1101_K2203.wav
 ```
 
-2. deep_learning_model/KLUE-BERT_Final_ver.ipynb 파일을 다운받으셔서 그대로 실행하시면 됩니다. 데이터 역시 url 로 다운 받을 수 있도록 구성되어있습니다.
+2. ```deep_learning_model/KLUE-BERT_Final_ver.ipynb``` 파일을 다운받으셔서 그대로 실행하시면 됩니다. 데이터 역시 url 로 다운 받을 수 있도록 구성되어있습니다.
 ```
 최종 성능 (참고)
 | Category | Precision | Recall | F1 Score |
@@ -121,7 +121,7 @@ Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주
 | TRM      | 0.90      | 0.92   | 0.91     |
 ```
 
-3. deep_learning_model/Code_Classification_Final_ver.ipynb 파일을 그대로 실행하시면 됩니다. 데이터 역시 url 로 다운 받을 수 있도록 구성해두었습니다.
+3. ```deep_learning_model/Code_Classification_Final_ver.ipynb``` 파일을 그대로 실행하시면 됩니다. 데이터 역시 url 로 다운 받을 수 있도록 구성해두었습니다.
 ```
 최종 성능 (참고)
 | Epoch | loss   | accuracy | val_loss | val_accuracy |
