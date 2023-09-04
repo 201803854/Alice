@@ -65,21 +65,21 @@ Whisper API 를 사용합니다. Alice 의 경우 신고자의 음성에서 '주
 ### **requirements를 설치하는 도중 발생하는 에러모음**
 + Window 환경에서 발생한 에러 모음들입니다.
   + ① ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory:  
-       http://ngmsoftware.com/bbs/board.php?bo_table=study&wr_id=428&sfl=mb_id%2C1&stx=admin&sst=wr_nogood&sod=desc&sop=and&page=4
+      + http://ngmsoftware.com/bbs/board.php?bo_table=study&wr_id=428&sfl=mb_id%2C1&stx=admin&sst=wr_nogood&sod=desc&sop=and&page=4
   
   + ② AttributeError: tuype object 'ImageDraw' has no attribute 'textsize
-       python3 -m pip list -v
-       python3 -c "import PIL;print(PIL.__version__)"
-       만약 버전이 10.0이라면, 다운그레이드 해주시면 됩니다
-       python3 -m pip install Pillow==9.5.0
+      + python3 -m pip list -v
+      + python3 -c "import PIL;print(PIL.__version__)"
+      + 만약 버전이 10.0이라면, 다운그레이드 해주시면 됩니다
+      + python3 -m pip install Pillow==9.5.0
 
   + ③ WARNING: The script huggingface-cli.exe is installed in 'C:\Users\이동현\' which is not on PATH. Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-       시작 버튼을 마우스 오른쪽 버튼으로 클릭하고 '시스템'을 선택합니다.
-       오른쪽에 있는 '고급 시스템 설정'을 클릭합니다.
-       '시스템 속성' 창 하단의 '환경 변수'를 클릭합니다.
-       '사용자 변수' 아래에서 PATH 변수를 찾아 '편집'을 클릭합니다.
-       새로 만들기'를 클릭한 다음 디렉토리 경로를 붙여 넣습니다.
-       확인을 눌러 변경 사항을 저장합니다.
+      + 시작 버튼을 마우스 오른쪽 버튼으로 클릭하고 '시스템'을 선택합니다.
+      + 오른쪽에 있는 '고급 시스템 설정'을 클릭합니다.
+      + '시스템 속성' 창 하단의 '환경 변수'를 클릭합니다.
+      + '사용자 변수' 아래에서 PATH 변수를 찾아 '편집'을 클릭합니다.
+      + 새로 만들기'를 클릭한 다음 디렉토리 경로를 붙여 넣습니다.
+      + 확인을 눌러 변경 사항을 저장합니다.
   
 ## 딥러닝 모델 훈련파일 실행방법
 모델에 데이터를 넣고 훈련이 돌아가는지 검증을 위한 단계입니다
